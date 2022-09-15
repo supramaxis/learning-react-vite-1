@@ -1,0 +1,1470 @@
+{
+  "combat": [
+    {
+      "id": "turtle_helmet",
+      "name": "Turtle Shell",
+      "durability": 275,
+      "category": "combat",
+      "minecraft_id_name": "turtle_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "bow",
+      "name": "Bow",
+      "durability": 384,
+      "category": "combat",
+      "minecraft_id_name": "bow",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "arrow",
+      "name": "Arrow",
+      "category": "combat",
+      "stackable": "yes",
+      "minecraft_id_name": "arrow",
+      "categoryId": 2
+    },
+    {
+      "id": "wooden_sword",
+      "name": "Wooden Sword",
+      "attack_damage": 5,
+      "attack_speed": 1.6,
+      "durability": 60,
+      "category": "swords",
+      "minecraft_id_name": "wooden_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "stone_sword",
+      "name": "Stone Sword",
+      "attack_damage": 6,
+      "attack_speed": 1.6,
+      "durability": 132,
+      "category": "swords",
+      "minecraft_id_name": "stone_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "attack_damage": 7,
+      "attack_speed": 1.6,
+      "durability": 251,
+      "category": "swords",
+      "minecraft_id_name": "iron_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "golden_sword",
+      "name": "Golden Sword",
+      "attack_damage": 4,
+      "attack_speed": 1.6,
+      "durability": 33,
+      "category": "swords",
+      "minecraft_id_name": "golden_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "id": "diamond_sword",
+      "name": "Diamond Sword",
+      "attack_damage": 8,
+      "attack_speed": 1.6,
+      "durability": 1562,
+      "category": "swords",
+      "minecraft_id_name": "diamond_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "netherite_sword",
+      "attack_damage": 8,
+      "attack_speed": 1.6,
+      "durability": 2031,
+      "category": "swords",
+      "minecraft_id_name": "netherite_sword",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Leather Cap",
+      "durability": 55,
+      "category": "armor",
+      "minecraft_id_name": "leather_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Leather Tunic",
+      "durability": 80,
+      "category": "armor",
+      "minecraft_id_name": "leather_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Leather Pants",
+      "durability": 75,
+      "category": "armor",
+      "minecraft_id_name": "leather_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Leather Boots",
+      "durability": 65,
+      "category": "armor",
+      "minecraft_id_name": "leather_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Chainmail Helmet",
+      "durability": 165,
+      "category": "armor",
+      "minecraft_id_name": "chainmail_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Chainmail Chestplate",
+      "durability": 240,
+      "category": "armor",
+      "minecraft_id_name": "chainmail_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Chainmail Leggings",
+      "durability": 225,
+      "category": "armor",
+      "minecraft_id_name": "chainmail_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Chainmail Boots",
+      "durability": 195,
+      "category": "armor",
+      "minecraft_id_name": "chainmail_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Iron Helmet",
+      "durability": 165,
+      "category": "armor",
+      "minecraft_id_name": "iron_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Iron Chestplate",
+      "durability": 240,
+      "category": "armor",
+      "minecraft_id_name": "iron_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Iron Leggings",
+      "durability": 225,
+      "category": "armor",
+      "minecraft_id_name": "iron_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Iron Boots",
+      "durability": 195,
+      "category": "armor",
+      "minecraft_id_name": "iron_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Golden Helmet",
+      "durability": 77,
+      "category": "armor",
+      "minecraft_id_name": "golden_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Golden Chestplate",
+      "durability": 114,
+      "category": "armor",
+      "minecraft_id_name": "golden_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Golden Leggings",
+      "durability": 105,
+      "category": "armor",
+      "minecraft_id_name": "golden_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Golden Boots",
+      "durability": 91,
+      "category": "armor",
+      "minecraft_id_name": "golden_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Diamond Helmet",
+      "durability": 363,
+      "category": "armor",
+      "minecraft_id_name": "diamond_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Diamond Chestplate",
+      "durability": 528,
+      "category": "armor",
+      "minecraft_id_name": "diamond_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Diamond Leggings",
+      "durability": 495,
+      "category": "armor",
+      "minecraft_id_name": "diamond_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Diamond Boots",
+      "durability": 429,
+      "category": "armor",
+      "minecraft_id_name": "diamond_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Netherite Helmet",
+      "durability": 407,
+      "category": "armor",
+      "minecraft_id_name": "netherite_helmet",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Netherite Chestplate",
+      "durability": 592,
+      "category": "armor",
+      "minecraft_id_name": "netherite_chestplate",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Netherite Leggings",
+      "durability": 555,
+      "category": "armor",
+      "minecraft_id_name": "netherite_leggings",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Netherite Boots",
+      "durability": 481,
+      "category": "armor",
+      "minecraft_id_name": "netherite_boots",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Fire Protection",
+      "description": "Reduces fire damage and burn time. Mutually exclusive with other protections. ",
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Blast Protection",
+        "Projectile Protection",
+        "Protection"
+      ],
+      "levels": 4,
+      "category": "enchantment_book",
+      "categoryId": 2
+    },
+    {
+      "name": "Feather Falling",
+      "description": "Reduces fall damage",
+      "accepted_items": "Any Boots",
+      "category": "enchantment_book",
+      "incompatible_with": "none",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Blast Protection",
+      "category": "enchantment_book",
+      "description": "Reduces explosion damage and knockback.",
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Fire Protection",
+        "Projectile Protection",
+        "Protection"
+      ],
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Projectile Protection",
+      "description": "Reduces damage from projectiles.",
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Fire Protection",
+        "Blast Protection",
+        "Protection"
+      ],
+      "category": "enchantment_book",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Respiration",
+      "description": "Increases underwater breathing time.",
+      "accepted_items": "Any Helmet",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Aqua Affinity",
+      "description": "Increases underwater mining speed.",
+      "accepted_items": "Any Helmet",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Thorns",
+      "description": "Taking damage causes the attacker to also take damage. ",
+      "accepted_items": "Any Chestplate",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Depth Strider",
+      "description": "Increases underwater movement speed.",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Frost Walker",
+      "description": "Allows the player to walk on water by freezing the water under their feet. ",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "Depth Strider",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Curse of Binding",
+      "description": "Prevents the item from being removed from the player's inventory. ",
+      "accepted_items": [
+        "Any Armor piece",
+        "elytra",
+        "carved_pumpkin",
+        "head",
+        "turtle_shell"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Soul Speed",
+      "description": "Increases movement speed on soul sand and soul soil. ",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Swift Sneak",
+      "description": "Increases sneaking speed.",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Sharpness",
+      "description": "Increases melee damage.",
+      "accepted_items": [
+        "Any Sword",
+        "Any Axe"
+      ],
+      "incompatible_with": [
+        "Smite",
+        "Bane of Arthropods"
+      ],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Smite",
+      "description": "Increases melee damage against undead mobs.",
+      "accepted_items": [
+        "Any Sword",
+        "Any Axe"
+      ],
+      "incompatible_with": [
+        "Sharpness",
+        "Bane of Arthropods"
+      ],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Bane of arthropods",
+      "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
+      "accepted_items": [
+        "Any Sword",
+        "Any Axe"
+      ],
+      "incompatible_with": [
+        "Sharpness",
+        "Smite"
+      ],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Knockback",
+      "description": "Increases knockback.",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Fire aspect",
+      "description": "Sets the target on fire",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Looting",
+      "description": "Increases the chance of getting extra loot from mobs.",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Sweeping Edge",
+      "description": "Deals damage to nearby mobs when attacking.",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Unbreaking",
+      "description": "Increases durability and reduce durability damage",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "fishing_rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Power",
+      "description": "Increases arrow damage.",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Punch",
+      "description": "Increases arrows knockback.",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Flame",
+      "description": "Arrows set targets on fire.",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Infinity",
+      "description": "Arrows are not consumed when shot.",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Loyalty",
+      "description": "Returns the trident to the player when thrown.",
+      "accepted_items": "trident",
+      "incompatible_with": "riptide",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Impaling",
+      "description": "Increases damage against aquatic mobs. In Bedrock Edition, increases damage against mobs in water or rain.",
+      "accepted_items": "trident",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Riptide",
+      "description": "Trident launches player with itself when thrown while in water or rain.",
+      "accepted_items": "trident",
+      "incompatible_with": "loyalty, channeling",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Chanelling",
+      "description": "During thunderstorms, tridents can strike enemies with a lightning bolt. ",
+      "accepted_items": "trident",
+      "incompatible_with": "riptide",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Multishot",
+      "description": "Shoots 3 arrows at once.",
+      "accepted_items": "crossbow",
+      "incompatible_with": "piercing",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Quick Charge",
+      "description": "Increases the speed at which the crossbow is reloaded.",
+      "accepted_items": "crossbow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Piercing",
+      "description": "Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",
+      "accepted_items": "crossbow",
+      "incompatible_with": "multishot",
+      "category": "enchantment_book",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Mending",
+      "description": "Repairs the item when the player collects experience.",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "Any Fishing Rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears"
+      ],
+      "incompatible_with": "infinity",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Curse of Vanishing",
+      "description": "The item will disappear when dropped or when the player dies.",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "Any Fishing Rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears",
+        "Compass",
+        "carved_pumpkin",
+        "head"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Efficiency",
+      "description": "Increases the speed at which blocks are mined.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Silk Touch",
+      "description": "Mined blocks drop themselves.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "fortune",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Fortune",
+      "description": "Increases the amount of items dropped from blocks.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "silk_touch",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Luck of the sea",
+      "description": "Increases rate of good loot (enchanting books, etc.).",
+      "accepted_items": "Any Fishing Rod",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "Name": "Lure",
+      "description": "Increases the rate at which fish are caught.",
+      "accepted_items": "Any Fishing Rod",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Shield",
+      "durability": 336,
+      "minecraft_id_name": "shield",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Totem of Undying",
+      "minecraft_id_name": "totem_of_undying",
+      "stackable": "no",
+      "categoryId": 2,
+      "status_effects": [
+        {
+          "name": "absortion",
+          "duration": 5,
+          "amplifier": 0
+        },
+        {
+          "name": "regeneration",
+          "duration": 45,
+          "amplifier": 1
+        },
+        {
+          "name": "fire resistance",
+          "duration": 4,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "name": "Trident",
+      "attack_damage": 9,
+      "attack_speed": 1.1,
+      "durability": 250,
+      "minecraft_id_name": "trident",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Crossbow",
+      "durability": 465,
+      "category": "combat",
+      "minecraft_id_name": "crossbow",
+      "stackable": "no",
+      "categoryId": 2
+    },
+    {
+      "name": "Protection",
+      "levels": 4,
+      "category": "enchantment_book",
+      "categoryId": 2,
+      "id": "XUWqI9_"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Flint and Steel",
+      "durability": 64,
+      "minecraft_id_name": "flint_and_steel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Wooden Pickaxe",
+      "attack_damage": 2,
+      "attack_speed": 1.2,
+      "durability": 59,
+      "category": "pickaxe",
+      "minecraft_id_name": "wooden_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Stone Pickaxe",
+      "attack_damage": 3,
+      "attack_speed": 1.2,
+      "durability": 131,
+      "category": "pickaxe",
+      "minecraft_id_name": "stone_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Iron Pickaxe",
+      "attack_damage": 4,
+      "attack_speed": 1.2,
+      "durability": 250,
+      "category": "pickaxe",
+      "minecraft_id_name": "iron_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Golden Pickaxe",
+      "attack_damage": 2,
+      "attack_speed": 1.2,
+      "durability": 32,
+      "category": "pickaxe",
+      "minecraft_id_name": "golden_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Diamond Pickaxe",
+      "attack_damage": 6,
+      "attack_speed": 1.2,
+      "durability": 1561,
+      "category": "pickaxe",
+      "minecraft_id_name": "diamond_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Netherite Pickaxe",
+      "attack_damage": 6,
+      "attack_speed": 1.2,
+      "durability": 2031,
+      "category": "pickaxe",
+      "minecraft_id_name": "netherite_pickaxe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Wooden Axe",
+      "attack_damage": 7,
+      "attack_speed": 0.8,
+      "durability": 59,
+      "category": "axe",
+      "minecraft_id_name": "wooden_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Stone Axe",
+      "attack_damage": 9,
+      "attack_speed": 0.8,
+      "durability": 131,
+      "category": "axe",
+      "minecraft_id_name": "stone_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Iron Axe",
+      "attack_damage": 9,
+      "attack_speed": 0.9,
+      "durability": 250,
+      "category": "axe",
+      "minecraft_id_name": "iron_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Golden Axe",
+      "attack_damage": 7,
+      "attack_speed": 1,
+      "durability": 32,
+      "category": "axe",
+      "minecraft_id_name": "golden_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Diamond Axe",
+      "attack_damage": 9,
+      "attack_speed": 1,
+      "durability": 1561,
+      "category": "axe",
+      "minecraft_id_name": "diamond_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Netherite Axe",
+      "attack_damage": 10,
+      "attack_speed": 1,
+      "durability": 2031,
+      "category": "axe",
+      "minecraft_id_name": "netherite_axe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Wooden Shovel",
+      "attack_damage": 2.5,
+      "attack_speed": 1.6,
+      "durability": 59,
+      "category": "shovel",
+      "minecraft_id_name": "wooden_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Stone Shovel",
+      "attack_damage": 3.5,
+      "attack_speed": 1.6,
+      "durability": 131,
+      "category": "shovel",
+      "minecraft_id_name": "stone_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Iron Shovel",
+      "attack_damage": 4.5,
+      "attack_speed": 1.6,
+      "durability": 250,
+      "category": "shovel",
+      "minecraft_id_name": "iron_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Golden Shovel",
+      "attack_damage": 2.5,
+      "attack_speed": 1.6,
+      "durability": 32,
+      "category": "shovel",
+      "minecraft_id_name": "golden_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Diamond Shovel",
+      "attack_damage": 5.5,
+      "attack_speed": 1.6,
+      "durability": 1561,
+      "category": "shovel",
+      "minecraft_id_name": "diamond_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Netherite Shovel",
+      "attack_damage": 6.5,
+      "attack_speed": 1.6,
+      "durability": 2031,
+      "category": "shovel",
+      "minecraft_id_name": "netherite_shovel",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Wooden Hoe",
+      "attack_damage": 1,
+      "attack_speed": 1,
+      "durability": 59,
+      "category": "hoe",
+      "minecraft_id_name": "wooden_hoe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Stone Hoe",
+      "attack_damage": 1,
+      "attack_speed": 2,
+      "durability": 131,
+      "category": "hoe",
+      "minecraft_id_name": "stone_hoe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Iron Hoe",
+      "attack_damage": 1,
+      "attack_speed": 3,
+      "durability": 250,
+      "category": "hoe",
+      "minecraft_id_name": "iron_hoe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Golden Hoe",
+      "attack_damage": 1,
+      "attack_speed": 1,
+      "durability": 32,
+      "category": "hoe",
+      "minecraft_id_name": "golden_hoe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Diamond Hoe",
+      "attack_damage": 1,
+      "attack_speed": 4,
+      "durability": 1561,
+      "category": "hoe",
+      "minecraft_id_name": "diamond_hoe",
+      "stackable": "no",
+      "categoryId": 1
+    },
+    {
+      "name": "Netherite Hoe",
+      "attack_damage": 1,
+      "attack_speed": 4,
+      "durability": 2031,
+      "category": "hoe",
+      "minecraft_id_name": "netherite_hoe",
+      "stackable": "no",
+      "categoryId": "tools"
+    },
+    {
+      "name": "Compass",
+      "categoryId": "tools",
+      "minecraft_id_name": "compass",
+      "stackable": "yes"
+    },
+    {
+      "id": "recovery-compass",
+      "name": "Recovery Compass",
+      "categoryId": "tools",
+      "minecraft_id_name": "recovery_compass",
+      "stackable": "yes"
+    },
+    {
+      "name": "Fishing Rod",
+      "categoryId": 1,
+      "minecraft_id_name": "fishing_rod",
+      "stackable": "no",
+      "durability": 64
+    },
+    {
+      "name": "Clock",
+      "categoryId": 1,
+      "minecraft_id_name": "clock",
+      "stackable": "yes"
+    },
+    {
+      "name": "Spyglass",
+      "categoryId": 1,
+      "minecraft_id_name": "spyglass",
+      "stackable": "no"
+    },
+    {
+      "name": "Shears",
+      "categoryId": 1,
+      "minecraft_id_name": "shears",
+      "stackable": "no",
+      "durability": 238
+    },
+    {
+      "name": "Lead",
+      "categoryId": 1,
+      "minecraft_id_name": "lead",
+      "stackable": "yes"
+    },
+    {
+      "name": "Name Tag",
+      "categoryId": 1,
+      "minecraft_id_name": "name_tag",
+      "stackable": "yes"
+    }
+  ],
+  "foodstuffs": [
+    {
+      "name": "Apple",
+      "minecraft_id_name": "apple",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 4,
+      "hunger_points": 2
+    },
+    {
+      "name": "Mushroom Stew",
+      "minecraft_id_name": "mushroom_stew",
+      "stackable": "no",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3
+    },
+    {
+      "name": "Bread",
+      "minecraft_id_name": "bread",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 5,
+      "hunger_points": 2.5
+    },
+    {
+      "name": "Cooked Porkchop",
+      "minecraft_id_name": "cooked_porkchop",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 8,
+      "hunger_points": 4
+    },
+    {
+      "name": "Raw Porkchop",
+      "minecraft_id_name": "porkchop",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 3,
+      "hunger_points": 1.5
+    },
+    {
+      "name": "Golden Apple",
+      "minecraft_id_name": "golden_apple",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 4,
+      "hunger_points": 2,
+      "status_effects": [
+        {
+          "effect": "absorption",
+          "duration": 120,
+          "amplifier": 0
+        },
+        {
+          "effect": "regeneration",
+          "duration": 5,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Golden Apple",
+      "minecraft_id_name": "enchanted_golden_apple",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 4,
+      "hunger_points": 2,
+      "status_effects": [
+        {
+          "effect": "absorption",
+          "duration": 120,
+          "amplifier": 3
+        },
+        {
+          "effect": "regeneration",
+          "duration": 20,
+          "amplifier": 1
+        },
+        {
+          "effect": "resistance",
+          "duration": 300,
+          "amplifier": 0
+        },
+        {
+          "effect": "fire_resistance",
+          "duration": 300,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "name": "Raw cod",
+      "minecraft_id_name": "cod",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Cooked cod",
+      "minecraft_id_name": "cooked_cod",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 5,
+      "hunger_points": 2.5
+    },
+    {
+      "name": "Cooked Salmon",
+      "minecraft_id_name": "cooked_salmon",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3
+    },
+    {
+      "name": "Raw Salmon",
+      "minecraft_id_name": "salmon",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Cooked Mutton",
+      "minecraft_id_name": "cooked_mutton",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3
+    },
+    {
+      "name": "Raw Mutton",
+      "minecraft_id_name": "mutton",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Tropical Fish",
+      "minecraft_id_name": "tropical_fish",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 1,
+      "hunger_points": 0.5
+    },
+    {
+      "name": "Pufferfish",
+      "minecraft_id_name": "pufferfish",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 1,
+      "hunger_points": 0.5,
+      "status_effects": [
+        {
+          "effect": "poison",
+          "duration": 60,
+          "amplifier": 1
+        },
+        {
+          "effect": "nausea",
+          "duration": 15,
+          "amplifier": 0
+        },
+        {
+          "effect": "hunger",
+          "duration": 60,
+          "amplifier": 2
+        }
+      ]
+    },
+    {
+      "name": "Cookie",
+      "minecraft_id_name": "cookie",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Melon Slice",
+      "minecraft_id_name": "melon_slice",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Dried kelp",
+      "minecraft_id_name": "dried_kelp",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 1,
+      "hunger_points": 0.5
+    },
+    {
+      "name": "Steak",
+      "minecraft_id_name": "cooked_beef",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 8,
+      "hunger_points": 4
+    },
+    {
+      "name": "Cooked Chicken",
+      "minecraft_id_name": "cooked_chicken",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3
+    },
+    {
+      "name": "Raw Beef",
+      "minecraft_id_name": "beef",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 3,
+      "hunger_points": 1.5
+    },
+    {
+      "name": "Raw Chicken",
+      "minecraft_id_name": "chicken",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Rotten Flesh",
+      "minecraft_id_name": "rotten_flesh",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 4,
+      "hunger_points": 2,
+      "status_effects": [
+        {
+          "effect": "hunger",
+          "duration": 30,
+          "amplifier": 0,
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Spider Eye",
+      "minecraft_id_name": "spider_eye",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1,
+      "status_effects": [
+        {
+          "effect": "poison",
+          "duration": 5,
+          "amplifier": 0,
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Carrot",
+      "minecraft_id_name": "carrot",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 3,
+      "hunger_points": 1.5
+    },
+    {
+      "name": "Potato",
+      "minecraft_id_name": "potato",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 1,
+      "hunger_points": 0.5
+    },
+    {
+      "name": "Baked Potato",
+      "minecraft_id_name": "baked_potato",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 5,
+      "hunger_points": 2.5
+    },
+    {
+      "name": "Poisonous Potato",
+      "minecraft_id_name": "poisonous_potato",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1,
+      "status_effects": [
+        {
+          "effect": "poison",
+          "duration": 5,
+          "amplifier": 0,
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin Pie",
+      "minecraft_id_name": "pumpkin_pie",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 8,
+      "hunger_points": 4
+    },
+    {
+      "name": "Rabbit Stew",
+      "minecraft_id_name": "rabbit_stew",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 10,
+      "hunger_points": 5
+    },
+    {
+      "name": "Cooked Rabbit",
+      "minecraft_id_name": "cooked_rabbit",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 5,
+      "hunger_points": 2.5
+    },
+    {
+      "name": "Raw Rabbit",
+      "minecraft_id_name": "rabbit",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 3,
+      "hunger_points": 1.5
+    },
+    {
+      "name": "Beetroot",
+      "minecraft_id_name": "beetroot",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 1,
+      "hunger_points": 0.5
+    },
+    {
+      "name": "Beetroot Soup",
+      "minecraft_id_name": "beetroot_soup",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3
+    },
+    {
+      "name": "Sweet Berries",
+      "minecraft_id_name": "sweet_berries",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Glow Berries",
+      "minecraft_id_name": "glow_berries",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 2,
+      "hunger_points": 1
+    },
+    {
+      "name": "Honey Bottle",
+      "minecraft_id_name": "honey_bottle",
+      "stackable": "yes",
+      "categoryId": 3,
+      "food": 6,
+      "hunger_points": 3,
+      "removes_effects": "poison"
+    }
+  ],
+  "categories": [
+    {
+      "id": "tools",
+      "name": "tools"
+    },
+    {
+      "id": "2",
+      "name": "combat"
+    },
+    {
+      "id": "3",
+      "name": "foodstuffs"
+    },
+    {
+      "id": "4",
+      "name": "miscellaneous"
+    },
+    {
+      "id": "5",
+      "name": "brewing"
+    },
+    {
+      "id": "6",
+      "name": "transportation"
+    },
+    {
+      "id": "7",
+      "name": "redstone"
+    },
+    {
+      "id": "8",
+      "name": "decoration_blocks"
+    },
+    {
+      "id": "9",
+      "name": "building_blocks"
+    }
+  ]
+}
