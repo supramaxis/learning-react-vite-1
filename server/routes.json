@@ -1,4 +1,12 @@
 {
-  "/api/": "/"
+  "/api/*": "/$1",
+  "/combat/:category": "/combat?category=:category",
+  "/tools/:category": "/tools?category=:category",
+  "/food/:category": "/foodstuffs?category=:category",
+  "/transportation/:category": "/redstone?category=:category",
+  "/redstone/:category": "/redstone?category=:category",
+  "/decoration/:category": "/redstone?category=:category",
+  "/brewing/:category": "/redstone?category=:category",
+  "/combat/categoryid/:categoryId": "/combat?categoryId=:categoryId"
 }
 

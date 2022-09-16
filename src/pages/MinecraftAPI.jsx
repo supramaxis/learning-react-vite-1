@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getMinecraftData } from "../components/fetchApi";
+import axios from "axios";
 export default function MinecraftAPI() {
   const [minecraft, setMinecraft] = useState([]);
 
@@ -15,15 +16,11 @@ export default function MinecraftAPI() {
 
   const fetchMinecraft = async () => {
     try {
-      const url = "http://localhost:3001/db";
-
-      const res = await fetch(url);
-      const json = await res.json();
-      console.log(json.data[0]);
-      setMinecraft(json.data);
-    } catch (error) {
-      console.log(error);
-    }
+      const res = await axios.get("http://localhost:3001/api").then((res) => {
+        console.log(res);
+        setMinecraft(res);
+      });
+    } catch (error) {}
   };
 
   useEffect(() => {

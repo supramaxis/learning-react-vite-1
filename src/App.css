@@ -106,12 +106,9 @@ button {
   justify-content: center;
   align-items: center;
   color: #262626;
+  font-size: 30px;
 }
 
-hr {
-  border: 1px solid #000;
-  width: 30%;
-}
 
 /* SearchBar.jsx */
 

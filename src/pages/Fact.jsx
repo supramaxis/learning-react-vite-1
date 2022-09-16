@@ -30,12 +30,12 @@ function Fact() {
       ) : (
         <>
           <h1 className="main-container">Random Fact</h1>
-          <hr />
+          <hr className="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700" />
           <div className="main-container">
             <p>"{fact.text}"</p>
           </div>
           <h1 className="main-container">Random Fun Fact</h1>
-          <hr />
+          <hr className="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700" />
           <div className="main-container">
             <p>"{funFact.fact}"</p>
           </div>
