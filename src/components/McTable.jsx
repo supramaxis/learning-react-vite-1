@@ -17,7 +17,7 @@ export default function McTable({ minecraft }) {
                 Minecraft ID Name
               </th>
               <th scope="col" className="py-3 px-6">
-                Price
+                Is Stackable?
               </th>
               <th scope="col" className="py-3 px-6">
                 Action
@@ -29,7 +29,7 @@ export default function McTable({ minecraft }) {
               return (
                 <tr
                   className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                  key={1}>
+                  key={i}>
                   <th
                     scope="row"
                     className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -37,7 +37,7 @@ export default function McTable({ minecraft }) {
                   </th>
                   <td className="py-4 px-6">{mc.category}</td>
                   <td className="py-4 px-6">{mc.minecraft_id_name}</td>
-                  <td className="py-4 px-6">$2999</td>
+                  <td className="py-4 px-6">{mc.stackable}</td>
                   <td className="py-4 px-6">
                     <a
                       href="#"

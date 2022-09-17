@@ -356,8 +356,8 @@
       "categoryId": 2
     },
     {
-      "name": "Enchantment Book",
-      "category": "enchantment",
+      "name": "Enchantment Books",
+      "category": "enchantments",
       "minecraft_id_name": "enchanted_book",
       "stackable": "no",
       "categoryId": 2,
