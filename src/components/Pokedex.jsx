@@ -42,7 +42,7 @@ export default function Pokedex({ pokemons, page, setPage, total, loading }) {
           return (
             <>
               <div key={i}>
-                <Pokemon pokemon={pokemon} key={pokemon.name} id={i} />
+                <Pokemon pokemon={pokemon} key={pokemon.name} />
               </div>
             </>
           );

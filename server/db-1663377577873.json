@@ -1,0 +1,4386 @@
+{
+  "data": [
+    {
+      "combat": [
+        {
+          "id": "turtle_helmet",
+          "name": "Turtle Shell",
+          "durability": 275,
+          "category": "combat",
+          "minecraft_id_name": "turtle_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "bow",
+          "name": "Bow",
+          "durability": 384,
+          "category": "combat",
+          "minecraft_id_name": "bow",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "arrow",
+          "name": "Arrow",
+          "category": "combat",
+          "stackable": "yes",
+          "minecraft_id_name": "arrow",
+          "categoryId": 2
+        },
+        {
+          "id": "wooden_sword",
+          "name": "Wooden Sword",
+          "attack_damage": 5,
+          "attack_speed": 1.6,
+          "hearts": 2,
+          "dps": 6.4,
+          "durability": 60,
+          "category": "swords",
+          "minecraft_id_name": "wooden_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "stone_sword",
+          "name": "Stone Sword",
+          "attack_damage": 5,
+          "attack_speed": 1.6,
+          "hearts": 2.5,
+          "dps": 8,
+          "durability": 132,
+          "category": "swords",
+          "minecraft_id_name": "stone_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "iron_sword",
+          "name": "Iron Sword",
+          "attack_damage": 7,
+          "attack_speed": 1.6,
+          "hearts": 3,
+          "dps": 9.6,
+          "durability": 251,
+          "category": "swords",
+          "minecraft_id_name": "iron_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "golden_sword",
+          "name": "Golden Sword",
+          "attack_damage": 4,
+          "attack_speed": 1.6,
+          "hearts": 2,
+          "dps": "6.4",
+          "durability": 33,
+          "category": "swords",
+          "minecraft_id_name": "golden_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "id": "diamond_sword",
+          "name": "Diamond Sword",
+          "attack_damage": 8,
+          "attack_speed": 1.6,
+          "hearts": "3.5",
+          "dps": "11.2",
+          "durability": 1562,
+          "category": "swords",
+          "minecraft_id_name": "diamond_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "netherite_sword",
+          "attack_damage": 8,
+          "attack_speed": 1.6,
+          "hearts": "4",
+          "dps": "12.8",
+          "durability": 2031,
+          "category": "swords",
+          "minecraft_id_name": "netherite_sword",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Leather Cap",
+          "defense_points": 1,
+          "armor_points": 0.5,
+          "durability": 55,
+          "category": "armor",
+          "minecraft_id_name": "leather_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Leather Tunic",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "durability": 80,
+          "category": "armor",
+          "minecraft_id_name": "leather_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Leather Pants",
+          "defense_points": 2,
+          "armor_points": 1,
+          "durability": 75,
+          "category": "armor",
+          "minecraft_id_name": "leather_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Leather Boots",
+          "defense_points": 1,
+          "armor_points": 0.5,
+          "durability": 65,
+          "category": "armor",
+          "minecraft_id_name": "leather_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Chainmail Helmet",
+          "defense_points": 2,
+          "armor_points": 1,
+          "durability": 165,
+          "category": "armor",
+          "minecraft_id_name": "chainmail_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Chainmail Chestplate",
+          "defense_points": 5,
+          "armor_points": 2.5,
+          "durability": 240,
+          "category": "armor",
+          "minecraft_id_name": "chainmail_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Chainmail Leggings",
+          "defense_points": 4,
+          "armor_points": 2,
+          "durability": 225,
+          "category": "armor",
+          "minecraft_id_name": "chainmail_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Chainmail Boots",
+          "defense_points": 1,
+          "armor_points": 0.5,
+          "durability": 195,
+          "category": "armor",
+          "minecraft_id_name": "chainmail_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Iron Helmet",
+          "defense_points": 2,
+          "armor_points": 1,
+          "durability": 165,
+          "category": "armor",
+          "minecraft_id_name": "iron_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Iron Chestplate",
+          "defense_points": 6,
+          "armor_points": 3,
+          "durability": 240,
+          "category": "armor",
+          "minecraft_id_name": "iron_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Iron Leggings",
+          "defense_points": 5,
+          "armor_points": 2.5,
+          "durability": 225,
+          "category": "armor",
+          "minecraft_id_name": "iron_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Iron Boots",
+          "defense_points": 2,
+          "armor_points": 1,
+          "durability": 195,
+          "category": "armor",
+          "minecraft_id_name": "iron_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Golden Helmet",
+          "defense_points": 2,
+          "armor_points": 1,
+          "durability": 77,
+          "category": "armor",
+          "minecraft_id_name": "golden_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Golden Chestplate",
+          "defense_points": 5,
+          "armor_points": 2.5,
+          "durability": 114,
+          "category": "armor",
+          "minecraft_id_name": "golden_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Golden Leggings",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "durability": 105,
+          "category": "armor",
+          "minecraft_id_name": "golden_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Golden Boots",
+          "defense_points": 1,
+          "armor_points": 0.5,
+          "durability": 91,
+          "category": "armor",
+          "minecraft_id_name": "golden_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Diamond Helmet",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "armor_toughness": 2,
+          "durability": 363,
+          "category": "armor",
+          "minecraft_id_name": "diamond_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Diamond Chestplate",
+          "defense_points": 8,
+          "armor_points": 4,
+          "armor_toughness": 2,
+          "durability": 528,
+          "category": "armor",
+          "minecraft_id_name": "diamond_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Diamond Leggings",
+          "defense_points": 6,
+          "armor_points": 3,
+          "armor_toughness": 2,
+          "durability": 495,
+          "category": "armor",
+          "minecraft_id_name": "diamond_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Diamond Boots",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "armor_toughness": 2,
+          "durability": 429,
+          "category": "armor",
+          "minecraft_id_name": "diamond_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Netherite Helmet",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "armor_toughness": 3,
+          "knockback_resistance": 10,
+          "durability": 407,
+          "category": "armor",
+          "minecraft_id_name": "netherite_helmet",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Netherite Chestplate",
+          "defense_points": 8,
+          "armor_points": 4,
+          "armor_toughness": 3,
+          "knockback_resistance": 10,
+          "durability": 592,
+          "category": "armor",
+          "minecraft_id_name": "netherite_chestplate",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Netherite Leggings",
+          "defense_points": 6,
+          "armor_points": 3,
+          "armor_toughness": 3,
+          "knockback_resistance": 10,
+          "durability": 555,
+          "category": "armor",
+          "minecraft_id_name": "netherite_leggings",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Netherite Boots",
+          "defense_points": 3,
+          "armor_points": 1.5,
+          "armor_toughness": 3,
+          "knockback_resistance": 10,
+          "durability": 481,
+          "category": "armor",
+          "minecraft_id_name": "netherite_boots",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Fire Protection",
+          "description": "Reduces fire damage and burn time. Mutually exclusive with other protections. ",
+          "accepted_items": "Any Armor piece",
+          "incompatible_with": [
+            "Blast Protection",
+            "Projectile Protection",
+            "Protection"
+          ],
+          "levels": 4,
+          "category": "enchantment_book",
+          "categoryId": 2
+        },
+        {
+          "name": "Feather Falling",
+          "description": "Reduces fall damage",
+          "accepted_items": "Any Boots",
+          "category": "enchantment_book",
+          "incompatible_with": "none",
+          "levels": 4,
+          "categoryId": 2
+        },
+        {
+          "name": "Blast Protection",
+          "category": "enchantment_book",
+          "description": "Reduces explosion damage and knockback.",
+          "accepted_items": "Any Armor piece",
+          "incompatible_with": [
+            "Fire Protection",
+            "Projectile Protection",
+            "Protection"
+          ],
+          "levels": 4,
+          "categoryId": 2
+        },
+        {
+          "name": "Projectile Protection",
+          "description": "Reduces damage from projectiles.",
+          "accepted_items": "Any Armor piece",
+          "incompatible_with": [
+            "Fire Protection",
+            "Blast Protection",
+            "Protection"
+          ],
+          "category": "enchantment_book",
+          "levels": 4,
+          "categoryId": 2
+        },
+        {
+          "name": "Respiration",
+          "description": "Increases underwater breathing time.",
+          "accepted_items": "Any Helmet",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Aqua Affinity",
+          "description": "Increases underwater mining speed.",
+          "accepted_items": "Any Helmet",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Thorns",
+          "description": "Taking damage causes the attacker to also take damage. ",
+          "accepted_items": "Any Chestplate",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Depth Strider",
+          "description": "Increases underwater movement speed.",
+          "accepted_items": "Any Boots",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Frost Walker",
+          "description": "Allows the player to walk on water by freezing the water under their feet. ",
+          "accepted_items": "Any Boots",
+          "incompatible_with": "Depth Strider",
+          "category": "enchantment_book",
+          "levels": 2,
+          "categoryId": 2
+        },
+        {
+          "name": "Curse of Binding",
+          "description": "Prevents the item from being removed from the player's inventory. ",
+          "accepted_items": [
+            "Any Armor piece",
+            "elytra",
+            "carved_pumpkin",
+            "head",
+            "turtle_shell"
+          ],
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Soul Speed",
+          "description": "Increases movement speed on soul sand and soul soil. ",
+          "accepted_items": "Any Boots",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Swift Sneak",
+          "description": "Increases sneaking speed.",
+          "accepted_items": "Any Boots",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Sharpness",
+          "description": "Increases melee damage.",
+          "accepted_items": ["Any Sword", "Any Axe"],
+          "incompatible_with": ["Smite", "Bane of Arthropods"],
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Smite",
+          "description": "Increases melee damage against undead mobs.",
+          "accepted_items": ["Any Sword", "Any Axe"],
+          "incompatible_with": ["Sharpness", "Bane of Arthropods"],
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Bane of arthropods",
+          "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
+          "accepted_items": ["Any Sword", "Any Axe"],
+          "incompatible_with": ["Sharpness", "Smite"],
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Knockback",
+          "description": "Increases knockback.",
+          "accepted_items": "Any Sword",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 2,
+          "categoryId": 2
+        },
+        {
+          "name": "Fire aspect",
+          "description": "Sets the target on fire",
+          "accepted_items": "Any Sword",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 2,
+          "categoryId": 2
+        },
+        {
+          "name": "Looting",
+          "description": "Increases the chance of getting extra loot from mobs.",
+          "accepted_items": "Any Sword",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Sweeping Edge",
+          "description": "Deals damage to nearby mobs when attacking.",
+          "accepted_items": "Any Sword",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Unbreaking",
+          "description": "Increases durability and reduce durability damage",
+          "accepted_items": [
+            "Any Tool",
+            "Any Armor piece",
+            "elytra",
+            "turtle_shell",
+            "bow",
+            "crossbow",
+            "fishing_rod",
+            "trident",
+            "shield",
+            "flint_and_steel",
+            "shears"
+          ],
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Power",
+          "description": "Increases arrow damage.",
+          "accepted_items": "bow",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Punch",
+          "description": "Increases arrows knockback.",
+          "accepted_items": "bow",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 2,
+          "categoryId": 2
+        },
+        {
+          "name": "Flame",
+          "description": "Arrows set targets on fire.",
+          "accepted_items": "bow",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Infinity",
+          "description": "Arrows are not consumed when shot.",
+          "accepted_items": "bow",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Loyalty",
+          "description": "Returns the trident to the player when thrown.",
+          "accepted_items": "trident",
+          "incompatible_with": "riptide",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Impaling",
+          "description": "Increases damage against aquatic mobs. In Bedrock Edition, increases damage against mobs in water or rain.",
+          "accepted_items": "trident",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Riptide",
+          "description": "Trident launches player with itself when thrown while in water or rain.",
+          "accepted_items": "trident",
+          "incompatible_with": "loyalty, channeling",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Chanelling",
+          "description": "During thunderstorms, tridents can strike enemies with a lightning bolt. ",
+          "accepted_items": "trident",
+          "incompatible_with": "riptide",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Multishot",
+          "description": "Shoots 3 arrows at once.",
+          "accepted_items": "crossbow",
+          "incompatible_with": "piercing",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Quick Charge",
+          "description": "Increases the speed at which the crossbow is reloaded.",
+          "accepted_items": "crossbow",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Piercing",
+          "description": "Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",
+          "accepted_items": "crossbow",
+          "incompatible_with": "multishot",
+          "category": "enchantment_book",
+          "levels": 4,
+          "categoryId": 2
+        },
+        {
+          "name": "Mending",
+          "description": "Repairs the item when the player collects experience.",
+          "accepted_items": [
+            "Any Tool",
+            "Any Armor piece",
+            "elytra",
+            "turtle_shell",
+            "bow",
+            "crossbow",
+            "Any Fishing Rod",
+            "trident",
+            "shield",
+            "flint_and_steel",
+            "shears"
+          ],
+          "incompatible_with": "infinity",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Curse of Vanishing",
+          "description": "The item will disappear when dropped or when the player dies.",
+          "accepted_items": [
+            "Any Tool",
+            "Any Armor piece",
+            "elytra",
+            "turtle_shell",
+            "bow",
+            "crossbow",
+            "Any Fishing Rod",
+            "trident",
+            "shield",
+            "flint_and_steel",
+            "shears",
+            "Compass",
+            "carved_pumpkin",
+            "head"
+          ],
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Efficiency",
+          "description": "Increases the speed at which blocks are mined.",
+          "accepted_items": "Any Tool",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 5,
+          "categoryId": 2
+        },
+        {
+          "name": "Silk Touch",
+          "description": "Mined blocks drop themselves.",
+          "accepted_items": "Any Tool",
+          "incompatible_with": "fortune",
+          "category": "enchantment_book",
+          "levels": 1,
+          "categoryId": 2
+        },
+        {
+          "name": "Fortune",
+          "description": "Increases the amount of items dropped from blocks.",
+          "accepted_items": "Any Tool",
+          "incompatible_with": "silk_touch",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Luck of the sea",
+          "description": "Increases rate of good loot (enchanting books, etc.).",
+          "accepted_items": "Any Fishing Rod",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Lure",
+          "description": "Increases the rate at which fish are caught.",
+          "accepted_items": "Any Fishing Rod",
+          "incompatible_with": "none",
+          "category": "enchantment_book",
+          "levels": 3,
+          "categoryId": 2
+        },
+        {
+          "name": "Shield",
+          "durability": 336,
+          "minecraft_id_name": "shield",
+          "category": "combat",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Totem of Undying",
+          "minecraft_id_name": "totem_of_undying",
+          "category": "combat",
+          "stackable": "no",
+          "categoryId": 2,
+          "status_effects": [
+            {
+              "name": "absortion",
+              "duration": 5,
+              "amplifier": 0
+            },
+            {
+              "name": "regeneration",
+              "duration": 45,
+              "amplifier": 1
+            },
+            {
+              "name": "fire resistance",
+              "duration": 4,
+              "amplifier": 0
+            }
+          ]
+        },
+        {
+          "name": "Trident",
+          "attack_damage": 9,
+          "attack_speed": 1.1,
+          "durability": 250,
+          "minecraft_id_name": "trident",
+          "category": "combat",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Crossbow",
+          "durability": 465,
+          "category": "combat",
+          "minecraft_id_name": "crossbow",
+          "stackable": "no",
+          "categoryId": 2
+        },
+        {
+          "name": "Protection",
+          "levels": 4,
+          "category": "enchantment_book",
+          "categoryId": 2,
+          "id": "XUWqI9_"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Flint and Steel",
+          "durability": 64,
+          "minecraft_id_name": "flint_and_steel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Wooden Pickaxe",
+          "attack_damage": 2,
+          "attack_speed": 1.2,
+          "dps": 2.4,
+          "durability": 59,
+          "category": "pickaxes",
+          "minecraft_id_name": "wooden_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Stone Pickaxe",
+          "attack_damage": 3,
+          "attack_speed": 1.2,
+          "dps": 3.6,
+          "durability": 131,
+          "category": "pickaxes",
+          "minecraft_id_name": "stone_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Iron Pickaxe",
+          "attack_damage": 4,
+          "attack_speed": 1.2,
+          "dps": 4.8,
+          "durability": 250,
+          "category": "pickaxes",
+          "minecraft_id_name": "iron_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Golden Pickaxe",
+          "attack_damage": 2,
+          "attack_speed": 1.2,
+          "dps": 2.4,
+          "durability": 32,
+          "category": "pickaxes",
+          "minecraft_id_name": "golden_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Diamond Pickaxe",
+          "attack_damage": 6,
+          "attack_speed": 1.2,
+          "dps": 6,
+          "durability": 1561,
+          "category": "pickaxes",
+          "minecraft_id_name": "diamond_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Netherite Pickaxe",
+          "attack_damage": 6,
+          "attack_speed": 1.2,
+          "dps": 7.2,
+          "durability": 2031,
+          "category": "pickaxes",
+          "minecraft_id_name": "netherite_pickaxe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Wooden Axe",
+          "attack_damage": 7,
+          "attack_speed": 0.8,
+          "durability": 59,
+          "category": "axes",
+          "minecraft_id_name": "wooden_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Stone Axe",
+          "attack_damage": 9,
+          "attack_speed": 0.8,
+          "durability": 131,
+          "category": "axes",
+          "minecraft_id_name": "stone_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Iron Axe",
+          "attack_damage": 9,
+          "attack_speed": 0.9,
+          "durability": 250,
+          "category": "axes",
+          "minecraft_id_name": "iron_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Golden Axe",
+          "attack_damage": 7,
+          "attack_speed": 1,
+          "durability": 32,
+          "category": "axes",
+          "minecraft_id_name": "golden_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Diamond Axe",
+          "attack_damage": 9,
+          "attack_speed": 1,
+          "durability": 1561,
+          "category": "axes",
+          "minecraft_id_name": "diamond_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Netherite Axe",
+          "attack_damage": 10,
+          "attack_speed": 1,
+          "durability": 2031,
+          "category": "axes",
+          "minecraft_id_name": "netherite_axe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Wooden Shovel",
+          "attack_damage": 2.5,
+          "attack_speed": 1.6,
+          "durability": 59,
+          "category": "shovels",
+          "minecraft_id_name": "wooden_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Stone Shovel",
+          "attack_damage": 3.5,
+          "attack_speed": 1.6,
+          "durability": 131,
+          "category": "shovels",
+          "minecraft_id_name": "stone_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Iron Shovel",
+          "attack_damage": 4.5,
+          "attack_speed": 1.6,
+          "durability": 250,
+          "category": "shovels",
+          "minecraft_id_name": "iron_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Golden Shovel",
+          "attack_damage": 2.5,
+          "attack_speed": 1.6,
+          "durability": 32,
+          "category": "shovels",
+          "minecraft_id_name": "golden_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Diamond Shovel",
+          "attack_damage": 5.5,
+          "attack_speed": 1.6,
+          "durability": 1561,
+          "category": "shovels",
+          "minecraft_id_name": "diamond_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Netherite Shovel",
+          "attack_damage": 6.5,
+          "attack_speed": 1.6,
+          "durability": 2031,
+          "category": "shovels",
+          "minecraft_id_name": "netherite_shovel",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Wooden Hoe",
+          "attack_damage": 1,
+          "attack_speed": 1,
+          "durability": 59,
+          "category": "hoe",
+          "minecraft_id_name": "wooden_hoe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Stone Hoe",
+          "attack_damage": 1,
+          "attack_speed": 2,
+          "durability": 131,
+          "category": "hoe",
+          "minecraft_id_name": "stone_hoe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Iron Hoe",
+          "attack_damage": 1,
+          "attack_speed": 3,
+          "durability": 250,
+          "category": "hoe",
+          "minecraft_id_name": "iron_hoe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Golden Hoe",
+          "attack_damage": 1,
+          "attack_speed": 1,
+          "durability": 32,
+          "category": "hoe",
+          "minecraft_id_name": "golden_hoe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Diamond Hoe",
+          "attack_damage": 1,
+          "attack_speed": 4,
+          "durability": 1561,
+          "category": "hoe",
+          "minecraft_id_name": "diamond_hoe",
+          "stackable": "no",
+          "categoryId": 1
+        },
+        {
+          "name": "Netherite Hoe",
+          "attack_damage": 1,
+          "attack_speed": 4,
+          "durability": 2031,
+          "category": "hoe",
+          "minecraft_id_name": "netherite_hoe",
+          "stackable": "no",
+          "categoryId": "tools"
+        },
+        {
+          "name": "Compass",
+          "categoryId": "tools",
+          "minecraft_id_name": "compass",
+          "stackable": "yes"
+        },
+        {
+          "id": "recovery-compass",
+          "name": "Recovery Compass",
+          "categoryId": "tools",
+          "minecraft_id_name": "recovery_compass",
+          "stackable": "yes"
+        },
+        {
+          "name": "Fishing Rod",
+          "categoryId": 1,
+          "minecraft_id_name": "fishing_rod",
+          "stackable": "no",
+          "durability": 64
+        },
+        {
+          "name": "Clock",
+          "categoryId": 1,
+          "minecraft_id_name": "clock",
+          "stackable": "yes"
+        },
+        {
+          "name": "Spyglass",
+          "categoryId": 1,
+          "minecraft_id_name": "spyglass",
+          "stackable": "no"
+        },
+        {
+          "name": "Shears",
+          "categoryId": 1,
+          "minecraft_id_name": "shears",
+          "stackable": "no",
+          "durability": 238
+        },
+        {
+          "name": "Lead",
+          "categoryId": 1,
+          "minecraft_id_name": "lead",
+          "stackable": "yes"
+        },
+        {
+          "name": "Name Tag",
+          "categoryId": 1,
+          "minecraft_id_name": "name_tag",
+          "stackable": "yes"
+        }
+      ],
+      "foodstuffs": [
+        {
+          "name": "Apple",
+          "minecraft_id_name": "apple",
+          "stackable": "yes",
+          "quality": "low",
+          "categoryId": 3,
+          "saturation": 2.4,
+          "food": 4,
+          "hunger_points": 2
+        },
+        {
+          "name": "Mushroom Stew",
+          "minecraft_id_name": "mushroom_stew",
+          "quality": "normal",
+          "stackable": "no",
+          "categoryId": 3,
+          "food": 6,
+          "hunger_points": 3
+        },
+        {
+          "name": "Bread",
+          "minecraft_id_name": "bread",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 6,
+          "food": 5,
+          "hunger_points": 2.5
+        },
+        {
+          "name": "Cooked Porkchop",
+          "minecraft_id_name": "cooked_porkchop",
+          "quality": "good",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 12.8,
+          "food": 8,
+          "hunger_points": 4
+        },
+        {
+          "name": "Raw Porkchop",
+          "minecraft_id_name": "porkchop",
+          "quality": "low",
+          "stackable": "yes",
+          "saturation": 4.8,
+          "categoryId": 3,
+          "food": 3,
+          "hunger_points": 1.5
+        },
+        {
+          "name": "Golden Apple",
+          "minecraft_id_name": "golden_apple",
+          "stackable": "yes",
+          "quality": "supernatural",
+          "categoryId": 3,
+          "saturation": 9.6,
+          "food": 4,
+          "hunger_points": 2,
+          "status_effects": [
+            {
+              "effect": "absorption",
+              "duration": 120,
+              "amplifier": 0
+            },
+            {
+              "effect": "regeneration",
+              "duration": 5,
+              "amplifier": 1
+            }
+          ]
+        },
+        {
+          "name": "Enchanted Golden Apple",
+          "minecraft_id_name": "enchanted_golden_apple",
+          "stackable": "yes",
+          "quality": "supernatural",
+          "categoryId": 3,
+          "saturation": 9.6,
+          "food": 4,
+          "hunger_points": 2,
+          "status_effects": [
+            {
+              "effect": "absorption",
+              "duration": 120,
+              "amplifier": 3
+            },
+            {
+              "effect": "regeneration",
+              "duration": 20,
+              "amplifier": 1
+            },
+            {
+              "effect": "resistance",
+              "duration": 300,
+              "amplifier": 0
+            },
+            {
+              "effect": "fire_resistance",
+              "duration": 300,
+              "amplifier": 0
+            }
+          ]
+        },
+        {
+          "name": "Raw cod",
+          "minecraft_id_name": "cod",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.4,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Cooked cod",
+          "minecraft_id_name": "cooked_cod",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 6,
+          "food": 5,
+          "hunger_points": 2.5
+        },
+        {
+          "name": "Cooked Salmon",
+          "minecraft_id_name": "cooked_salmon",
+          "quality": "good",
+          "stackable": "yes",
+          "saturation": 9.6,
+          "categoryId": 3,
+          "food": 6,
+          "hunger_points": 3
+        },
+        {
+          "name": "Raw Salmon",
+          "minecraft_id_name": "salmon",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.4,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Cooked Mutton",
+          "minecraft_id_name": "cooked_mutton",
+          "quality": "good",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 9.6,
+          "food": 6,
+          "hunger_points": 3
+        },
+        {
+          "name": "Raw Mutton",
+          "minecraft_id_name": "mutton",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Tropical Fish",
+          "minecraft_id_name": "tropical_fish",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": "0.2",
+          "food": 1,
+          "hunger_points": 0.5
+        },
+        {
+          "name": "Pufferfish",
+          "minecraft_id_name": "pufferfish",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": "0.2",
+          "food": 1,
+          "hunger_points": 0.5,
+          "status_effects": [
+            {
+              "effect": "poison",
+              "duration": 60,
+              "amplifier": 1
+            },
+            {
+              "effect": "nausea",
+              "duration": 15,
+              "amplifier": 0
+            },
+            {
+              "effect": "hunger",
+              "duration": 60,
+              "amplifier": 2
+            }
+          ]
+        },
+        {
+          "name": "Cookie",
+          "minecraft_id_name": "cookie",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.4,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Melon Slice",
+          "minecraft_id_name": "melon_slice",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Dried kelp",
+          "minecraft_id_name": "dried_kelp",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.6,
+          "food": 1,
+          "hunger_points": 0.5
+        },
+        {
+          "name": "Steak",
+          "minecraft_id_name": "cooked_beef",
+          "quality": "good",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 12.8,
+          "food": 8,
+          "hunger_points": 4
+        },
+        {
+          "name": "Cooked Chicken",
+          "minecraft_id_name": "cooked_chicken",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 7.2,
+          "food": 6,
+          "hunger_points": 3
+        },
+        {
+          "name": "Raw Beef",
+          "minecraft_id_name": "beef",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.8,
+          "food": 3,
+          "hunger_points": 1.5
+        },
+        {
+          "name": "Raw Chicken",
+          "minecraft_id_name": "chicken",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Rotten Flesh",
+          "minecraft_id_name": "rotten_flesh",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.8,
+          "food": 4,
+          "hunger_points": 2,
+          "status_effects": [
+            {
+              "effect": "hunger",
+              "duration": 30,
+              "amplifier": 0,
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Spider Eye",
+          "minecraft_id_name": "spider_eye",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 3.2,
+          "food": 2,
+          "hunger_points": 1,
+          "status_effects": [
+            {
+              "effect": "poison",
+              "duration": 5,
+              "amplifier": 0
+            }
+          ]
+        },
+        {
+          "name": "Carrot",
+          "minecraft_id_name": "carrot",
+          "quality": "normal",
+          "stackable": "yes",
+          "saturation": 3.6,
+          "categoryId": 3,
+          "food": 3,
+          "hunger_points": 1.5
+        },
+        {
+          "name": "Potato",
+          "minecraft_id_name": "potato",
+          "quality": "low",
+          "stackable": "yes",
+          "saturation": 0.6,
+          "categoryId": 3,
+          "food": 1,
+          "hunger_points": 0.5
+        },
+        {
+          "name": "Baked Potato",
+          "minecraft_id_name": "baked_potato",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 6,
+          "food": 5,
+          "hunger_points": 2.5
+        },
+        {
+          "name": "Poisonous Potato",
+          "minecraft_id_name": "poisonous_potato",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 2,
+          "hunger_points": 1,
+          "status_effects": [
+            {
+              "effect": "poison",
+              "duration": 5,
+              "amplifier": 0,
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Pumpkin Pie",
+          "minecraft_id_name": "pumpkin_pie",
+          "quality": "low",
+          "stackable": "yes",
+          "saturation": 4.8,
+          "categoryId": 3,
+          "food": 8,
+          "hunger_points": 4
+        },
+        {
+          "name": "Rabbit Stew",
+          "minecraft_id_name": "rabbit_stew",
+          "quality": "normal",
+          "stackable": "yes",
+          "saturation": 12,
+          "categoryId": 3,
+          "food": 10,
+          "hunger_points": 5
+        },
+        {
+          "name": "Cooked Rabbit",
+          "minecraft_id_name": "cooked_rabbit",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 6,
+          "food": 5,
+          "hunger_points": 2.5
+        },
+        {
+          "name": "Raw Rabbit",
+          "minecraft_id_name": "rabbit",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.8,
+          "food": 3,
+          "hunger_points": 1.5
+        },
+        {
+          "name": "Beetroot",
+          "minecraft_id_name": "beetroot",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 1,
+          "hunger_points": 0.5
+        },
+        {
+          "name": "Beetroot Soup",
+          "minecraft_id_name": "beetroot_soup",
+          "quality": "normal",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 7.2,
+          "food": 6,
+          "hunger_points": 3
+        },
+        {
+          "name": "Sweet Berries",
+          "minecraft_id_name": "sweet_berries",
+          "quality": "low",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 0.4,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Glow Berries",
+          "minecraft_id_name": "glow_berries",
+          "quality": "poor",
+          "stackable": "yes",
+          "saturation": 0.4,
+          "categoryId": 3,
+          "food": 2,
+          "hunger_points": 1
+        },
+        {
+          "name": "Honey Bottle",
+          "minecraft_id_name": "honey_bottle",
+          "quality": "poor",
+          "stackable": "yes",
+          "categoryId": 3,
+          "saturation": 1.2,
+          "food": 6,
+          "hunger_points": 3,
+          "removes_effects": "poison"
+        }
+      ],
+      "transportation": [
+        {
+          "name": "Powered Rail",
+          "minecraft_id_name": "powered_rail",
+          "stackable": "yes",
+          "categoryId": 6,
+          "hardness": 0.7,
+          "tool": "pickaxe",
+          "breaking_time": [
+            {
+              "tool": "wooden_pickaxe",
+              "time": 0.55
+            },
+            {
+              "tool": "stone_pickaxe",
+              "time": 0.3
+            },
+            {
+              "tool": "iron_pickaxe",
+              "time": 0.2
+            },
+            {
+              "tool": "diamond_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "netherite_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "golden_pickaxe",
+              "time": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Detector Rail",
+          "minecraft_id_name": "detector_rail",
+          "stackable": "yes",
+          "categoryId": 6,
+          "breaking_time": [
+            {
+              "tool": "wooden_pickaxe",
+              "time": 0.55
+            },
+            {
+              "tool": "stone_pickaxe",
+              "time": 0.3
+            },
+            {
+              "tool": "iron_pickaxe",
+              "time": 0.2
+            },
+            {
+              "tool": "diamond_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "netherite_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "golden_pickaxe",
+              "time": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Rail",
+          "minecraft_id_name": "rail",
+          "stackable": "yes",
+          "categoryId": 6,
+          "breaking_time": [
+            {
+              "tool": "wooden_pickaxe",
+              "time": 0.55
+            },
+            {
+              "tool": "stone_pickaxe",
+              "time": 0.3
+            },
+            {
+              "tool": "iron_pickaxe",
+              "time": 0.2
+            },
+            {
+              "tool": "diamond_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "netherite_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "golden_pickaxe",
+              "time": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Activator Rail",
+          "minecraft_id_name": "activator_rail",
+          "stackable": "yes",
+          "categoryId": 6,
+          "breaking_time": [
+            {
+              "tool": "wooden_pickaxe",
+              "time": 0.55
+            },
+            {
+              "tool": "stone_pickaxe",
+              "time": 0.3
+            },
+            {
+              "tool": "iron_pickaxe",
+              "time": 0.2
+            },
+            {
+              "tool": "diamond_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "netherite_pickaxe",
+              "time": 0.15
+            },
+            {
+              "tool": "golden_pickaxe",
+              "time": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Saddle",
+          "minecraft_id_name": "saddle",
+          "stackable": "yes",
+          "categoryId": 6
+        },
+        {
+          "name": "Minecart",
+          "minecraft_id_name": "minecart",
+          "stackable": "no",
+          "categoryId": 6,
+          "variants": [
+            {
+              "name": "Chest Minecart",
+              "minecraft_id_name": "chest_minecart"
+            },
+            {
+              "name": "Furnace Minecart",
+              "minecraft_id_name": "furnace_minecart"
+            },
+            {
+              "name": "TNT Minecart",
+              "minecraft_id_name": "tnt_minecart"
+            },
+            {
+              "name": "Hopper Minecart",
+              "minecraft_id_name": "hopper_minecart"
+            }
+          ]
+        },
+        {
+          "name": "Carrot on a Stick",
+          "minecraft_id_name": "carrot_on_a_stick",
+          "stackable": "no",
+          "categoryId": 6
+        },
+        {
+          "name": "Warped fungus on a stick",
+          "minecraft_id_name": "warped_fungus_on_a_stick",
+          "stackable": "no",
+          "categoryId": 6
+        },
+        {
+          "name": "Elytra",
+          "minecraft_id_name": "elytra",
+          "stackable": "no",
+          "categoryId": 6
+        },
+        {
+          "name": "Boat",
+          "minecraft_id_name": "boat",
+          "stackable": "no",
+          "categoryId": 6,
+          "variants": [
+            {
+              "name": "Oak Boat",
+              "minecraft_id_name": "oak_boat"
+            },
+            {
+              "name": "Oak Boat with Chest",
+              "minecraft_id_name": "oak_chest_boat"
+            },
+            {
+              "name": "Spruce Boat",
+              "minecraft_id_name": "spruce_boat"
+            },
+            {
+              "name": "Spruce Boat with Chest",
+              "minecraft_id_name": "spruce_chest_boat"
+            },
+            {
+              "name": "Birch Boat",
+              "minecraft_id_name": "birch_boat"
+            },
+            {
+              "name": "Birch Boat with Chest",
+              "minecraft_id_name": "birch_chest_boat"
+            },
+            {
+              "name": "Jungle Boat",
+              "minecraft_id_name": "jungle_boat"
+            },
+            {
+              "name": "Jungle Boat with Chest",
+              "minecraft_id_name": "jungle_chest_boat"
+            },
+            {
+              "name": "Acacia Boat ",
+              "minecraft_id_name": "acacia_boat"
+            },
+            {
+              "name": "Acacia Boat with Chest",
+              "minecraft_id_name": "acacia_chest_boat"
+            },
+            {
+              "name": "Dark Oak Boat",
+              "minecraft_id_name": "dark_oak_boat"
+            },
+            {
+              "name": "Dark Oak Boat with Chest",
+              "minecraft_id_name": "dark_oak_chest_boat"
+            },
+            {
+              "name": "Mangrove Boat",
+              "minecraft_id_name": "mangrove_boat"
+            },
+            {
+              "name": "Mangrove Boat with Chest",
+              "minecraft_id_name": "mangrove_chest_boat"
+            }
+          ]
+        },
+        {}
+      ],
+      "redstone": [
+        {
+          "name": "Redstone",
+          "minecraft_id_name": "redstone",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Redstone Torch",
+          "minecraft_id_name": "redstone_torch",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Redstone Repeater",
+          "minecraft_id_name": "repeater",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Redstone Repeater (Off)",
+              "minecraft_id_name": "repeater"
+            },
+            {
+              "name": "Redstone Repeater (On)",
+              "minecraft_id_name": "repeater_on"
+            }
+          ]
+        },
+        {
+          "name": "Redstone Comparator",
+          "minecraft_id_name": "comparator",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Redstone Comparator (Off)",
+              "minecraft_id_name": "comparator"
+            },
+            {
+              "name": "Redstone Comparator (On)",
+              "minecraft_id_name": "comparator_on"
+            }
+          ]
+        },
+        {
+          "name": "Redstone Lamp",
+          "minecraft_id_name": "redstone_lamp",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Redstone Lamp (Off)",
+              "minecraft_id_name": "redstone_lamp"
+            },
+            {
+              "name": "Redstone Lamp (On)",
+              "minecraft_id_name": "redstone_lamp_on"
+            }
+          ]
+        },
+        {
+          "name": "Redstone Block",
+          "minecraft_id_name": "redstone_block",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Piston",
+          "minecraft_id_name": "piston",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Piston (Extended)",
+              "minecraft_id_name": "piston_extended"
+            }
+          ]
+        },
+        {
+          "name": "Sticky Piston",
+          "minecraft_id_name": "sticky_piston",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Sticky Piston (Extended)",
+              "minecraft_id_name": "sticky_piston_extended"
+            }
+          ]
+        },
+        {
+          "name": "Slime Block",
+          "minecraft_id_name": "slime_block",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Honey Block",
+          "minecraft_id_name": "honey_block",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Observer",
+          "minecraft_id_name": "observer",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Hopper",
+          "minecraft_id_name": "hopper",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Dispenser",
+          "minecraft_id_name": "dispenser",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Dropper",
+          "minecraft_id_name": "dropper",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Lectern",
+          "minecraft_id_name": "lectern",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Target",
+          "minecraft_id_name": "target",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Lever",
+          "minecraft_id_name": "lever",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Lightning Rod",
+          "minecraft_id_name": "lightning_rod",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Daylight Sensor",
+          "minecraft_id_name": "daylight_detector",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Sculk Sensor",
+          "minecraft_id_name": "sculk_sensor",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Tripwire Hook",
+          "minecraft_id_name": "tripwire_hook",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Trapped Chest",
+          "minecraft_id_name": "trapped_chest",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "TNT",
+          "minecraft_id_name": "tnt",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Noteblock",
+          "minecraft_id_name": "noteblock",
+          "stackable": "yes",
+          "categoryId": 7
+        },
+        {
+          "name": "Button",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Stone Button",
+              "minecraft_id_name": "stone_button"
+            },
+            {
+              "name": "Polished Blackstone Button",
+              "minecraft_id_name": "polished_blackstone_button"
+            },
+            {
+              "name": "Oak Button",
+              "minecraft_id_name": "oak_button"
+            },
+            {
+              "name": "Spruce Button",
+              "minecraft_id_name": "spruce_button"
+            },
+            {
+              "name": "Birch Button",
+              "minecraft_id_name": "birch_button"
+            },
+            {
+              "name": "Jungle Button",
+              "minecraft_id_name": "jungle_button"
+            },
+            {
+              "name": "Acacia Button",
+              "minecraft_id_name": "acacia_button"
+            },
+            {
+              "name": "Dark Oak Button",
+              "minecraft_id_name": "dark_oak_button"
+            },
+            {
+              "name": "Mangrove Button",
+              "minecraft_id_name": "mangrove_button"
+            },
+            {
+              "name": "Crimson Button",
+              "minecraft_id_name": "crimson_button"
+            },
+            {
+              "name": "Warped Button",
+              "minecraft_id_name": "warped_button"
+            }
+          ]
+        },
+        {
+          "name": "Pressure Plate",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Stone Pressure Plate",
+              "minecraft_id_name": "stone_pressure_plate"
+            },
+            {
+              "name": "Polished Blackstone Pressure Plate",
+              "minecraft_id_name": "polished_blackstone_pressure_plate"
+            },
+            {
+              "name": "Oak Pressure Plate",
+              "minecraft_id_name": "oak_pressure_plate"
+            },
+            {
+              "name": "Spruce Pressure Plate",
+              "minecraft_id_name": "spruce_pressure_plate"
+            },
+            {
+              "name": "Birch Pressure Plate",
+              "minecraft_id_name": "birch_pressure_plate"
+            },
+            {
+              "name": "Jungle Pressure Plate",
+              "minecraft_id_name": "jungle_pressure_plate"
+            },
+            {
+              "name": "Acacia Pressure Plate",
+              "minecraft_id_name": "acacia_pressure_plate"
+            },
+            {
+              "name": "Dark Oak Pressure Plate",
+              "minecraft_id_name": "dark_oak_pressure_plate"
+            },
+            {
+              "name": "Mangrove Pressure Plate",
+              "minecraft_id_name": "mangrove_pressure_plate"
+            },
+            {
+              "name": "Crimson Pressure Plate",
+              "minecraft_id_name": "crimson_pressure_plate"
+            },
+            {
+              "name": "Warped Pressure Plate",
+              "minecraft_id_name": "warped_pressure_plate"
+            },
+            {
+              "name": "Light Weighted Pressure Plate",
+              "minecraft_id_name": "light_weighted_pressure_plate"
+            },
+            {
+              "name": "Heavy Weighted Pressure Plate",
+              "minecraft_id_name": "heavy_weighted_pressure_plate"
+            }
+          ]
+        },
+        {
+          "name": "Door",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Oak Door",
+              "minecraft_id_name": "oak_door"
+            },
+            {
+              "name": "Spruce Door",
+              "minecraft_id_name": "spruce_door"
+            },
+            {
+              "name": "Birch Door",
+              "minecraft_id_name": "birch_door"
+            },
+            {
+              "name": "Jungle Door",
+              "minecraft_id_name": "jungle_door"
+            },
+            {
+              "name": "Acacia Door",
+              "minecraft_id_name": "acacia_door"
+            },
+            {
+              "name": "Dark Oak Door",
+              "minecraft_id_name": "dark_oak_door"
+            },
+            {
+              "name": "Mangrove Door",
+              "minecraft_id_name": "mangrove_door"
+            },
+            {
+              "name": "Crimson Door",
+              "minecraft_id_name": "crimson_door"
+            },
+            {
+              "name": "Warped Door",
+              "minecraft_id_name": "warped_door"
+            },
+            {
+              "name": "Iron Door",
+              "minecraft_id_name": "iron_door"
+            }
+          ]
+        },
+        {
+          "name": "Trapdoor",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Oak Trapdoor",
+              "minecraft_id_name": "oak_trapdoor"
+            },
+            {
+              "name": "Spruce Trapdoor",
+              "minecraft_id_name": "spruce_trapdoor"
+            },
+            {
+              "name": "Birch Trapdoor",
+              "minecraft_id_name": "birch_trapdoor"
+            },
+            {
+              "name": "Jungle Trapdoor",
+              "minecraft_id_name": "jungle_trapdoor"
+            },
+            {
+              "name": "Acacia Trapdoor",
+              "minecraft_id_name": "acacia_trapdoor"
+            },
+            {
+              "name": "Dark Oak Trapdoor",
+              "minecraft_id_name": "dark_oak_trapdoor"
+            },
+            {
+              "name": "Mangrove Trapdoor",
+              "minecraft_id_name": "mangrove_trapdoor"
+            },
+            {
+              "name": "Crimson Trapdoor",
+              "minecraft_id_name": "crimson_trapdoor"
+            },
+            {
+              "name": "Warped Trapdoor",
+              "minecraft_id_name": "warped_trapdoor"
+            },
+            {
+              "name": "Iron Trapdoor",
+              "minecraft_id_name": "iron_trapdoor"
+            }
+          ]
+        },
+        {
+          "name": "Fence Gate",
+          "stackable": "yes",
+          "categoryId": 7,
+          "variants": [
+            {
+              "name": "Oak Fence Gate",
+              "minecraft_id_name": "oak_fence_gate"
+            },
+            {
+              "name": "Spruce Fence Gate",
+              "minecraft_id_name": "spruce_fence_gate"
+            },
+            {
+              "name": "Birch Fence Gate",
+              "minecraft_id_name": "birch_fence_gate"
+            },
+            {
+              "name": "Jungle Fence Gate",
+              "minecraft_id_name": "jungle_fence_gate"
+            },
+            {
+              "name": "Acacia Fence Gate",
+              "minecraft_id_name": "acacia_fence_gate"
+            },
+            {
+              "name": "Dark Oak Fence Gate",
+              "minecraft_id_name": "dark_oak_fence_gate"
+            },
+            {
+              "name": "Mangrove Fence Gate",
+              "minecraft_id_name": "mangrove_fence_gate"
+            },
+            {
+              "name": "Crimson Fence Gate",
+              "minecraft_id_name": "crimson_fence_gate"
+            },
+            {
+              "name": "Warped Fence Gate",
+              "minecraft_id_name": "warped_fence_gate"
+            }
+          ]
+        }
+      ],
+      "decoration_blocks": [
+        {
+          "name": "Sapling",
+          "stackable": "yes",
+          "minecraft_id_name": "sapling",
+          "category": "decoration",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Oak Sapling",
+              "minecraft_id_name": "oak_sapling"
+            },
+            {
+              "name": "Spruce Sapling",
+              "minecraft_id_name": "spruce_sapling"
+            },
+            {
+              "name": "Birch Sapling",
+              "minecraft_id_name": "birch_sapling"
+            },
+            {
+              "name": "Jungle Sapling",
+              "minecraft_id_name": "jungle_sapling"
+            },
+            {
+              "name": "Acacia Sapling",
+              "minecraft_id_name": "acacia_sapling"
+            },
+            {
+              "name": "Dark Oak Sapling",
+              "minecraft_id_name": "dark_oak_sapling"
+            },
+            {
+              "name": "Mangrove Propagule",
+              "minecraft_id_name": "mangrove_propagule"
+            }
+          ]
+        },
+        {
+          "name": "Leaves",
+          "stackable": "yes",
+          "category": "decoration",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Oak Leaves",
+              "minecraft_id_name": "oak_leaves"
+            },
+            {
+              "name": "Spruce Leaves",
+              "minecraft_id_name": "spruce_leaves"
+            },
+            {
+              "name": "Birch Leaves",
+              "minecraft_id_name": "birch_leaves"
+            },
+            {
+              "name": "Jungle Leaves",
+              "minecraft_id_name": "jungle_leaves"
+            },
+            {
+              "name": "Acacia Leaves",
+              "minecraft_id_name": "acacia_leaves"
+            },
+            {
+              "name": "Dark Oak Leaves",
+              "minecraft_id_name": "dark_oak_leaves"
+            },
+            {
+              "name": "Mangrove Leaves",
+              "minecraft_id_name": "mangrove_leaves"
+            },
+            {
+              "name": "Azalea Leaves",
+              "minecraft_id_name": "azalea_leaves"
+            },
+            {
+              "name": "Flowering Azalea Leaves",
+              "minecraft_id_name": "flowering_azalea_leaves"
+            }
+          ]
+        },
+        {
+          "name": "Cobweb",
+          "minecraft_id_name": "cobweb",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Grass",
+          "minecraft_id_name": "grass",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Fern",
+          "minecraft_id_name": "fern",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Azalea",
+          "minecraft_id_name": "azalea",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Flowering Azalea",
+          "minecraft_id_name": "flowering_azalea",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Dead Bush",
+          "minecraft_id_name": "dead_bush",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Seagrass",
+          "minecraft_id_name": "seagrass",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sea Pickle",
+          "minecraft_id_name": "sea_pickle",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Flowers",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Dandelion",
+              "minecraft_id_name": "dandelion"
+            },
+            {
+              "name": "Poppy",
+              "minecraft_id_name": "poppy"
+            },
+            {
+              "name": "Blue Orchid",
+              "minecraft_id_name": "blue_orchid"
+            },
+            {
+              "name": "Allium",
+              "minecraft_id_name": "allium"
+            },
+            {
+              "name": "Azure Bluet",
+              "minecraft_id_name": "azure_bluet"
+            },
+            {
+              "name": "Red Tulip",
+              "minecraft_id_name": "red_tulip"
+            },
+            {
+              "name": "Orange Tulip",
+              "minecraft_id_name": "orange_tulip"
+            },
+            {
+              "name": "White Tulip",
+              "minecraft_id_name": "white_tulip"
+            },
+            {
+              "name": "Pink Tulip",
+              "minecraft_id_name": "pink_tulip"
+            },
+            {
+              "name": "Oxeye Daisy",
+              "minecraft_id_name": "oxeye_daisy"
+            },
+            {
+              "name": "Cornflower",
+              "minecraft_id_name": "cornflower"
+            },
+            {
+              "name": "Lily of the Valley",
+              "minecraft_id_name": "lily_of_the_valley"
+            },
+            {
+              "name": "Wither Rose",
+              "minecraft_id_name": "wither_rose"
+            },
+            {
+              "name": "Sunflower",
+              "minecraft_id_name": "sunflower"
+            },
+            {
+              "name": "Lilac",
+              "minecraft_id_name": "lilac"
+            },
+            {
+              "name": "Rose Bush",
+              "minecraft_id_name": "rose_bush"
+            },
+            {
+              "name": "Peony",
+              "minecraft_id_name": "peony"
+            }
+          ]
+        },
+        {
+          "name": "Spore Blossom",
+          "minecraft_id_name": "spore_blossom",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Brown Mushroom",
+          "minecraft_id_name": "brown_mushroom",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Red Mushroom",
+          "minecraft_id_name": "red_mushroom",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Crimson Fungus",
+          "minecraft_id_name": "crimson_fungus",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Warped Fungus",
+          "minecraft_id_name": "warped_fungus",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Crimson Roots",
+          "minecraft_id_name": "crimson_roots",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Warped Roots",
+          "minecraft_id_name": "warped_roots",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Nether Sprouts",
+          "minecraft_id_name": "nether_sprouts",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Weeping Vines",
+          "minecraft_id_name": "weeping_vines",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Twisting Vines",
+          "minecraft_id_name": "twisting_vines",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sugar Cane",
+          "minecraft_id_name": "sugar_cane",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Kelp",
+          "minecraft_id_name": "kelp",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Moss Carpet",
+          "minecraft_id_name": "moss_carpet",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Moss Block",
+          "minecraft_id_name": "moss_block",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Hanging Roots",
+          "minecraft_id_name": "hanging_roots",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Big Dripleaf",
+          "minecraft_id_name": "big_dripleaf",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Small Dripleaf",
+          "minecraft_id_name": "small_dripleaf",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Bamboo",
+          "minecraft_id_name": "bamboo",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Torch",
+          "minecraft_id_name": "torch",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "End Rod",
+          "minecraft_id_name": "end_rod",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Chorus Plant",
+          "minecraft_id_name": "chorus_plant",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Chorus Flower",
+          "minecraft_id_name": "chorus_flower",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Chest",
+          "minecraft_id_name": "chest",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Crafting Table",
+          "minecraft_id_name": "crafting_table",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Furnace",
+          "minecraft_id_name": "furnace",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Farmland",
+          "minecraft_id_name": "farmland",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Ladder",
+          "minecraft_id_name": "ladder",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Snow",
+          "minecraft_id_name": "snow",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Cactus",
+          "minecraft_id_name": "cactus",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Jukebox",
+          "minecraft_id_name": "jukebox",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Fence",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Oak Fence",
+              "minecraft_id_name": "oak_fence"
+            },
+            {
+              "name": "Spruce Fence",
+              "minecraft_id_name": "spruce_fence"
+            },
+            {
+              "name": "Birch Fence",
+              "minecraft_id_name": "birch_fence"
+            },
+            {
+              "name": "Jungle Fence",
+              "minecraft_id_name": "jungle_fence"
+            },
+            {
+              "name": "Acacia Fence",
+              "minecraft_id_name": "acacia_fence"
+            },
+            {
+              "name": "Dark Oak Fence",
+              "minecraft_id_name": "dark_oak_fence"
+            },
+            {
+              "name": "Crimson Fence",
+              "minecraft_id_name": "crimson_fence"
+            },
+            {
+              "name": "Warped Fence",
+              "minecraft_id_name": "warped_fence"
+            }
+          ]
+        },
+        {
+          "name": "Soul Torch",
+          "minecraft_id_name": "soul_torch",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Stone",
+          "minecraft_id_name": "infested_stone",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Cobblestone",
+          "minecraft_id_name": "infested_cobblestone",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Stone Bricks",
+          "minecraft_id_name": "infested_stone_bricks",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Mossy Stone Bricks",
+          "minecraft_id_name": "infested_mossy_stone_bricks",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Cracked Stone Bricks",
+          "minecraft_id_name": "infested_cracked_stone_bricks",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Chiseled Stone Bricks",
+          "minecraft_id_name": "infested_chiseled_stone_bricks",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Infested Deepslate",
+          "minecraft_id_name": "infested_deepslate",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Brown Mushroom Block",
+          "minecraft_id_name": "brown_mushroom_block",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Red Mushroom Block",
+          "minecraft_id_name": "red_mushroom_block",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Mushroom Stem",
+          "minecraft_id_name": "mushroom_stem",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Iron Bars",
+          "minecraft_id_name": "iron_bars",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Chain",
+          "minecraft_id_name": "chain",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Glass Pane",
+          "minecraft_id_name": "glass_pane",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Vines",
+          "minecraft_id_name": "vine",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Glow Lichen",
+          "minecraft_id_name": "glow_lichen",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Lily Pad",
+          "minecraft_id_name": "lily_pad",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Nether Brick Fence",
+          "minecraft_id_name": "nether_brick_fence",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sculk",
+          "minecraft_id_name": "sculk",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sculk Vein",
+          "minecraft_id_name": "sculk_vein",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sculk Catalyst",
+          "minecraft_id_name": "sculk_catalyst",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sculk Shrieker",
+          "minecraft_id_name": "sculk_shrieker",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Enchanting Table",
+          "minecraft_id_name": "enchanting_table",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "End Portal Frame",
+          "minecraft_id_name": "end_portal_frame",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Ender Chest",
+          "minecraft_id_name": "ender_chest",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Wall",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Cobblestone Wall",
+              "minecraft_id_name": "cobblestone_wall"
+            },
+            {
+              "name": "Mossy Cobblestone Wall",
+              "minecraft_id_name": "mossy_cobblestone_wall"
+            },
+            {
+              "name": "Brick Wall",
+              "minecraft_id_name": "brick_wall"
+            },
+            {
+              "name": "Prismarine Wall",
+              "minecraft_id_name": "prismarine_wall"
+            },
+            {
+              "name": "Red Sandstone Wall",
+              "minecraft_id_name": "red_sandstone_wall"
+            },
+            {
+              "name": "Mossy Stone Brick Wall",
+              "minecraft_id_name": "mossy_stone_brick_wall"
+            },
+            {
+              "name": "Granite Wall",
+              "minecraft_id_name": "granite_wall"
+            },
+            {
+              "name": "Stone Brick Wall",
+              "minecraft_id_name": "stone_brick_wall"
+            },
+            {
+              "name": "Nether Brick Wall",
+              "minecraft_id_name": "nether_brick_wall"
+            },
+            {
+              "name": "Andesite Wall",
+              "minecraft_id_name": "andesite_wall"
+            },
+            {
+              "name": "Red Nether Brick Wall",
+              "minecraft_id_name": "red_nether_brick_wall"
+            },
+            {
+              "name": "Sandstone Wall",
+              "minecraft_id_name": "sandstone_wall"
+            },
+            {
+              "name": "End Stone Brick Wall",
+              "minecraft_id_name": "end_stone_brick_wall"
+            },
+            {
+              "name": "Diorite Wall",
+              "minecraft_id_name": "diorite_wall"
+            },
+            {
+              "name": "Blackstone Wall",
+              "minecraft_id_name": "blackstone_wall"
+            },
+            {
+              "name": "Polished Blackstone Wall",
+              "minecraft_id_name": "polished_blackstone_wall"
+            },
+            {
+              "name": "Polished Blackstone Brick Wall",
+              "minecraft_id_name": "polished_blackstone_brick_wall"
+            },
+            {
+              "name": "Cobbled Deepslate Wall",
+              "minecraft_id_name": "cobbled_deepslate_wall"
+            },
+            {
+              "name": "Polished Deepslate Wall",
+              "minecraft_id_name": "polished_deepslate_wall"
+            },
+            {
+              "name": "Deepslate Brick Wall",
+              "minecraft_id_name": "deepslate_brick_wall"
+            },
+            {
+              "name": "Deepslate Tile Wall",
+              "minecraft_id_name": "deepslate_tile_wall"
+            }
+          ]
+        },
+        {
+          "name": "Anvil",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Chipped Anvil",
+          "minecraft_id_name": "chipped_anvil",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Damaged Anvil",
+          "minecraft_id_name": "damaged_anvil",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Carpets",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Carpet",
+              "minecraft_id_name": "white_carpet"
+            },
+            {
+              "name": "Orange Carpet",
+              "minecraft_id_name": "orange_carpet"
+            },
+            {
+              "name": "Magenta Carpet",
+              "minecraft_id_name": "magenta_carpet"
+            },
+            {
+              "name": "Light Blue Carpet",
+              "minecraft_id_name": "light_blue_carpet"
+            },
+            {
+              "name": "Yellow Carpet",
+              "minecraft_id_name": "yellow_carpet"
+            },
+            {
+              "name": "Lime Carpet",
+              "minecraft_id_name": "lime_carpet"
+            },
+            {
+              "name": "Pink Carpet",
+              "minecraft_id_name": "pink_carpet"
+            },
+            {
+              "name": "Gray Carpet",
+              "minecraft_id_name": "gray_carpet"
+            },
+            {
+              "name": "Light Gray Carpet",
+              "minecraft_id_name": "light_gray_carpet"
+            },
+            {
+              "name": "Cyan Carpet",
+              "minecraft_id_name": "cyan_carpet"
+            },
+            {
+              "name": "Purple Carpet",
+              "minecraft_id_name": "purple_carpet"
+            },
+            {
+              "name": "Blue Carpet",
+              "minecraft_id_name": "blue_carpet"
+            },
+            {
+              "name": "Brown Carpet",
+              "minecraft_id_name": "brown_carpet"
+            },
+            {
+              "name": "Green Carpet",
+              "minecraft_id_name": "green_carpet"
+            },
+            {
+              "name": "Red Carpet",
+              "minecraft_id_name": "red_carpet"
+            },
+            {
+              "name": "Black Carpet",
+              "minecraft_id_name": "black_carpet"
+            }
+          ]
+        },
+        {
+          "name": "Dirt Path",
+          "minecraft_id_name": "dirt_path",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Sunflower",
+          "minecraft_id_name": "sunflower",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Tall Grass",
+          "minecraft_id_name": "tall_grass",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Large Fern",
+          "minecraft_id_name": "large_fern",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Stained Glass Pane",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Stained Glass Pane",
+              "minecraft_id_name": "white_stained_glass_pane"
+            },
+            {
+              "name": "Orange Stained Glass Pane",
+              "minecraft_id_name": "orange_stained_glass_pane"
+            },
+            {
+              "name": "Magenta Stained Glass Pane",
+              "minecraft_id_name": "magenta_stained_glass_pane"
+            },
+            {
+              "name": "Light Blue Stained Glass Pane",
+              "minecraft_id_name": "light_blue_stained_glass_pane"
+            },
+            {
+              "name": "Yellow Stained Glass Pane",
+              "minecraft_id_name": "yellow_stained_glass_pane"
+            },
+            {
+              "name": "Lime Stained Glass Pane",
+              "minecraft_id_name": "lime_stained_glass_pane"
+            },
+            {
+              "name": "Pink Stained Glass Pane",
+              "minecraft_id_name": "pink_stained_glass_pane"
+            },
+            {
+              "name": "Gray Stained Glass Pane",
+              "minecraft_id_name": "gray_stained_glass_pane"
+            },
+            {
+              "name": "Light Gray Stained Glass Pane",
+              "minecraft_id_name": "light_gray_stained_glass_pane"
+            },
+            {
+              "name": "Cyan Stained Glass Pane",
+              "minecraft_id_name": "cyan_stained_glass_pane"
+            },
+            {
+              "name": "Purple Stained Glass Pane",
+              "minecraft_id_name": "purple_stained_glass_pane"
+            },
+            {
+              "name": "Blue Stained Glass Pane",
+              "minecraft_id_name": "blue_stained_glass_pane"
+            },
+            {
+              "name": "Brown Stained Glass Pane",
+              "minecraft_id_name": "brown_stained_glass_pane"
+            },
+            {
+              "name": "Green Stained Glass Pane",
+              "minecraft_id_name": "green_stained_glass_pane"
+            },
+            {
+              "name": "Red Stained Glass Pane",
+              "minecraft_id_name": "red_stained_glass_pane"
+            },
+            {
+              "name": "Black Stained Glass Pane",
+              "minecraft_id_name": "black_stained_glass_pane"
+            }
+          ]
+        },
+        {
+          "name": "Shulker Box",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Shulker Box",
+              "minecraft_id_name": "white_shulker_box"
+            },
+            {
+              "name": "Orange Shulker Box",
+              "minecraft_id_name": "orange_shulker_box"
+            },
+            {
+              "name": "Magenta Shulker Box",
+              "minecraft_id_name": "magenta_shulker_box"
+            },
+            {
+              "name": "Light Blue Shulker Box",
+              "minecraft_id_name": "light_blue_shulker_box"
+            },
+            {
+              "name": "Yellow Shulker Box",
+              "minecraft_id_name": "yellow_shulker_box"
+            },
+            {
+              "name": "Lime Shulker Box",
+              "minecraft_id_name": "lime_shulker_box"
+            },
+            {
+              "name": "Pink Shulker Box",
+              "minecraft_id_name": "pink_shulker_box"
+            },
+            {
+              "name": "Gray Shulker Box",
+              "minecraft_id_name": "gray_shulker_box"
+            },
+            {
+              "name": "Light Gray Shulker Box",
+              "minecraft_id_name": "light_gray_shulker_box"
+            },
+            {
+              "name": "Cyan Shulker Box",
+              "minecraft_id_name": "cyan_shulker_box"
+            },
+            {
+              "name": "Purple Shulker Box",
+              "minecraft_id_name": "purple_shulker_box"
+            },
+            {
+              "name": "Blue Shulker Box",
+              "minecraft_id_name": "blue_shulker_box"
+            },
+            {
+              "name": "Brown Shulker Box",
+              "minecraft_id_name": "brown_shulker_box"
+            },
+            {
+              "name": "Green Shulker Box",
+              "minecraft_id_name": "green_shulker_box"
+            },
+            {
+              "name": "Red Shulker Box",
+              "minecraft_id_name": "red_shulker_box"
+            },
+            {
+              "name": "Black Shulker Box",
+              "minecraft_id_name": "black_shulker_box"
+            }
+          ]
+        },
+        {
+          "name": "Glazed Terracota",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Glazed Terracota",
+              "minecraft_id_name": "white_glazed_terracotta"
+            },
+            {
+              "name": "Orange Glazed Terracota",
+              "minecraft_id_name": "orange_glazed_terracotta"
+            },
+            {
+              "name": "Magenta Glazed Terracota",
+              "minecraft_id_name": "magenta_glazed_terracotta"
+            },
+            {
+              "name": "Light Blue Glazed Terracota",
+              "minecraft_id_name": "light_blue_glazed_terracotta"
+            },
+            {
+              "name": "Yellow Glazed Terracota",
+              "minecraft_id_name": "yellow_glazed_terracotta"
+            },
+            {
+              "name": "Lime Glazed Terracota",
+              "minecraft_id_name": "lime_glazed_terracotta"
+            },
+            {
+              "name": "Pink Glazed Terracota",
+              "minecraft_id_name": "pink_glazed_terracotta"
+            },
+            {
+              "name": "Gray Glazed Terracota",
+              "minecraft_id_name": "gray_glazed_terracotta"
+            },
+            {
+              "name": "Light Gray Glazed Terracota",
+              "minecraft_id_name": "light_gray_glazed_terracotta"
+            },
+            {
+              "name": "Cyan Glazed Terracota",
+              "minecraft_id_name": "cyan_glazed_terracotta"
+            },
+            {
+              "name": "Purple Glazed Terracota",
+              "minecraft_id_name": "purple_glazed_terracotta"
+            },
+            {
+              "name": "Blue Glazed Terracota",
+              "minecraft_id_name": "blue_glazed_terracotta"
+            },
+            {
+              "name": "Brown Glazed Terracota",
+              "minecraft_id_name": "brown_glazed_terracotta"
+            },
+            {
+              "name": "Green Glazed Terracota",
+              "minecraft_id_name": "green_glazed_terracotta"
+            },
+            {
+              "name": "Red Glazed Terracota",
+              "minecraft_id_name": "red_glazed_terracotta"
+            },
+            {
+              "name": "Black Glazed Terracota",
+              "minecraft_id_name": "black_glazed_terracotta"
+            }
+          ]
+        },
+        {
+          "name": "Coral",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Tube Coral",
+              "minecraft_id_name": "tube_coral"
+            },
+            {
+              "name": "Brain Coral",
+              "minecraft_id_name": "brain_coral"
+            },
+            {
+              "name": "Bubble Coral",
+              "minecraft_id_name": "bubble_coral"
+            },
+            {
+              "name": "Fire Coral",
+              "minecraft_id_name": "fire_coral"
+            },
+            {
+              "name": "Horn Coral",
+              "minecraft_id_name": "horn_coral"
+            },
+            {
+              "name": "Dead Tube Coral",
+              "minecraft_id_name": "dead_tube_coral"
+            },
+            {
+              "name": "Dead Brain Coral",
+              "minecraft_id_name": "dead_brain_coral"
+            },
+            {
+              "name": "Dead Bubble Coral",
+              "minecraft_id_name": "dead_bubble_coral"
+            },
+            {
+              "name": "Dead Fire Coral",
+              "minecraft_id_name": "dead_fire_coral"
+            },
+            {
+              "name": "Dead Horn Coral",
+              "minecraft_id_name": "dead_horn_coral"
+            },
+            {
+              "name": "Tube Coral Fan",
+              "minecraft_id_name": "tube_coral_fan"
+            },
+            {
+              "name": "Brain Coral Fan",
+              "minecraft_id_name": "brain_coral_fan"
+            },
+            {
+              "name": "Bubble Coral Fan",
+              "minecraft_id_name": "bubble_coral_fan"
+            },
+            {
+              "name": "Fire Coral Fan",
+              "minecraft_id_name": "fire_coral_fan"
+            },
+            {
+              "name": "Horn Coral Fan",
+              "minecraft_id_name": "horn_coral_fan"
+            },
+            {
+              "name": "Dead Tube Coral Fan",
+              "minecraft_id_name": "dead_tube_coral_fan"
+            },
+            {
+              "name": "Dead Brain Coral Fan",
+              "minecraft_id_name": "dead_brain_coral_fan"
+            },
+            {
+              "name": "Dead Bubble Coral Fan",
+              "minecraft_id_name": "dead_bubble_coral_fan"
+            },
+            {
+              "name": "Dead Fire Coral Fan",
+              "minecraft_id_name": "dead_fire_coral_fan"
+            },
+            {
+              "name": "Dead Horn Coral Fan",
+              "minecraft_id_name": "dead_horn_coral_fan"
+            },
+            {
+              "name": "Tube Coral Wall Fan",
+              "minecraft_id_name": "tube_coral_wall_fan"
+            },
+            {
+              "name": "Brain Coral Wall Fan",
+              "minecraft_id_name": "brain_coral_wall_fan"
+            },
+            {
+              "name": "Bubble Coral Wall Fan",
+              "minecraft_id_name": "bubble_coral_wall_fan"
+            },
+            {
+              "name": "Fire Coral Wall Fan",
+              "minecraft_id_name": "fire_coral_wall_fan"
+            },
+            {
+              "name": "Horn Coral Wall Fan",
+              "minecraft_id_name": "horn_coral_wall_fan"
+            },
+            {
+              "name": "Dead Tube Coral Wall Fan",
+              "minecraft_id_name": "dead_tube_coral_wall_fan"
+            },
+            {
+              "name": "Dead Brain Coral Wall Fan",
+              "minecraft_id_name": "dead_brain_coral_wall_fan"
+            },
+            {
+              "name": "Dead Bubble Coral Wall Fan",
+              "minecraft_id_name": "dead_bubble_coral_wall_fan"
+            },
+            {
+              "name": "Dead Fire Coral Wall Fan",
+              "minecraft_id_name": "dead_fire_coral_wall_fan"
+            }
+          ]
+        },
+        {
+          "name": "Scaffolding",
+          "minecraft_id_name": "scaffolding",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Painting",
+          "minecraft_id_name": "painting",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Signs",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Oak Sign",
+              "minecraft_id_name": "oak_sign"
+            },
+            {
+              "name": "Spruce Sign",
+              "minecraft_id_name": "spruce_sign"
+            },
+            {
+              "name": "Birch Sign",
+              "minecraft_id_name": "birch_sign"
+            },
+            {
+              "name": "Jungle Sign",
+              "minecraft_id_name": "jungle_sign"
+            },
+            {
+              "name": "Acacia Sign",
+              "minecraft_id_name": "acacia_sign"
+            },
+            {
+              "name": "Dark Oak Sign",
+              "minecraft_id_name": "dark_oak_sign"
+            },
+            {
+              "name": "Crimson Sign",
+              "minecraft_id_name": "crimson_sign"
+            },
+            {
+              "name": "Warped Sign",
+              "minecraft_id_name": "warped_sign"
+            }
+          ]
+        },
+        {
+          "name": "Beds",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Bed",
+              "minecraft_id_name": "white_bed"
+            },
+            {
+              "name": "Orange Bed",
+              "minecraft_id_name": "orange_bed"
+            },
+            {
+              "name": "Magenta Bed",
+              "minecraft_id_name": "magenta_bed"
+            },
+            {
+              "name": "Light Blue Bed",
+              "minecraft_id_name": "light_blue_bed"
+            },
+            {
+              "name": "Yellow Bed",
+              "minecraft_id_name": "yellow_bed"
+            },
+            {
+              "name": "Lime Bed",
+              "minecraft_id_name": "lime_bed"
+            },
+            {
+              "name": "Pink Bed",
+              "minecraft_id_name": "pink_bed"
+            },
+            {
+              "name": "Gray Bed",
+              "minecraft_id_name": "gray_bed"
+            },
+            {
+              "name": "Light Gray Bed",
+              "minecraft_id_name": "light_gray_bed"
+            },
+            {
+              "name": "Cyan Bed",
+              "minecraft_id_name": "cyan_bed"
+            },
+            {
+              "name": "Purple Bed",
+              "minecraft_id_name": "purple_bed"
+            },
+            {
+              "name": "Blue Bed",
+              "minecraft_id_name": "blue_bed"
+            },
+            {
+              "name": "Brown Bed",
+              "minecraft_id_name": "brown_bed"
+            },
+            {
+              "name": "Green Bed",
+              "minecraft_id_name": "green_bed"
+            },
+            {
+              "name": "Red Bed",
+              "minecraft_id_name": "red_bed"
+            },
+            {
+              "name": "Black Bed",
+              "minecraft_id_name": "black_bed"
+            }
+          ]
+        },
+        {
+          "name": "Item Frame",
+          "minecraft_id_name": "item_frame",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Glow Item Frame",
+          "minecraft_id_name": "glow_item_frame",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Flower Pot",
+          "minecraft_id_name": "flower_pot",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Heads",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "Skeleton Skull",
+              "minecraft_id_name": "skeleton_skull"
+            },
+            {
+              "name": "Wither Skeleton Skull",
+              "minecraft_id_name": "wither_skeleton_skull"
+            },
+            {
+              "name": "Zombie Head",
+              "minecraft_id_name": "zombie_head"
+            },
+            {
+              "name": "Player Head",
+              "minecraft_id_name": "player_head"
+            },
+            {
+              "name": "Creeper Head",
+              "minecraft_id_name": "creeper_head"
+            },
+            {
+              "name": "Dragon Head",
+              "minecraft_id_name": "dragon_head"
+            }
+          ]
+        },
+        {
+          "name": "Armor Stand",
+          "minecraft_id_name": "armor_stand",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Banners",
+          "stackable": "yes",
+          "categoryId": 8,
+          "variants": [
+            {
+              "name": "White Banner",
+              "minecraft_id_name": "white_banner"
+            },
+            {
+              "name": "Orange Banner",
+              "minecraft_id_name": "orange_banner"
+            },
+            {
+              "name": "Magenta Banner",
+              "minecraft_id_name": "magenta_banner"
+            },
+            {
+              "name": "Light Blue Banner",
+              "minecraft_id_name": "light_blue_banner"
+            },
+            {
+              "name": "Yellow Banner",
+              "minecraft_id_name": "yellow_banner"
+            },
+            {
+              "name": "Lime Banner",
+              "minecraft_id_name": "lime_banner"
+            },
+            {
+              "name": "Pink Banner",
+              "minecraft_id_name": "pink_banner"
+            },
+            {
+              "name": "Gray Banner",
+              "minecraft_id_name": "gray_banner"
+            },
+            {
+              "name": "Light Gray Banner",
+              "minecraft_id_name": "light_gray_banner"
+            },
+            {
+              "name": "Cyan Banner",
+              "minecraft_id_name": "cyan_banner"
+            },
+            {
+              "name": "Purple Banner",
+              "minecraft_id_name": "purple_banner"
+            },
+            {
+              "name": "Blue Banner",
+              "minecraft_id_name": "blue_banner"
+            },
+            {
+              "name": "Brown Banner",
+              "minecraft_id_name": "brown_banner"
+            },
+            {
+              "name": "Green Banner",
+              "minecraft_id_name": "green_banner"
+            },
+            {
+              "name": "Red Banner",
+              "minecraft_id_name": "red_banner"
+            },
+            {
+              "name": "Black Banner",
+              "minecraft_id_name": "black_banner"
+            }
+          ]
+        },
+        {
+          "name": "End Crystal",
+          "minecraft_id_name": "end_crystal",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Loom",
+          "minecraft_id_name": "loom",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Composter",
+          "minecraft_id_name": "composter",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Barrel",
+          "minecraft_id_name": "barrel",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Smoker",
+          "minecraft_id_name": "smoker",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Blast Furnace",
+          "minecraft_id_name": "blast_furnace",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Cartography Table",
+          "minecraft_id_name": "cartography_table",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Fletching Table",
+          "minecraft_id_name": "fletching_table",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Grindstone",
+          "minecraft_id_name": "grindstone",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Smithing Table",
+          "minecraft_id_name": "smithing_table",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Stonecutter",
+          "minecraft_id_name": "stonecutter",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Bell",
+          "minecraft_id_name": "bell",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Lantern",
+          "minecraft_id_name": "lantern",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Soul Lantern",
+          "minecraft_id_name": "soul_lantern",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Campfire",
+          "minecraft_id_name": "campfire",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Soul Campfire",
+          "minecraft_id_name": "soul_campfire",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Shroomlight",
+          "minecraft_id_name": "shroomlight",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Bee Nest",
+          "minecraft_id_name": "bee_nest",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Beehive",
+          "minecraft_id_name": "beehive",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Honeycomb Block",
+          "minecraft_id_name": "honeycomb_block",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Lodestone",
+          "minecraft_id_name": "lodestone",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Respawn Anchor",
+          "minecraft_id_name": "respawn_anchor",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Candles",
+          "stackable": "yes",
+          "categoryId": 8,
+          "subItems": [
+            {
+              "name": "White Candle",
+              "minecraft_id_name": "white_candle"
+            },
+            {
+              "name": "Orange Candle",
+              "minecraft_id_name": "orange_candle"
+            },
+            {
+              "name": "Magenta Candle",
+              "minecraft_id_name": "magenta_candle"
+            },
+            {
+              "name": "Light Blue Candle",
+              "minecraft_id_name": "light_blue_candle"
+            },
+            {
+              "name": "Yellow Candle",
+              "minecraft_id_name": "yellow_candle"
+            },
+            {
+              "name": "Lime Candle",
+              "minecraft_id_name": "lime_candle"
+            },
+            {
+              "name": "Pink Candle",
+              "minecraft_id_name": "pink_candle"
+            },
+            {
+              "name": "Gray Candle",
+              "minecraft_id_name": "gray_candle"
+            },
+            {
+              "name": "Light Gray Candle",
+              "minecraft_id_name": "light_gray_candle"
+            },
+            {
+              "name": "Cyan Candle",
+              "minecraft_id_name": "cyan_candle"
+            },
+            {
+              "name": "Purple Candle",
+              "minecraft_id_name": "purple_candle"
+            },
+            {
+              "name": "Blue Candle",
+              "minecraft_id_name": "blue_candle"
+            },
+            {
+              "name": "Brown Candle",
+              "minecraft_id_name": "brown_candle"
+            },
+            {
+              "name": "Green Candle",
+              "minecraft_id_name": "green_candle"
+            },
+            {
+              "name": "Red Candle",
+              "minecraft_id_name": "red_candle"
+            },
+            {
+              "name": "Black Candle",
+              "minecraft_id_name": "black_candle"
+            }
+          ]
+        },
+        {
+          "name": "Small Amethyst Bud",
+          "minecraft_id_name": "small_amethyst_bud",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Medium Amethyst Bud",
+          "minecraft_id_name": "medium_amethyst_bud",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Large Amethyst Bud",
+          "minecraft_id_name": "large_amethyst_bud",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Amethyst Cluster",
+          "minecraft_id_name": "amethyst_cluster",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Pointed Dripstone",
+          "minecraft_id_name": "pointed_dripstone",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Ochre Froglight",
+          "minecraft_id_name": "ochre_froglight",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Verdant Froglight",
+          "minecraft_id_name": "verdant_froglight",
+          "stackable": "yes",
+          "categoryId": 8
+        },
+        {
+          "name": "Pealerscent Froglight",
+          "minecraft_id_name": "pealerscent_froglight",
+          "stackable": "yes",
+          "categoryId": 8
+        }
+      ],
+      "brewing": [
+        {
+          "name": "Ghast tear",
+          "minecraft_id_name": "ghast_tear",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Water Bottle",
+          "minecraft_id_name": "potion",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "categoryId": 5,
+          "potions": [
+            {
+              "name": "Awkward Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Thick Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Mundane Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Potion of Fire Resistance",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "fire_resistance"
+            },
+            {
+              "name": "Potion of Swiftness",
+              "duration": [
+                "180",
+                "480 (with redstone added)",
+                "78 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "speed"
+            },
+            {
+              "name": "Potion of Slowness",
+              "duration": [
+                "78",
+                "240 (with redstone added)",
+                "20 (with glowstone added)"
+              ],
+              "amplifier": ["0", "3 (with glowstone added)"],
+              "effect": "slowness"
+            },
+            {
+              "name": "Potion of Harming",
+              "effect": "instant_damage",
+              "amplifier": ["0", "1 (with glowstone added)"]
+            },
+            {
+              "name": "Potion of Healing",
+              "effect": "instant_health"
+            },
+            {
+              "name": "Potion of Poison",
+              "duration": [
+                "45",
+                "78 (with redstone added)",
+                "21 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "poison"
+            },
+            {
+              "name": "Potion of Regeneration",
+              "duration": [
+                "45",
+                "78 (with redstone added)",
+                "22 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "regeneration"
+            },
+            {
+              "name": "Potion of Strength",
+              "duration": [
+                "180",
+                "480 (with redstone added)",
+                "78 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "strength"
+            },
+            {
+              "name": "Potion of Weakness",
+              "duration": ["90", "240 (with redstone added)"],
+              "amplifier": "0",
+              "effect": "weakness"
+            },
+            {
+              "name": "Potion of Leaping",
+              "duration": ["300", "480 (with redstone added)"],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "jump_boost"
+            },
+            {
+              "name": "Potion of Night Vision",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "night_vision"
+            },
+            {
+              "name": "Potion of Invisibility",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "invisibility"
+            },
+            {
+              "name": "Potion of Water Breathing",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "water_breathing"
+            },
+            {
+              "name": "Potion of Luck",
+              "duration": "300",
+              "effect": "luck"
+            },
+            {
+              "name": "Potion of Turtle Master",
+              "duration": [
+                "20",
+                "40 (with redstone added)",
+                "20 (with glowstone added)"
+              ],
+              "effect": [
+                "slowness",
+                "resistance",
+                "slowness VI (with glowstone added)",
+                "resistance IV (with glowstone added)"
+              ],
+              "amplifier": ["3, 2", "5, 4 (with glowstone added)"]
+            },
+            {
+              "name": "Potion of Slow Falling ",
+              "duration": ["90", "240 (with redstone added)"],
+              "effect": "slow_falling"
+            },
+            {
+              "name": "Potion of Decay",
+              "effect": "wither"
+            }
+          ]
+        },
+        {
+          "name": "Glass Bottle",
+          "minecraft_id_name": "glass_bottle",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Fermented Spider Eye",
+          "minecraft_id_name": "fermented_spider_eye",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Blaze Powder",
+          "minecraft_id_name": "blaze_powder",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Magma Cream",
+          "minecraft_id_name": "magma_cream",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Brewing Stand",
+          "minecraft_id_name": "brewing_stand",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Cauldron",
+          "minecraft_id_name": "cauldron",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Glistering Melon",
+          "minecraft_id_name": "glistering_melon_slice",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Golden Carrot",
+          "minecraft_id_name": "golden_carrot",
+          "quality": "supernatural",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Rabbit's Foot",
+          "minecraft_id_name": "rabbit_foot",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "name": "Dragon's Breath",
+          "minecraft_id_name": "dragon_breath",
+          "stackable": "yes",
+          "categoryId": 5
+        },
+        {
+          "categoryId": 5,
+          "splash_potions": [
+            {
+              "name": "Awkward Splash Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Thick Splash Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Mundane Splash Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Splash Potion of Fire Resistance",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "fire_resistance"
+            },
+            {
+              "name": "Splash Potion of Swiftness",
+              "duration": [
+                "180",
+                "480 (with redstone added)",
+                "78 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "speed"
+            },
+            {
+              "name": "Splash Potion of Slowness",
+              "duration": [
+                "78",
+                "240 (with redstone added)",
+                "20 (with glowstone added)"
+              ],
+              "amplifier": ["0", "3 (with glowstone added)"],
+              "effect": "slowness"
+            },
+            {
+              "name": "Splash Potion of Harming",
+              "effect": "instant_damage",
+              "amplifier": ["0", "1 (with glowstone added)"]
+            },
+            {
+              "name": "Splash Potion of Healing",
+              "effect": "instant_health"
+            },
+            {
+              "name": "Splash Potion of Poison",
+              "duration": [
+                "45",
+                "78 (with redstone added)",
+                "21 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "poison"
+            },
+            {
+              "name": "Splash Potion of Regeneration",
+              "duration": [
+                "45",
+                "78 (with redstone added)",
+                "22 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "regeneration"
+            },
+            {
+              "name": "Splash Potion of Strength",
+              "duration": [
+                "180",
+                "480 (with redstone added)",
+                "78 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "strength"
+            },
+            {
+              "name": "Splash Potion of Weakness",
+              "duration": ["90", "240 (with redstone added)"],
+              "amplifier": "0",
+              "effect": "weakness"
+            },
+            {
+              "name": "Splash Potion of Leaping",
+              "duration": ["300", "480 (with redstone added)"],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "jump_boost"
+            },
+            {
+              "name": "Splash Potion of Night Vision",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "night_vision"
+            },
+            {
+              "name": "Splash Potion of Invisibility",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "invisibility"
+            },
+            {
+              "name": "Splash Potion of Water Breathing",
+              "duration": ["300", "480 (with redstone added)"],
+              "effect": "water_breathing"
+            },
+            {
+              "name": "Splash Potion of Luck",
+              "duration": "300",
+              "effect": "luck"
+            },
+            {
+              "name": "Splash Potion of Turtle Master",
+              "duration": [
+                "20",
+                "40 (with redstone added)",
+                "20 (with glowstone added)"
+              ],
+              "effect": [
+                "slowness",
+                "resistance",
+                "slowness VI (with glowstone added)",
+                "resistance IV (with glowstone added)"
+              ],
+              "amplifier": ["3, 2", "5, 4 (with glowstone added)"]
+            },
+            {
+              "name": "Splash Potion of Slow Falling ",
+              "duration": ["90", "240 (with redstone added)"],
+              "effect": "slow_falling"
+            }
+          ]
+        },
+        {
+          "categoryId": 5,
+          "lingering_potions": [
+            {
+              "name": "Awkward Lingering Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Thick Lingering Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Mundane Lingering Potion",
+              "effect": "none"
+            },
+            {
+              "name": "Lingering Potion of Fire Resistance",
+              "duration": ["45", "120 (with redstone added)"],
+              "effect": "fire_resistance"
+            },
+            {
+              "name": "Lingering Potion of Swiftness",
+              "duration": [
+                "45",
+                "120 (with redstone added)",
+                "22 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "speed"
+            },
+            {
+              "name": "Lingering Potion of Slowness",
+              "duration": [
+                "22",
+                "60 (with redstone added)",
+                "5 (with glowstone added)"
+              ],
+              "amplifier": ["0", "3 (with glowstone added)"],
+              "effect": "slowness"
+            },
+            {
+              "name": "Lingering Potion of Harming",
+              "effect": "instant_damage",
+              "amplifier": ["0", "1 (with glowstone added)"]
+            },
+            {
+              "name": "Lingering Potion of Healing",
+              "effect": "instant_health",
+              "amplifier": ["0", "1 (with glowstone added)"]
+            },
+            {
+              "name": "Lingering Potion of Poison",
+              "duration": [
+                "11",
+                "22 (with redstone added)",
+                "5 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "poison"
+            },
+            {
+              "name": "Lingering Potion of Regeneration",
+              "duration": [
+                "11",
+                "22 (with redstone added)",
+                "5 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "regeneration"
+            },
+            {
+              "name": "Lingering Potion of Strength",
+              "duration": [
+                "45",
+                "120 (with redstone added)",
+                "22 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "strength"
+            },
+            {
+              "name": "Lingering Potion of Weakness",
+              "duration": ["22", "60 (with redstone added)"],
+              "amplifier": "0",
+              "effect": "weakness"
+            },
+            {
+              "name": "Lingering Potion of Leaping",
+              "duration": [
+                "45",
+                "120 (with redstone added)",
+                "22 (with glowstone added)"
+              ],
+              "amplifier": ["0", "1 (with glowstone added)"],
+              "effect": "jump_boost"
+            },
+            {
+              "name": "Lingering Potion of Night Vision",
+              "duration": ["45", "120 (with redstone added)"],
+              "effect": "night_vision"
+            },
+            {
+              "name": "Lingering Potion of Invisibility",
+              "duration": ["45", "120 (with redstone added)"],
+              "effect": "invisibility"
+            },
+            {
+              "name": "Lingering Potion of Water Breathing",
+              "duration": ["45", "120 (with redstone added)"],
+              "effect": "water_breathing"
+            },
+            {
+              "name": "Lingering Potion of Luck",
+              "duration": "75",
+              "effect": "luck"
+            },
+            {
+              "name": "Lingering Potion of Turtle Master",
+              "duration": [
+                "5",
+                "10 (with redstone added)",
+                "5 (with glowstone added)"
+              ],
+              "effect": ["slowness", "resistance"],
+              "amplifier": ["3, 2", "5, 4 (with glowstone added)"]
+            },
+            {
+              "name": "Lingering Potion of Slow Falling ",
+              "duration": ["22", "60 (with redstone added)"],
+              "effect": "slow_falling"
+            }
+          ]
+        },
+        {
+          "name": "Phantom Membrane",
+          "minecraft_id_name": "phantom_membrane",
+          "stackable": "yes",
+          "categoryId": "5"
+        }
+      ]
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "tools",
+      "name": "tools"
+    },
+    {
+      "id": "2",
+      "name": "combat"
+    },
+    {
+      "id": "3",
+      "name": "foodstuffs"
+    },
+    {
+      "id": "4",
+      "name": "miscellaneous"
+    },
+    {
+      "id": "5",
+      "name": "brewing"
+    },
+    {
+      "id": "6",
+      "name": "transportation"
+    },
+    {
+      "id": "7",
+      "name": "redstone"
+    },
+    {
+      "id": "8",
+      "name": "decoration_blocks"
+    },
+    {
+      "id": "9",
+      "name": "building_blocks"
+    }
+  ]
+}
+

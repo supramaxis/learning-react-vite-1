@@ -8,7 +8,21 @@ const db = require("./db.json");
 
 server.use(
   cors({
-    origin: "http://127.0.0.1:3001"
+    origin: "http://localhost:5173"
+  })
+);
+
+server.use(
+  jsonServer.rewriter({
+    "/api/*": "/$1",
+    "/combat/:category": "/combat?category=:category",
+    "/tools/:category": "/tools?category=:category",
+    "/food/:category": "/foodstuffs?category=:category",
+    "/transportation/:category": "/redstone?category=:category",
+    "/redstone/:category": "/redstone?category=:category",
+    "/decoration/:category": "/redstone?category=:category",
+    "/brewing/:category": "/redstone?category=:category",
+    "/combat/categoryid/:categoryId": "/combat?categoryId=:categoryId"
   })
 );
 
@@ -33,20 +47,6 @@ server.get("/api", (req, res) => {
 //     }
 //   )
 // });
-
-server.use(
-  jsonServer.rewriter({
-    "/api/*": "/$1",
-    "/combat/:category": "/combat?category=:category",
-    "/tools/:category": "/tools?category=:category",
-    "/food/:category": "/foodstuffs?category=:category",
-    "/transportation/:category": "/redstone?category=:category",
-    "/redstone/:category": "/redstone?category=:category",
-    "/decoration/:category": "/redstone?category=:category",
-    "/brewing/:category": "/redstone?category=:category",
-    "/combat/categoryid/:categoryId": "/combat?categoryId=:categoryId"
-  })
-);
 
 try {
   server.listen(3001, () => {
