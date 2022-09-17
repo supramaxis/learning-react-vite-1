@@ -16,7 +16,7 @@ export default function MinecraftAPI() {
 
   const fetchMinecraft = async () => {
     try {
-      const res = await axios.get("http://localhost:3001/api").then((res) => {
+      const res = await axios.get("http://127.0.0.1:3001/db").then(res => {
         console.log(res);
         setMinecraft(res);
       });

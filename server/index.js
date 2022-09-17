@@ -1,11 +1,25 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
-const cors = "cors";
-const request = "request";
+const cors = require("cors");
+const request = require("request");
 const { createProxyMiddleware } = require("http-proxy-middleware");
+const db = require("./db.json");
 
-server.use('/api', createProxyMiddleware({ target: 'http://localhost:3001', changeOrigin: true }));
+server.use(
+  cors({
+    origin: "http://127.0.0.1:3001"
+  })
+);
+
+server.get("/api", (req, res) => {
+  res.json(db);
+});
+
+// server.use(
+//   "/",
+//   createProxyMiddleware({ target: "http://localhost:3001", changeOrigin: true })
+// );
 
 // server.get('/jokes/random', (req, res) => {
 //   request(
