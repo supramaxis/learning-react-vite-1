@@ -1,12 +1,10 @@
 {
-  "/api/*": "/$1",
-  "/combat/:category": "/combat?category=:category",
-  "/tools/:category": "/tools?category=:category",
-  "/food/:category": "/foodstuffs?category=:category",
-  "/transportation/:category": "/redstone?category=:category",
-  "/redstone/:category": "/redstone?category=:category",
-  "/decoration/:category": "/redstone?category=:category",
-  "/brewing/:category": "/redstone?category=:category",
-  "/combat/categoryid/:categoryId": "/combat?categoryId=:categoryId"
+  "/combat/:category": "/data?category=:category",
+  "/tools/:category": "/data?category=:category",
+  "/food/:category": "/data?category=:category",
+  "/transportation/:category": "/data?category=:category",
+  "/redstone/:category": "/data?category=:category",
+  "/decoration/:category": "/data?category=:category",
+  "/brewing/:category": "/data?category=:category",
+  "/data/categoryid/:categoryId": "/data?categoryId=:categoryId"
 }
-
