@@ -33,9 +33,8 @@ export default function MinecraftAPI() {
   }, []);
   return (
     <div>
-      <h1>Minecraft API</h1>
+      <h1 className="main-container">Minecraft API</h1>
       <McTable minecraft={minecraft} />
     </div>
   );
 }
-

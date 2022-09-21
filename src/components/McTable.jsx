@@ -3,8 +3,8 @@ import React from "react";
 export default function McTable({ minecraft }) {
   return (
     <div>
-      <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+      <div className="overflow-x-auto relative shadow-md sm:rounded-lg flex items-center justify-center">
+        <table className="w-0 text-sm text-left text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" className="py-3 px-6">
@@ -18,6 +18,9 @@ export default function McTable({ minecraft }) {
               </th>
               <th scope="col" className="py-3 px-6">
                 Is Stackable?
+              </th>
+              <th scope="col" className="py-3 px-6">
+                Max Stack Size
               </th>
               <th scope="col" className="py-3 px-6">
                 Action
@@ -38,6 +41,7 @@ export default function McTable({ minecraft }) {
                   <td className="py-4 px-6">{mc.category}</td>
                   <td className="py-4 px-6">{mc.minecraft_id_name}</td>
                   <td className="py-4 px-6">{mc.stackable}</td>
+                  <td className="py-4 px-6">{mc.max_stack_size}</td>
                   <td className="py-4 px-6">
                     <a
                       href="#"
@@ -54,4 +58,3 @@ export default function McTable({ minecraft }) {
     </div>
   );
 }
-
