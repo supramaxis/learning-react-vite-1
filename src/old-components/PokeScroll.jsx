@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import axios from "axios";
-import InfiniteScroll from "react-infinite-scroll-component";
 import { getPokemons, getPokemonData, fetchApi } from "../components/fetchApi";
 import Pagination from "../components/Pagination";
 
@@ -90,4 +89,3 @@ export default function PokeScroll() {
     </>
   );
 }
-

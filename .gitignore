@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 errors.txt
 data2.json
-text.http
+requests.http
