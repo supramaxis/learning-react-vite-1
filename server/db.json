@@ -6,6 +6,7 @@
       "durability": 275,
       "category": "combat",
       "minecraft_id_name": "turtle_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -15,6 +16,7 @@
       "durability": 384,
       "category": "combat",
       "minecraft_id_name": "bow",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -24,11 +26,13 @@
       "category": "combat",
       "stackable": "yes",
       "minecraft_id_name": "arrow",
+      "max_stack_size": 64,
       "categoryId": 2
     },
     {
       "id": "wooden_sword",
       "name": "Wooden Sword",
+
       "attack_damage": 5,
       "attack_speed": 1.6,
       "hearts": 2,
@@ -36,6 +40,7 @@
       "durability": 60,
       "category": "swords",
       "minecraft_id_name": "wooden_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -49,6 +54,7 @@
       "durability": 132,
       "category": "swords",
       "minecraft_id_name": "stone_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -62,6 +68,7 @@
       "durability": 251,
       "category": "swords",
       "minecraft_id_name": "iron_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -75,6 +82,7 @@
       "durability": 33,
       "category": "swords",
       "minecraft_id_name": "golden_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -88,6 +96,7 @@
       "durability": 1562,
       "category": "swords",
       "minecraft_id_name": "diamond_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -100,6 +109,7 @@
       "durability": 2031,
       "category": "swords",
       "minecraft_id_name": "netherite_sword",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -110,6 +120,7 @@
       "durability": 55,
       "category": "armor",
       "minecraft_id_name": "leather_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -120,6 +131,7 @@
       "durability": 80,
       "category": "armor",
       "minecraft_id_name": "leather_chestplate",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -130,6 +142,7 @@
       "durability": 75,
       "category": "armor",
       "minecraft_id_name": "leather_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -140,6 +153,7 @@
       "durability": 65,
       "category": "armor",
       "minecraft_id_name": "leather_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -150,6 +164,7 @@
       "durability": 165,
       "category": "armor",
       "minecraft_id_name": "chainmail_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -159,6 +174,7 @@
       "armor_points": 2.5,
       "durability": 240,
       "category": "armor",
+      "max_stack_size": 1,
       "minecraft_id_name": "chainmail_chestplate",
       "stackable": "no",
       "categoryId": 2
@@ -170,6 +186,7 @@
       "durability": 225,
       "category": "armor",
       "minecraft_id_name": "chainmail_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -180,6 +197,7 @@
       "durability": 195,
       "category": "armor",
       "minecraft_id_name": "chainmail_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -190,6 +208,7 @@
       "durability": 165,
       "category": "armor",
       "minecraft_id_name": "iron_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -200,6 +219,7 @@
       "durability": 240,
       "category": "armor",
       "minecraft_id_name": "iron_chestplate",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -210,6 +230,7 @@
       "durability": 225,
       "category": "armor",
       "minecraft_id_name": "iron_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -220,6 +241,7 @@
       "durability": 195,
       "category": "armor",
       "minecraft_id_name": "iron_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -230,6 +252,7 @@
       "durability": 77,
       "category": "armor",
       "minecraft_id_name": "golden_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -240,6 +263,7 @@
       "durability": 114,
       "category": "armor",
       "minecraft_id_name": "golden_chestplate",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -250,6 +274,7 @@
       "durability": 105,
       "category": "armor",
       "minecraft_id_name": "golden_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -260,6 +285,7 @@
       "durability": 91,
       "category": "armor",
       "minecraft_id_name": "golden_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -271,6 +297,7 @@
       "durability": 363,
       "category": "armor",
       "minecraft_id_name": "diamond_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -282,6 +309,7 @@
       "durability": 528,
       "category": "armor",
       "minecraft_id_name": "diamond_chestplate",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -293,6 +321,7 @@
       "durability": 495,
       "category": "armor",
       "minecraft_id_name": "diamond_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -304,6 +333,7 @@
       "durability": 429,
       "category": "armor",
       "minecraft_id_name": "diamond_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -316,6 +346,7 @@
       "durability": 407,
       "category": "armor",
       "minecraft_id_name": "netherite_helmet",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -328,6 +359,7 @@
       "durability": 592,
       "category": "armor",
       "minecraft_id_name": "netherite_chestplate",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -340,6 +372,7 @@
       "durability": 555,
       "category": "armor",
       "minecraft_id_name": "netherite_leggings",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -352,6 +385,7 @@
       "durability": 481,
       "category": "armor",
       "minecraft_id_name": "netherite_boots",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -359,6 +393,7 @@
       "name": "Enchantment Books",
       "category": "enchantments",
       "minecraft_id_name": "enchanted_book",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2,
       "enchantments": [
@@ -807,6 +842,7 @@
       "minecraft_id_name": "shield",
       "category": "combat",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 2
     },
     {
@@ -814,6 +850,7 @@
       "minecraft_id_name": "totem_of_undying",
       "category": "combat",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 2,
       "status_effects": [
         {
@@ -840,6 +877,7 @@
       "durability": 250,
       "minecraft_id_name": "trident",
       "category": "combat",
+      "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
@@ -849,6 +887,7 @@
       "category": "combat",
       "minecraft_id_name": "crossbow",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 2
     },
     {
@@ -857,6 +896,7 @@
       "minecraft_id_name": "flint_and_steel",
       "category": "tools",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -868,6 +908,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "wooden_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -879,6 +920,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "stone_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -890,6 +932,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "iron_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -901,6 +944,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "golden_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -912,6 +956,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "diamond_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -923,6 +968,7 @@
       "category": "pickaxes",
       "minecraft_id_name": "netherite_pickaxe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -933,6 +979,7 @@
       "category": "axes",
       "minecraft_id_name": "wooden_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -943,6 +990,7 @@
       "category": "axes",
       "minecraft_id_name": "stone_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -953,6 +1001,7 @@
       "category": "axes",
       "minecraft_id_name": "iron_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -963,6 +1012,7 @@
       "category": "axes",
       "minecraft_id_name": "golden_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -973,6 +1023,7 @@
       "category": "axes",
       "minecraft_id_name": "diamond_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -983,6 +1034,7 @@
       "category": "axes",
       "minecraft_id_name": "netherite_axe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1003,6 +1055,7 @@
       "category": "shovels",
       "minecraft_id_name": "stone_shovel",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1013,6 +1066,7 @@
       "category": "shovels",
       "minecraft_id_name": "iron_shovel",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1023,6 +1077,7 @@
       "category": "shovels",
       "minecraft_id_name": "golden_shovel",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1033,6 +1088,7 @@
       "category": "shovels",
       "minecraft_id_name": "diamond_shovel",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1043,6 +1099,7 @@
       "category": "shovels",
       "minecraft_id_name": "netherite_shovel",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1053,6 +1110,7 @@
       "category": "hoe",
       "minecraft_id_name": "wooden_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1063,6 +1121,7 @@
       "category": "hoe",
       "minecraft_id_name": "stone_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1073,6 +1132,7 @@
       "category": "hoe",
       "minecraft_id_name": "iron_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1083,6 +1143,7 @@
       "category": "hoe",
       "minecraft_id_name": "golden_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1093,6 +1154,7 @@
       "category": "hoe",
       "minecraft_id_name": "diamond_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 1
     },
     {
@@ -1103,6 +1165,7 @@
       "category": "hoe",
       "minecraft_id_name": "netherite_hoe",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": "tools"
     },
     {
@@ -1110,7 +1173,8 @@
       "categoryId": "tools",
       "minecraft_id_name": "compass",
       "category": "tools",
-      "stackable": "yes"
+      "stackable": "yes",
+      "max_stack_size": 64
     },
     {
       "id": "recovery-compass",
@@ -1118,7 +1182,8 @@
       "categoryId": "tools",
       "minecraft_id_name": "recovery_compass",
       "category": "tools",
-      "stackable": "yes"
+      "stackable": "yes",
+      "max_stack_size": 64
     },
     {
       "name": "Fishing Rod",
@@ -1126,6 +1191,7 @@
       "minecraft_id_name": "fishing_rod",
       "category": "tools",
       "stackable": "no",
+      "max_stack_size": 1,
       "durability": 64
     },
     {
@@ -1133,13 +1199,15 @@
       "categoryId": 1,
       "minecraft_id_name": "clock",
       "category": "tools",
-      "stackable": "yes"
+      "stackable": "yes",
+      "max_stack_size": 64
     },
     {
       "name": "Spyglass",
       "categoryId": 1,
       "minecraft_id_name": "spyglass",
       "category": "tools",
+      "max_stack_size": 1,
       "stackable": "no"
     },
     {
@@ -1148,6 +1216,7 @@
       "minecraft_id_name": "shears",
       "category": "tools",
       "stackable": "no",
+      "max_stack_size": 1,
       "durability": 238
     },
     {
@@ -1155,20 +1224,23 @@
       "categoryId": 1,
       "minecraft_id_name": "lead",
       "category": "tools",
-      "stackable": "yes"
+      "stackable": "yes",
+      "max_stack_size": 64
     },
     {
       "name": "Name Tag",
       "categoryId": 1,
       "minecraft_id_name": "name_tag",
       "category": "tools",
-      "stackable": "yes"
+      "stackable": "yes",
+      "max_stack_size": 64
     },
     {
       "name": "Apple",
       "minecraft_id_name": "apple",
       "category": "food",
       "stackable": "yes",
+      "max_stack_size": 64,
       "quality": "low",
       "categoryId": 3,
       "saturation": 2.4,
@@ -1181,6 +1253,7 @@
       "category": "food",
       "quality": "normal",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 3,
       "food": 6,
       "hunger_points": 3
@@ -1192,6 +1265,7 @@
       "quality": "normal",
       "stackable": "yes",
       "categoryId": 3,
+      "max_stack_size": 64,
       "saturation": 6,
       "food": 5,
       "hunger_points": 2.5
@@ -1203,6 +1277,7 @@
       "quality": "good",
       "stackable": "yes",
       "categoryId": 3,
+      "max_stack_size": 64,
       "saturation": 12.8,
       "food": 8,
       "hunger_points": 4
@@ -1214,6 +1289,7 @@
       "category": "food",
       "stackable": "yes",
       "saturation": 4.8,
+      "max_stack_size": 64,
       "categoryId": 3,
       "food": 3,
       "hunger_points": 1.5
@@ -1224,6 +1300,7 @@
       "category": "food",
       "stackable": "yes",
       "quality": "supernatural",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 9.6,
       "food": 4,
@@ -1249,6 +1326,7 @@
       "quality": "supernatural",
       "categoryId": 3,
       "saturation": 9.6,
+      "max_stack_size": 64,
       "food": 4,
       "hunger_points": 2,
       "status_effects": [
@@ -1280,6 +1358,7 @@
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 0.4,
       "food": 2,
@@ -1291,6 +1370,7 @@
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 6,
       "food": 5,
@@ -1302,6 +1382,7 @@
       "category": "food",
       "quality": "good",
       "stackable": "yes",
+      "max_stack_size": 64,
       "saturation": 9.6,
       "categoryId": 3,
       "food": 6,
@@ -1313,6 +1394,7 @@
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 0.4,
       "food": 2,
@@ -1324,6 +1406,7 @@
       "category": "food",
       "quality": "good",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 9.6,
       "food": 6,
@@ -1335,6 +1418,7 @@
       "category": "food",
       "quality": "low",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 1.2,
       "food": 2,
@@ -1345,6 +1429,8 @@
       "minecraft_id_name": "tropical_fish",
       "category": "food",
       "stackable": "yes",
+      "max_stack_size": 64,
+      "quality": "poor",
       "categoryId": 3,
       "saturation": "0.2",
       "food": 1,
@@ -1356,6 +1442,7 @@
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": "0.2",
       "food": 1,
@@ -1384,6 +1471,7 @@
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 0.4,
       "food": 2,
@@ -1394,6 +1482,8 @@
       "minecraft_id_name": "melon_slice",
       "category": "food",
       "stackable": "yes",
+      "quality": "normal",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 1.2,
       "food": 2,
@@ -1404,6 +1494,7 @@
       "minecraft_id_name": "dried_kelp",
       "category": "food",
       "quality": "low",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 3,
       "saturation": 0.6,
@@ -1416,6 +1507,7 @@
       "category": "food",
       "quality": "good",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 12.8,
       "food": 8,
@@ -1427,6 +1519,7 @@
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 3,
       "saturation": 7.2,
       "food": 6,
@@ -1789,6 +1882,7 @@
       "minecraft_id_name": "minecart",
       "category": "transportation",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 6,
       "variants": [
         {
@@ -1814,6 +1908,7 @@
       "minecraft_id_name": "carrot_on_a_stick",
       "category": "transportation",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 6
     },
     {
@@ -1821,6 +1916,7 @@
       "minecraft_id_name": "warped_fungus_on_a_stick",
       "category": "transportation",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 6
     },
     {
@@ -1828,6 +1924,7 @@
       "minecraft_id_name": "elytra",
       "category": "transportation",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 6
     },
     {
@@ -1835,6 +1932,7 @@
       "minecraft_id_name": "boat",
       "category": "transportation",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 6,
       "variants": [
         {
@@ -4084,6 +4182,7 @@
       "minecraft_id_name": "pointed_dripstone",
       "category": "decoration",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 8
     },
     {
@@ -4112,6 +4211,7 @@
       "minecraft_id_name": "ghast_tear",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4119,12 +4219,14 @@
       "minecraft_id_name": "potion",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
       "categoryId": 5,
       "name": "Potions",
       "stackable": "no",
+      "max_stack_size": 1,
       "category": "brewing",
       "minecraft_id_name": "[effect_name]",
       "potions": [
@@ -4267,6 +4369,7 @@
       "minecraft_id_name": "glass_bottle",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4274,6 +4377,7 @@
       "minecraft_id_name": "fermented_spider_eye",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4281,6 +4385,7 @@
       "minecraft_id_name": "blaze_powder",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4288,6 +4393,7 @@
       "minecraft_id_name": "magma_cream",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4295,6 +4401,7 @@
       "minecraft_id_name": "brewing_stand",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4309,6 +4416,7 @@
       "minecraft_id_name": "glistering_melon_slice",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4317,6 +4425,7 @@
       "category": "brewing",
       "quality": "supernatural",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4324,6 +4433,7 @@
       "minecraft_id_name": "rabbit_foot",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
@@ -4331,12 +4441,14 @@
       "minecraft_id_name": "dragon_breath",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": 64,
       "categoryId": 5
     },
     {
       "name": "Splash Potions",
       "category": "brewing",
       "stackable": "no",
+      "max_stack_size": 1,
       "categoryId": 5,
       "minecraft_id_name": "[effect_name]",
       "splash_potions": [
@@ -4611,6 +4723,7 @@
       "minecraft_id_name": "phantom_membrane",
       "category": "brewing",
       "stackable": "yes",
+      "max_stack_size": "64",
       "categoryId": "5"
     },
     {
@@ -4655,4 +4768,3 @@
     }
   ]
 }
-

@@ -14,22 +14,20 @@ server.use(
 
 server.use(
   jsonServer.rewriter({
-    "/api/*": "/$1",
-    "/combat/:category": "/combat?category=:category",
-    "/tools/:category": "/tools?category=:category",
-    "/food/:category": "/foodstuffs?category=:category",
-    "/transportation/:category": "/redstone?category=:category",
-    "/redstone/:category": "/redstone?category=:category",
-    "/decoration/:category": "/redstone?category=:category",
-    "/brewing/:category": "/redstone?category=:category",
-    "/combat/categoryid/:categoryId": "/combat?categoryId=:categoryId"
+    "/combat/:category": "/api/data?category=:category",
+    "/tools/:category": "/data?category=:category",
+    "/food/:category": "/data?category=:category",
+    "/transportation/:category": "/data?category=:category",
+    "/redstone/:category": "/data?category=:category",
+    "/decoration/:category": "/data?category=:category",
+    "/brewing/:category": "/data?category=:category",
+    "/combat/categoryid/:categoryId": "/data?categoryId=:categoryId"
   })
 );
 
 server.get("/api", (req, res) => {
   res.json(db);
 });
-
 // server.use(
 //   "/",
 //   createProxyMiddleware({ target: "http://localhost:3001", changeOrigin: true })
@@ -55,4 +53,3 @@ try {
 } catch (error) {
   console.log(error);
 }
-
