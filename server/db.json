@@ -32,7 +32,6 @@
     {
       "id": "wooden_sword",
       "name": "Wooden Sword",
-
       "attack_damage": 5,
       "attack_speed": 1.6,
       "hearts": 2,
@@ -1043,6 +1042,7 @@
       "attack_speed": 1.6,
       "durability": 59,
       "category": "shovels",
+      "max_stack_size": 1,
       "minecraft_id_name": "wooden_shovel",
       "stackable": "no",
       "categoryId": 1
@@ -1528,6 +1528,7 @@
     {
       "name": "Raw Beef",
       "minecraft_id_name": "beef",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1539,6 +1540,7 @@
     {
       "name": "Raw Chicken",
       "minecraft_id_name": "chicken",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1550,6 +1552,7 @@
     {
       "name": "Rotten Flesh",
       "minecraft_id_name": "rotten_flesh",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
@@ -1569,6 +1572,7 @@
     {
       "name": "Spider Eye",
       "minecraft_id_name": "spider_eye",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
@@ -1587,6 +1591,7 @@
     {
       "name": "Carrot",
       "minecraft_id_name": "carrot",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1598,6 +1603,7 @@
     {
       "name": "Potato",
       "minecraft_id_name": "potato",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1609,6 +1615,7 @@
     {
       "name": "Baked Potato",
       "minecraft_id_name": "baked_potato",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1620,6 +1627,7 @@
     {
       "name": "Poisonous Potato",
       "minecraft_id_name": "poisonous_potato",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1639,6 +1647,7 @@
     {
       "name": "Pumpkin Pie",
       "minecraft_id_name": "pumpkin_pie",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1650,6 +1659,7 @@
     {
       "name": "Rabbit Stew",
       "minecraft_id_name": "rabbit_stew",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1661,6 +1671,7 @@
     {
       "name": "Cooked Rabbit",
       "minecraft_id_name": "cooked_rabbit",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1672,6 +1683,7 @@
     {
       "name": "Raw Rabbit",
       "minecraft_id_name": "rabbit",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1683,6 +1695,7 @@
     {
       "name": "Beetroot",
       "minecraft_id_name": "beetroot",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1694,6 +1707,7 @@
     {
       "name": "Beetroot Soup",
       "minecraft_id_name": "beetroot_soup",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "normal",
       "stackable": "yes",
@@ -1705,6 +1719,7 @@
     {
       "name": "Sweet Berries",
       "minecraft_id_name": "sweet_berries",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "low",
       "stackable": "yes",
@@ -1716,6 +1731,7 @@
     {
       "name": "Glow Berries",
       "minecraft_id_name": "glow_berries",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
@@ -1727,6 +1743,7 @@
     {
       "name": "Honey Bottle",
       "minecraft_id_name": "honey_bottle",
+      "max_stack_size": 64,
       "category": "food",
       "quality": "poor",
       "stackable": "yes",
@@ -1739,6 +1756,7 @@
     {
       "name": "Powered Rail",
       "minecraft_id_name": "powered_rail",
+      "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
       "categoryId": 6,
@@ -1774,6 +1792,7 @@
     {
       "name": "Detector Rail",
       "minecraft_id_name": "detector_rail",
+      "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
       "categoryId": 6,
@@ -1807,6 +1826,7 @@
     {
       "name": "Rail",
       "minecraft_id_name": "rail",
+      "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
       "categoryId": 6,
@@ -1840,6 +1860,7 @@
     {
       "name": "Activator Rail",
       "minecraft_id_name": "activator_rail",
+      "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
       "categoryId": 6,
@@ -1873,6 +1894,7 @@
     {
       "name": "Saddle",
       "minecraft_id_name": "saddle",
+      "max_stack_size": 1,
       "category": "transportation",
       "stackable": "yes",
       "categoryId": 6
@@ -1997,12 +2019,14 @@
       "name": "Redstone",
       "minecraft_id_name": "redstone",
       "category": "redstone",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 7
     },
     {
       "name": "Redstone Torch",
       "minecraft_id_name": "redstone_torch",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2010,6 +2034,7 @@
     {
       "name": "Redstone Repeater",
       "minecraft_id_name": "repeater",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7,
@@ -2027,6 +2052,7 @@
     {
       "name": "Redstone Comparator",
       "minecraft_id_name": "comparator",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7,
@@ -2044,6 +2070,7 @@
     {
       "name": "Redstone Lamp",
       "minecraft_id_name": "redstone_lamp",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7,
@@ -2061,6 +2088,7 @@
     {
       "name": "Redstone Block",
       "minecraft_id_name": "redstone_block",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2068,6 +2096,7 @@
     {
       "name": "Piston",
       "minecraft_id_name": "piston",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7,
@@ -2081,6 +2110,7 @@
     {
       "name": "Sticky Piston",
       "minecraft_id_name": "sticky_piston",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7,
@@ -2094,6 +2124,7 @@
     {
       "name": "Slime Block",
       "minecraft_id_name": "slime_block",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2101,6 +2132,7 @@
     {
       "name": "Honey Block",
       "minecraft_id_name": "honey_block",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2108,6 +2140,7 @@
     {
       "name": "Observer",
       "minecraft_id_name": "observer",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2115,6 +2148,7 @@
     {
       "name": "Hopper",
       "minecraft_id_name": "hopper",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2122,6 +2156,7 @@
     {
       "name": "Dispenser",
       "minecraft_id_name": "dispenser",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2129,6 +2164,7 @@
     {
       "name": "Dropper",
       "minecraft_id_name": "dropper",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2136,6 +2172,7 @@
     {
       "name": "Lectern",
       "minecraft_id_name": "lectern",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2143,6 +2180,7 @@
     {
       "name": "Target",
       "minecraft_id_name": "target",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2150,6 +2188,7 @@
     {
       "name": "Lever",
       "minecraft_id_name": "lever",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2157,6 +2196,7 @@
     {
       "name": "Lightning Rod",
       "minecraft_id_name": "lightning_rod",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2164,6 +2204,7 @@
     {
       "name": "Daylight Sensor",
       "minecraft_id_name": "daylight_detector",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2171,6 +2212,7 @@
     {
       "name": "Sculk Sensor",
       "minecraft_id_name": "sculk_sensor",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2178,6 +2220,7 @@
     {
       "name": "Tripwire Hook",
       "minecraft_id_name": "tripwire_hook",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2185,6 +2228,7 @@
     {
       "name": "Trapped Chest",
       "minecraft_id_name": "trapped_chest",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2192,6 +2236,7 @@
     {
       "name": "TNT",
       "minecraft_id_name": "tnt",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2199,6 +2244,7 @@
     {
       "name": "Noteblock",
       "minecraft_id_name": "noteblock",
+      "max_stack_size": 64,
       "category": "redstone",
       "stackable": "yes",
       "categoryId": 7
@@ -2207,6 +2253,7 @@
       "name": "Button",
       "stackable": "yes",
       "minecraft_id_name": "button",
+      "max_stack_size": 64,
       "category": "redstone",
       "categoryId": 7,
       "variants": [
@@ -2260,6 +2307,7 @@
       "name": "Pressure Plate",
       "category": "redstone",
       "minecraft_id_name": "pressure_plate",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 7,
       "variants": [
@@ -2321,6 +2369,7 @@
       "name": "Door",
       "category": "redstone",
       "minecraft_id_name": "door",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 7,
       "variants": [
@@ -2370,6 +2419,7 @@
       "name": "Trapdoor",
       "category": "redstone",
       "minecraft_id_name": "trapdoor",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 7,
       "variants": [
@@ -2419,6 +2469,7 @@
       "name": "Fence Gate",
       "category": "redstone",
       "minecraft_id_name": "[any_wood]_fence_gate",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 7,
       "variants": [
@@ -2465,6 +2516,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_wood]_sapling",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -2502,6 +2554,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_wood]_leaves",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -2545,6 +2598,7 @@
     {
       "name": "Cobweb",
       "minecraft_id_name": "cobweb",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2552,6 +2606,7 @@
     {
       "name": "Grass",
       "minecraft_id_name": "grass",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2559,6 +2614,7 @@
     {
       "name": "Fern",
       "minecraft_id_name": "fern",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2566,6 +2622,7 @@
     {
       "name": "Azalea",
       "minecraft_id_name": "azalea",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2573,6 +2630,7 @@
     {
       "name": "Flowering Azalea",
       "minecraft_id_name": "flowering_azalea",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2580,6 +2638,7 @@
     {
       "name": "Dead Bush",
       "minecraft_id_name": "dead_bush",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2587,6 +2646,7 @@
     {
       "name": "Seagrass",
       "minecraft_id_name": "seagrass",
+      "max_stack_size": 64,
       "stackable": "yes",
       "category": "decoration",
       "categoryId": 8
@@ -2594,6 +2654,7 @@
     {
       "name": "Sea Pickle",
       "minecraft_id_name": "sea_pickle",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2603,6 +2664,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_flower_name]",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -2678,6 +2740,7 @@
     {
       "name": "Spore Blossom",
       "minecraft_id_name": "spore_blossom",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2685,6 +2748,7 @@
     {
       "name": "Brown Mushroom",
       "minecraft_id_name": "brown_mushroom",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2692,6 +2756,7 @@
     {
       "name": "Red Mushroom",
       "minecraft_id_name": "red_mushroom",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2699,12 +2764,14 @@
     {
       "name": "Crimson Fungus",
       "minecraft_id_name": "crimson_fungus",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
     },
     {
       "name": "Warped Fungus",
+      "max_stack_size": 64,
       "minecraft_id_name": "warped_fungus",
       "category": "decoration",
       "stackable": "yes",
@@ -2713,6 +2780,7 @@
     {
       "name": "Crimson Roots",
       "minecraft_id_name": "crimson_roots",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2720,6 +2788,7 @@
     {
       "name": "Warped Roots",
       "minecraft_id_name": "warped_roots",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2727,6 +2796,7 @@
     {
       "name": "Nether Sprouts",
       "minecraft_id_name": "nether_sprouts",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2734,6 +2804,7 @@
     {
       "name": "Weeping Vines",
       "minecraft_id_name": "weeping_vines",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2741,6 +2812,7 @@
     {
       "name": "Twisting Vines",
       "minecraft_id_name": "twisting_vines",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2748,6 +2820,7 @@
     {
       "name": "Sugar Cane",
       "minecraft_id_name": "sugar_cane",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2755,6 +2828,7 @@
     {
       "name": "Kelp",
       "minecraft_id_name": "kelp",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2762,6 +2836,7 @@
     {
       "name": "Moss Carpet",
       "minecraft_id_name": "moss_carpet",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2769,6 +2844,7 @@
     {
       "name": "Moss Block",
       "minecraft_id_name": "moss_block",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2776,6 +2852,7 @@
     {
       "name": "Hanging Roots",
       "minecraft_id_name": "hanging_roots",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2783,6 +2860,7 @@
     {
       "name": "Big Dripleaf",
       "minecraft_id_name": "big_dripleaf",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2790,6 +2868,7 @@
     {
       "name": "Small Dripleaf",
       "minecraft_id_name": "small_dripleaf",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2797,12 +2876,14 @@
     {
       "name": "Bamboo",
       "minecraft_id_name": "bamboo",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
     },
     {
       "name": "Torch",
+      "max_stack_size": 64,
       "minecraft_id_name": "torch",
       "category": "decoration",
       "stackable": "yes",
@@ -2811,6 +2892,7 @@
     {
       "name": "End Rod",
       "minecraft_id_name": "end_rod",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2818,6 +2900,7 @@
     {
       "name": "Chorus Plant",
       "minecraft_id_name": "chorus_plant",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2825,6 +2908,7 @@
     {
       "name": "Chorus Flower",
       "minecraft_id_name": "chorus_flower",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2832,6 +2916,7 @@
     {
       "name": "Chest",
       "minecraft_id_name": "chest",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2839,6 +2924,7 @@
     {
       "name": "Crafting Table",
       "minecraft_id_name": "crafting_table",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2846,6 +2932,7 @@
     {
       "name": "Furnace",
       "minecraft_id_name": "furnace",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2854,12 +2941,14 @@
       "name": "Farmland",
       "minecraft_id_name": "farmland",
       "category": "decoration",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 8
     },
     {
       "name": "Ladder",
       "minecraft_id_name": "ladder",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2868,12 +2957,14 @@
       "name": "Snow",
       "category": "decoration",
       "minecraft_id_name": "snow",
+      "max_stack_size": 64,
       "stackable": "yes",
       "categoryId": 8
     },
     {
       "name": "Cactus",
       "minecraft_id_name": "cactus",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2881,6 +2972,7 @@
     {
       "name": "Jukebox",
       "minecraft_id_name": "jukebox",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2890,6 +2982,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_wood]_fence",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -2929,6 +3022,7 @@
     {
       "name": "Soul Torch",
       "minecraft_id_name": "soul_torch",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2936,6 +3030,7 @@
     {
       "name": "Infested Stone",
       "minecraft_id_name": "infested_stone",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2943,6 +3038,7 @@
     {
       "name": "Infested Cobblestone",
       "minecraft_id_name": "infested_cobblestone",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2950,6 +3046,7 @@
     {
       "name": "Infested Stone Bricks",
       "minecraft_id_name": "infested_stone_bricks",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2957,6 +3054,7 @@
     {
       "name": "Infested Mossy Stone Bricks",
       "minecraft_id_name": "infested_mossy_stone_bricks",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2964,6 +3062,7 @@
     {
       "name": "Infested Cracked Stone Bricks",
       "minecraft_id_name": "infested_cracked_stone_bricks",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2971,6 +3070,7 @@
     {
       "name": "Infested Chiseled Stone Bricks",
       "minecraft_id_name": "infested_chiseled_stone_bricks",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2978,6 +3078,7 @@
     {
       "name": "Infested Deepslate",
       "minecraft_id_name": "infested_deepslate",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2985,6 +3086,7 @@
     {
       "name": "Brown Mushroom Block",
       "minecraft_id_name": "brown_mushroom_block",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2992,6 +3094,7 @@
     {
       "name": "Red Mushroom Block",
       "minecraft_id_name": "red_mushroom_block",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -2999,6 +3102,7 @@
     {
       "name": "Mushroom Stem",
       "minecraft_id_name": "mushroom_stem",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3006,6 +3110,7 @@
     {
       "name": "Iron Bars",
       "minecraft_id_name": "iron_bars",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3013,6 +3118,7 @@
     {
       "name": "Chain",
       "minecraft_id_name": "chain",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3020,6 +3126,7 @@
     {
       "name": "Glass Pane",
       "minecraft_id_name": "glass_pane",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3027,6 +3134,7 @@
     {
       "name": "Vines",
       "minecraft_id_name": "vine",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3034,6 +3142,7 @@
     {
       "name": "Glow Lichen",
       "minecraft_id_name": "glow_lichen",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3041,6 +3150,7 @@
     {
       "name": "Lily Pad",
       "minecraft_id_name": "lily_pad",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3048,6 +3158,7 @@
     {
       "name": "Nether Brick Fence",
       "minecraft_id_name": "nether_brick_fence",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3055,6 +3166,7 @@
     {
       "name": "Sculk",
       "minecraft_id_name": "sculk",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3062,6 +3174,7 @@
     {
       "name": "Sculk Vein",
       "minecraft_id_name": "sculk_vein",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3069,6 +3182,7 @@
     {
       "name": "Sculk Catalyst",
       "minecraft_id_name": "sculk_catalyst",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3076,6 +3190,7 @@
     {
       "name": "Sculk Shrieker",
       "minecraft_id_name": "sculk_shrieker",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3083,6 +3198,7 @@
     {
       "name": "Enchanting Table",
       "minecraft_id_name": "enchanting_table",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3090,6 +3206,7 @@
     {
       "name": "End Portal Frame",
       "minecraft_id_name": "end_portal_frame",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3097,6 +3214,7 @@
     {
       "name": "Ender Chest",
       "minecraft_id_name": "ender_chest",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3106,6 +3224,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_stone]_wall",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3199,11 +3318,13 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "anvil",
+      "max_stack_size": 64,
       "categoryId": 8
     },
     {
       "name": "Chipped Anvil",
       "minecraft_id_name": "chipped_anvil",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3211,6 +3332,7 @@
     {
       "name": "Damaged Anvil",
       "minecraft_id_name": "damaged_anvil",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3220,6 +3342,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_color]_carpet",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3291,6 +3414,7 @@
     {
       "name": "Dirt Path",
       "minecraft_id_name": "dirt_path",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3298,6 +3422,7 @@
     {
       "name": "Sunflower",
       "minecraft_id_name": "sunflower",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3305,6 +3430,7 @@
     {
       "name": "Tall Grass",
       "minecraft_id_name": "tall_grass",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3312,6 +3438,7 @@
     {
       "name": "Large Fern",
       "minecraft_id_name": "large_fern",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3321,6 +3448,7 @@
       "category": "decoration",
       "stackable": "yes",
       "minecraft_id_name": "[any_color]_stained_glass_pane",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3394,6 +3522,7 @@
       "category": "decoration",
       "stackable": "yes",
       "minecraft_id_name": "[any_color]_shulker_box",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3467,6 +3596,7 @@
       "category": "decoration",
       "stackable": "yes",
       "minecraft_id_name": "[any_color]_glazed_terracotta",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3539,6 +3669,7 @@
       "name": "Coral",
       "stackable": "yes",
       "minecraft_id_name": "[any_color]_coral",
+      "max_stack_size": 64,
       "category": "decoration",
       "categoryId": 8,
       "variants": [
@@ -3663,6 +3794,7 @@
     {
       "name": "Scaffolding",
       "minecraft_id_name": "scaffolding",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3670,6 +3802,7 @@
     {
       "name": "Painting",
       "minecraft_id_name": "painting",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3678,6 +3811,7 @@
       "name": "Signs",
       "stackable": "yes",
       "minecraft_id_name": "[any_wood]_sign",
+      "max_stack_size": 64,
       "category": "decoration",
       "categoryId": 8,
       "variants": [
@@ -3719,6 +3853,7 @@
       "name": "Beds",
       "stackable": "yes",
       "minecraft_id_name": "[any_color]_bed",
+      "max_stack_size": 64,
       "category": "decoration",
       "categoryId": 8,
       "variants": [
@@ -3791,6 +3926,7 @@
     {
       "name": "Item Frame",
       "minecraft_id_name": "item_frame",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3798,6 +3934,7 @@
     {
       "name": "Glow Item Frame",
       "minecraft_id_name": "glow_item_frame",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3805,6 +3942,7 @@
     {
       "name": "Flower Pot",
       "minecraft_id_name": "flower_pot",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3813,6 +3951,7 @@
       "name": "Heads",
       "stackable": "yes",
       "category": "decoration",
+      "max_stack_size": 64,
       "minecraft_id_name": "[any_mob]_head",
       "categoryId": 8,
       "variants": [
@@ -3845,6 +3984,7 @@
     {
       "name": "Armor Stand",
       "minecraft_id_name": "armor_stand",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3854,6 +3994,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_color]_banner",
+      "max_stack_size": 64,
       "categoryId": 8,
       "variants": [
         {
@@ -3925,6 +4066,7 @@
     {
       "name": "End Crystal",
       "minecraft_id_name": "end_crystal",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3932,6 +4074,7 @@
     {
       "name": "Loom",
       "minecraft_id_name": "loom",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3939,6 +4082,7 @@
     {
       "name": "Composter",
       "minecraft_id_name": "composter",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3946,6 +4090,7 @@
     {
       "name": "Barrel",
       "minecraft_id_name": "barrel",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3953,6 +4098,7 @@
     {
       "name": "Smoker",
       "minecraft_id_name": "smoker",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3960,6 +4106,7 @@
     {
       "name": "Blast Furnace",
       "minecraft_id_name": "blast_furnace",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3967,6 +4114,7 @@
     {
       "name": "Cartography Table",
       "minecraft_id_name": "cartography_table",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3974,6 +4122,7 @@
     {
       "name": "Fletching Table",
       "minecraft_id_name": "fletching_table",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3981,6 +4130,7 @@
     {
       "name": "Grindstone",
       "minecraft_id_name": "grindstone",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3988,6 +4138,7 @@
     {
       "name": "Smithing Table",
       "minecraft_id_name": "smithing_table",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -3995,6 +4146,7 @@
     {
       "name": "Stonecutter",
       "minecraft_id_name": "stonecutter",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4002,6 +4154,7 @@
     {
       "name": "Bell",
       "minecraft_id_name": "bell",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4009,6 +4162,7 @@
     {
       "name": "Lantern",
       "minecraft_id_name": "lantern",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4016,6 +4170,7 @@
     {
       "name": "Soul Lantern",
       "minecraft_id_name": "soul_lantern",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4023,6 +4178,7 @@
     {
       "name": "Campfire",
       "minecraft_id_name": "campfire",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4030,6 +4186,7 @@
     {
       "name": "Soul Campfire",
       "minecraft_id_name": "soul_campfire",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4037,6 +4194,7 @@
     {
       "name": "Shroomlight",
       "minecraft_id_name": "shroomlight",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4044,12 +4202,14 @@
     {
       "name": "Bee Nest",
       "minecraft_id_name": "bee_nest",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
     },
     {
       "name": "Beehive",
+      "max_stack_size": 64,
       "minecraft_id_name": "beehive",
       "category": "decoration",
       "stackable": "yes",
@@ -4058,6 +4218,7 @@
     {
       "name": "Honeycomb Block",
       "minecraft_id_name": "honeycomb_block",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4065,6 +4226,7 @@
     {
       "name": "Lodestone",
       "minecraft_id_name": "lodestone",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4072,6 +4234,7 @@
     {
       "name": "Respawn Anchor",
       "minecraft_id_name": "respawn_anchor",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4081,6 +4244,7 @@
       "stackable": "yes",
       "category": "decoration",
       "minecraft_id_name": "[any_color]_candle",
+      "max_stack_size": 64,
       "categoryId": 8,
       "subItems": [
         {
@@ -4173,6 +4337,7 @@
     {
       "name": "Amethyst Cluster",
       "minecraft_id_name": "amethyst_cluster",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4188,6 +4353,7 @@
     {
       "name": "Ochre Froglight",
       "minecraft_id_name": "ochre_froglight",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4195,6 +4361,7 @@
     {
       "name": "Verdant Froglight",
       "minecraft_id_name": "verdant_froglight",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4202,6 +4369,7 @@
     {
       "name": "Pealerscent Froglight",
       "minecraft_id_name": "pealerscent_froglight",
+      "max_stack_size": 64,
       "category": "decoration",
       "stackable": "yes",
       "categoryId": 8
@@ -4407,6 +4575,7 @@
     {
       "name": "Cauldron",
       "minecraft_id_name": "cauldron",
+      "max_stack_size": 64,
       "category": "brewing",
       "stackable": "yes",
       "categoryId": 5
@@ -4586,6 +4755,8 @@
       "categoryId": 5,
       "category": "brewing",
       "name": "Lingering Potions",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "[effect_name]",
       "lingering_potions": [
         {
