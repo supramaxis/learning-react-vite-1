@@ -37,6 +37,11 @@ function Layout() {
               Jokes
             </Link>
           </li>
+          <li>
+            <Link to="/minecraft" className="navLinks">
+              Minecraft API
+            </Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
@@ -45,4 +50,3 @@ function Layout() {
 }
 
 export default Layout;
-
