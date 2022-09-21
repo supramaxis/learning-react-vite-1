@@ -1,1 +1,0 @@
-The "TypeError: map is not a function" occurs when we call the map() method on a value that is not an array. To solve the error, console.log the value you're calling the map() method on and make sure to only call map on valid arrays.
