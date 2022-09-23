@@ -213,3 +213,8 @@ button {
   margin: 120px;
   padding: 20px;
 }
+
+.accordionBody {
+  padding: 5px !important;
+  margin: 0 !important;
+}
