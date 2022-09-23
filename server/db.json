@@ -100,7 +100,7 @@
       "categoryId": 2
     },
     {
-      "name": "netherite_sword",
+      "name": "Netherite Sword",
       "attack_damage": 8,
       "attack_speed": 1.6,
       "hearts": "4",
@@ -4615,12 +4615,13 @@
     },
     {
       "name": "Splash Potions",
+      "poti": "splash",
       "category": "brewing",
       "stackable": "no",
       "max_stack_size": 1,
       "categoryId": 5,
       "minecraft_id_name": "[effect_name]",
-      "splash_potions": [
+      "potion_names": [
         {
           "name": "Awkward Splash Potion",
           "effect": "none"
@@ -4896,46 +4897,45 @@
       "stackable": "yes",
       "max_stack_size": "64",
       "categoryId": "5"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "tools",
+      "name": "tools"
     },
     {
-      "categories": [
-        {
-          "id": "tools",
-          "name": "tools"
-        },
-        {
-          "id": "2",
-          "name": "combat"
-        },
-        {
-          "id": "3",
-          "name": "foodstuffs"
-        },
-        {
-          "id": "4",
-          "name": "miscellaneous"
-        },
-        {
-          "id": "5",
-          "name": "brewing"
-        },
-        {
-          "id": "6",
-          "name": "transportation"
-        },
-        {
-          "id": "7",
-          "name": "redstone"
-        },
-        {
-          "id": "8",
-          "name": "decoration_blocks"
-        },
-        {
-          "id": "9",
-          "name": "building_blocks"
-        }
-      ]
+      "id": "2",
+      "names": [{ "armor": "diamond" }, { "weapons": "sword" }]
+    },
+    {
+      "id": "3",
+      "name": "foodstuffs"
+    },
+    {
+      "id": "4",
+      "name": "miscellaneous"
+    },
+    {
+      "id": "5",
+      "name": "brewing"
+    },
+    {
+      "id": "6",
+      "name": "transportation"
+    },
+    {
+      "id": "7",
+      "name": "redstone"
+    },
+    {
+      "id": "8",
+      "name": "decoration_blocks"
+    },
+    {
+      "id": "9",
+      "name": "building_blocks"
     }
   ]
 }

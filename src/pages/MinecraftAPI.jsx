@@ -3,6 +3,7 @@ import { getMinecraftData } from "../components/fetchApi";
 import axios from "axios";
 import { httpHelper } from "../helper/httpHelper";
 import McTable from "../components/McTable";
+import MCcards from "../components/MCcards";
 export default function MinecraftAPI() {
   const [minecraft, setMinecraft] = useState([]);
 
@@ -31,10 +32,20 @@ export default function MinecraftAPI() {
   useEffect(() => {
     fetchMinecraft();
   }, []);
+
   return (
-    <div>
+    <>
       <h1 className="main-container">Minecraft API</h1>
-      <McTable minecraft={minecraft} />
-    </div>
+      <div className="mcAccordion">
+        {minecraft.map((minecraft, i) => {
+          return (
+            <>
+              <MCcards minecraft={minecraft} key={minecraft.name} />
+            </>
+          );
+        })}
+      </div>
+      {/* <McTable minecraft={minecraft} /> */}
+    </>
   );
 }
