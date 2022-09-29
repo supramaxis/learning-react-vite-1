@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getGiveaways } from "../components/fetchApi";
+import "bootstrap/dist/css/bootstrap.min.css";
+import GvwCards from "../components/GvwCards";
+import { Col, Container, Row } from "react-bootstrap";
 
 export default function Giveaways() {
   const [giveaways, setGiveaways] = useState([]);
@@ -20,20 +23,15 @@ export default function Giveaways() {
   return (
     <>
       <h1 className="main-container">Giveaways</h1>
-
-      {giveaways.map(gvw => (
-        <div key={gvw.id}>
-          <h2 className="gvwTitles">{gvw.title}</h2>
-          <p>{gvw.description}</p>
-          <p>{gvw.instructions} </p>
-          <div className="gvwLinks">
-            <a href={gvw.open_giveaway_url} target="_blank">
-              Link
-            </a>
-          </div>
-        </div>
-      ))}
+      <Container className="w-70">
+        <Row className="gy-3">
+          {giveaways.map(gvw => (
+            <Col md={4} xs={6} key={gvw.id}>
+              <GvwCards gvw={gvw} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </>
   );
 }
-
