@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "turtle_helmet",
+      "id": "turtle Helmet",
       "name": "Turtle Shell",
       "durability": 275,
       "category": "combat",
@@ -30,7 +30,7 @@
       "categoryId": 2
     },
     {
-      "id": "wooden_sword",
+      "id": "Wooden Sword",
       "name": "Wooden Sword",
       "attack_damage": 5,
       "attack_speed": 1.6,
@@ -39,12 +39,13 @@
       "durability": 60,
       "category": "swords",
       "minecraft_id_name": "wooden_sword",
+      "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Wooden_Sword_JE2_BE2.png/revision/latest?cb=20200217235747",
       "max_stack_size": 1,
       "stackable": "no",
       "categoryId": 2
     },
     {
-      "id": "stone_sword",
+      "id": "Stone Sword",
       "name": "Stone Sword",
       "attack_damage": 5,
       "attack_speed": 1.6,
@@ -58,7 +59,7 @@
       "categoryId": 2
     },
     {
-      "id": "iron_sword",
+      "id": "Iron Sword",
       "name": "Iron Sword",
       "attack_damage": 7,
       "attack_speed": 1.6,
@@ -72,7 +73,7 @@
       "categoryId": 2
     },
     {
-      "id": "golden_sword",
+      "id": "Golden Sword",
       "name": "Golden Sword",
       "attack_damage": 4,
       "attack_speed": 1.6,
@@ -86,7 +87,7 @@
       "categoryId": 2
     },
     {
-      "id": "diamond_sword",
+      "id": "Diamond Sword",
       "name": "Diamond Sword",
       "attack_damage": 8,
       "attack_speed": 1.6,
@@ -101,6 +102,7 @@
     },
     {
       "name": "Netherite Sword",
+      "id": "Netherite Sword",
       "attack_damage": 8,
       "attack_speed": 1.6,
       "hearts": "4",
@@ -114,6 +116,7 @@
     },
     {
       "name": "Leather Cap",
+      "id": "Leather Cap",
       "defense_points": 1,
       "armor_points": 0.5,
       "durability": 55,
@@ -125,6 +128,7 @@
     },
     {
       "name": "Leather Tunic",
+      "id": "Leather Tunic",
       "defense_points": 3,
       "armor_points": 1.5,
       "durability": 80,
@@ -136,6 +140,7 @@
     },
     {
       "name": "Leather Pants",
+      "id": "Leather Pants",
       "defense_points": 2,
       "armor_points": 1,
       "durability": 75,
@@ -147,6 +152,7 @@
     },
     {
       "name": "Leather Boots",
+      "id": "Leather Boots",
       "defense_points": 1,
       "armor_points": 0.5,
       "durability": 65,
@@ -158,6 +164,7 @@
     },
     {
       "name": "Chainmail Helmet",
+      "id": "Chainmail Helmet",
       "defense_points": 2,
       "armor_points": 1,
       "durability": 165,
@@ -169,6 +176,7 @@
     },
     {
       "name": "Chainmail Chestplate",
+      "id": "Chainmail Chestplate",
       "defense_points": 5,
       "armor_points": 2.5,
       "durability": 240,
@@ -180,6 +188,7 @@
     },
     {
       "name": "Chainmail Leggings",
+      "id": "Chainmail Leggings",
       "defense_points": 4,
       "armor_points": 2,
       "durability": 225,
@@ -191,6 +200,7 @@
     },
     {
       "name": "Chainmail Boots",
+      "id": "Chainmail Boots",
       "defense_points": 1,
       "armor_points": 0.5,
       "durability": 195,
@@ -202,6 +212,7 @@
     },
     {
       "name": "Iron Helmet",
+      "id": "Iron Helmet",
       "defense_points": 2,
       "armor_points": 1,
       "durability": 165,
@@ -213,6 +224,7 @@
     },
     {
       "name": "Iron Chestplate",
+      "id": "Iron Chestplate",
       "defense_points": 6,
       "armor_points": 3,
       "durability": 240,
@@ -224,6 +236,7 @@
     },
     {
       "name": "Iron Leggings",
+      "id": "Iron Leggings",
       "defense_points": 5,
       "armor_points": 2.5,
       "durability": 225,
@@ -235,6 +248,7 @@
     },
     {
       "name": "Iron Boots",
+      "id": "Iron Boots",
       "defense_points": 2,
       "armor_points": 1,
       "durability": 195,
@@ -246,6 +260,7 @@
     },
     {
       "name": "Golden Helmet",
+      "id": "Golden Helmet",
       "defense_points": 2,
       "armor_points": 1,
       "durability": 77,
@@ -257,6 +272,7 @@
     },
     {
       "name": "Golden Chestplate",
+      "id": "Golden Chestplate",
       "defense_points": 5,
       "armor_points": 2.5,
       "durability": 114,
@@ -268,6 +284,7 @@
     },
     {
       "name": "Golden Leggings",
+      "id": "Golden Leggings",
       "defense_points": 3,
       "armor_points": 1.5,
       "durability": 105,
@@ -279,6 +296,7 @@
     },
     {
       "name": "Golden Boots",
+      "id": "Golden Boots",
       "defense_points": 1,
       "armor_points": 0.5,
       "durability": 91,
@@ -290,6 +308,7 @@
     },
     {
       "name": "Diamond Helmet",
+
       "defense_points": 3,
       "armor_points": 1.5,
       "armor_toughness": 2,
@@ -302,6 +321,7 @@
     },
     {
       "name": "Diamond Chestplate",
+      "id": "Diamond Chestplate",
       "defense_points": 8,
       "armor_points": 4,
       "armor_toughness": 2,
@@ -314,6 +334,7 @@
     },
     {
       "name": "Diamond Leggings",
+      "id": "Diamond Leggings",
       "defense_points": 6,
       "armor_points": 3,
       "armor_toughness": 2,
@@ -326,6 +347,7 @@
     },
     {
       "name": "Diamond Boots",
+      "id": "Diamond Boots",
       "defense_points": 3,
       "armor_points": 1.5,
       "armor_toughness": 2,
@@ -338,6 +360,7 @@
     },
     {
       "name": "Netherite Helmet",
+      "id": "Netherite Helmet",
       "defense_points": 3,
       "armor_points": 1.5,
       "armor_toughness": 3,
@@ -351,6 +374,7 @@
     },
     {
       "name": "Netherite Chestplate",
+      "id": "Netherite Chestplate",
       "defense_points": 8,
       "armor_points": 4,
       "armor_toughness": 3,
@@ -364,6 +388,7 @@
     },
     {
       "name": "Netherite Leggings",
+      "id": "Netherite Leggings",
       "defense_points": 6,
       "armor_points": 3,
       "armor_toughness": 3,
@@ -377,6 +402,7 @@
     },
     {
       "name": "Netherite Boots",
+      "id": "Netherite Boots",
       "defense_points": 3,
       "armor_points": 1.5,
       "armor_toughness": 3,
@@ -391,8 +417,9 @@
     {
       "name": "Fire Protection",
       "description": "Reduces fire damage and burn time. Mutually exclusive with other protections. ",
+      "max_stack_size": 1,
       "minecraft_id_name": "enchantment_book",
-
+      "stackable": "no",
       "accepted_items": "Any Armor piece",
       "incompatible_with": [
         "Blast Protection",
@@ -406,7 +433,9 @@
     {
       "name": "Feather Falling",
       "description": "Reduces fall damage",
+      "max_stack_size": 1,
       "minecraft_id_name": "enchantment_book",
+      "stackable": "no",
       "accepted_items": "Any Boots",
       "category": "enchantment_book",
       "incompatible_with": "none",
@@ -416,7 +445,9 @@
     {
       "name": "Blast Protection",
       "category": "enchantment_book",
+      "stackable": "no",
       "description": "Reduces explosion damage and knockback.",
+      "max_stack_size": 1,
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Armor piece",
       "incompatible_with": [
@@ -429,7 +460,9 @@
     },
     {
       "name": "Projectile Protection",
+      "stackable": "no",
       "description": "Reduces damage from projectiles.",
+      "max_stack_size": 1,
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Armor piece",
       "incompatible_with": [
@@ -444,6 +477,8 @@
     {
       "name": "Respiration",
       "description": "Increases underwater breathing time.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Helmet",
       "incompatible_with": "none",
@@ -454,6 +489,8 @@
     {
       "name": "Aqua Affinity",
       "description": "Increases underwater mining speed.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Helmet",
       "incompatible_with": "none",
@@ -464,6 +501,8 @@
     {
       "name": "Thorns",
       "description": "Taking damage causes the attacker to also take damage. ",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Chestplate",
       "incompatible_with": "none",
@@ -474,6 +513,8 @@
     {
       "name": "Depth Strider",
       "description": "Increases underwater movement speed.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Boots",
       "incompatible_with": "none",
@@ -484,6 +525,8 @@
     {
       "name": "Frost Walker",
       "description": "Allows the player to walk on water by freezing the water under their feet. ",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Boots",
       "incompatible_with": "Depth Strider",
@@ -494,6 +537,8 @@
     {
       "name": "Curse of Binding",
       "description": "Prevents the item from being removed from the player's inventory. ",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": [
         "Any Armor piece",
@@ -510,6 +555,8 @@
     {
       "name": "Soul Speed",
       "description": "Increases movement speed on soul sand and soul soil. ",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Boots",
       "incompatible_with": "none",
@@ -520,6 +567,8 @@
     {
       "name": "Swift Sneak",
       "description": "Increases sneaking speed.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Boots",
       "incompatible_with": "none",
@@ -530,6 +579,8 @@
     {
       "name": "Sharpness",
       "description": "Increases melee damage.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": ["Any Sword", "Any Axe"],
       "incompatible_with": ["Smite", "Bane of Arthropods"],
@@ -540,6 +591,8 @@
     {
       "name": "Smite",
       "description": "Increases melee damage against undead mobs.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": ["Any Sword", "Any Axe"],
       "incompatible_with": ["Sharpness", "Bane of Arthropods"],
@@ -550,6 +603,8 @@
     {
       "name": "Bane of arthropods",
       "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": ["Any Sword", "Any Axe"],
       "incompatible_with": ["Sharpness", "Smite"],
@@ -560,6 +615,8 @@
     {
       "name": "Knockback",
       "description": "Increases knockback.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Sword",
       "incompatible_with": "none",
@@ -570,6 +627,8 @@
     {
       "name": "Fire aspect",
       "description": "Sets the target on fire",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Sword",
       "incompatible_with": "none",
@@ -580,6 +639,8 @@
     {
       "name": "Looting",
       "description": "Increases the chance of getting extra loot from mobs.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Sword",
       "incompatible_with": "none",
@@ -590,6 +651,8 @@
     {
       "name": "Sweeping Edge",
       "description": "Deals damage to nearby mobs when attacking.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "Any Sword",
       "incompatible_with": "none",
@@ -600,6 +663,8 @@
     {
       "name": "Unbreaking",
       "description": "Increases durability and reduce durability damage",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": [
         "Any Tool",
@@ -622,6 +687,8 @@
     {
       "name": "Power",
       "description": "Increases arrow damage.",
+      "stackable": "no",
+      "max_stack_size": 1,
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "bow",
       "incompatible_with": "none",
@@ -632,6 +699,8 @@
     {
       "name": "Punch",
       "description": "Increases arrows knockback.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "bow",
       "incompatible_with": "none",
@@ -642,6 +711,8 @@
     {
       "name": "Flame",
       "description": "Arrows set targets on fire.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "bow",
       "incompatible_with": "none",
@@ -652,6 +723,8 @@
     {
       "name": "Infinity",
       "description": "Arrows are not consumed when shot.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "bow",
       "incompatible_with": "none",
@@ -662,6 +735,8 @@
     {
       "name": "Loyalty",
       "description": "Returns the trident to the player when thrown.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "trident",
       "incompatible_with": "riptide",
@@ -672,6 +747,8 @@
     {
       "name": "Impaling",
       "description": "Increases damage against aquatic mobs. In Bedrock Edition, increases damage against mobs in water or rain.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "trident",
       "incompatible_with": "none",
@@ -682,6 +759,8 @@
     {
       "name": "Riptide",
       "description": "Trident launches player with itself when thrown while in water or rain.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "trident",
       "incompatible_with": "loyalty, channeling",
@@ -692,6 +771,8 @@
     {
       "name": "Chanelling",
       "description": "During thunderstorms, tridents can strike enemies with a lightning bolt. ",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "trident",
       "incompatible_with": "riptide",
@@ -702,6 +783,8 @@
     {
       "name": "Multishot",
       "description": "Shoots 3 arrows at once.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "crossbow",
       "incompatible_with": "piercing",
@@ -712,6 +795,8 @@
     {
       "name": "Quick Charge",
       "description": "Increases the speed at which the crossbow is reloaded.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "minecraft_id_name": "enchantment_book",
       "accepted_items": "crossbow",
       "incompatible_with": "none",
@@ -722,6 +807,8 @@
     {
       "name": "Piercing",
       "description": "Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "crossbow",
       "incompatible_with": "multishot",
       "category": "enchantment_book",
@@ -731,6 +818,8 @@
     {
       "name": "Mending",
       "description": "Repairs the item when the player collects experience.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": [
         "Any Tool",
         "Any Armor piece",
@@ -751,7 +840,9 @@
     },
     {
       "name": "Curse of Vanishing",
+      "max_stack_size": 1,
       "description": "The item will disappear when dropped or when the player dies.",
+      "stackable": "no",
       "accepted_items": [
         "Any Tool",
         "Any Armor piece",
@@ -776,6 +867,8 @@
     {
       "name": "Efficiency",
       "description": "Increases the speed at which blocks are mined.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "Any Tool",
       "incompatible_with": "none",
       "category": "enchantment_book",
@@ -785,6 +878,8 @@
     {
       "name": "Silk Touch",
       "description": "Mined blocks drop themselves.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "Any Tool",
       "incompatible_with": "fortune",
       "category": "enchantment_book",
@@ -794,6 +889,8 @@
     {
       "name": "Fortune",
       "description": "Increases the amount of items dropped from blocks.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "Any Tool",
       "incompatible_with": "silk_touch",
       "category": "enchantment_book",
@@ -803,6 +900,8 @@
     {
       "name": "Luck of the sea",
       "description": "Increases rate of good loot (enchanting books, etc.).",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "Any Fishing Rod",
       "incompatible_with": "none",
       "category": "enchantment_book",
@@ -812,6 +911,8 @@
     {
       "name": "Lure",
       "description": "Increases the rate at which fish are caught.",
+      "max_stack_size": 1,
+      "stackable": "no",
       "accepted_items": "Any Fishing Rod",
       "incompatible_with": "none",
       "category": "enchantment_book",
@@ -820,8 +921,10 @@
     },
     {
       "name": "Protection",
+      "max_stack_size": 1,
       "levels": 4,
       "category": "enchantment_book",
+      "stackable": "no",
       "categoryId": 2,
       "id": "XUWqI9_"
     },
@@ -1457,6 +1560,7 @@
     },
     {
       "name": "Cookie",
+      "id": "cookie",
       "minecraft_id_name": "cookie",
       "category": "food",
       "quality": "poor",

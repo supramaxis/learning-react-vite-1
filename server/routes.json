@@ -6,5 +6,8 @@
   "/redstone/:category": "/data?category=:category",
   "/decoration/:category": "/data?category=:category",
   "/brewing/:category": "/data?category=:category",
-  "/data/categoryid/:categoryId": "/data?categoryId=:categoryId"
+
+  "/search/:category": "/data?category=:category",
+
+  "/search/:id": "/data?id=:id"
 }
