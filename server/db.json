@@ -389,451 +389,441 @@
       "categoryId": 2
     },
     {
-      "name": "Enchantment Books",
-      "category": "enchantments",
-      "minecraft_id_name": "enchanted_book",
-      "max_stack_size": 1,
-      "stackable": "no",
-      "categoryId": 2,
-      "enchantments": [
-        {
-          "name": "Fire Protection",
-          "description": "Reduces fire damage and burn time. Mutually exclusive with other protections. ",
-          "minecraft_id_name": "enchantment_book",
+      "name": "Fire Protection",
+      "description": "Reduces fire damage and burn time. Mutually exclusive with other protections. ",
+      "minecraft_id_name": "enchantment_book",
 
-          "accepted_items": "Any Armor piece",
-          "incompatible_with": [
-            "Blast Protection",
-            "Projectile Protection",
-            "Protection"
-          ],
-          "levels": 4,
-          "category": "enchantment_book",
-          "categoryId": 2
-        },
-        {
-          "name": "Feather Falling",
-          "description": "Reduces fall damage",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Boots",
-          "category": "enchantment_book",
-          "incompatible_with": "none",
-          "levels": 4,
-          "categoryId": 2
-        },
-        {
-          "name": "Blast Protection",
-          "category": "enchantment_book",
-          "description": "Reduces explosion damage and knockback.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Armor piece",
-          "incompatible_with": [
-            "Fire Protection",
-            "Projectile Protection",
-            "Protection"
-          ],
-          "levels": 4,
-          "categoryId": 2
-        },
-        {
-          "name": "Projectile Protection",
-          "description": "Reduces damage from projectiles.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Armor piece",
-          "incompatible_with": [
-            "Fire Protection",
-            "Blast Protection",
-            "Protection"
-          ],
-          "category": "enchantment_book",
-          "levels": 4,
-          "categoryId": 2
-        },
-        {
-          "name": "Respiration",
-          "description": "Increases underwater breathing time.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Helmet",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Aqua Affinity",
-          "description": "Increases underwater mining speed.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Helmet",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Thorns",
-          "description": "Taking damage causes the attacker to also take damage. ",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Chestplate",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Depth Strider",
-          "description": "Increases underwater movement speed.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Boots",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Frost Walker",
-          "description": "Allows the player to walk on water by freezing the water under their feet. ",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Boots",
-          "incompatible_with": "Depth Strider",
-          "category": "enchantment_book",
-          "levels": 2,
-          "categoryId": 2
-        },
-        {
-          "name": "Curse of Binding",
-          "description": "Prevents the item from being removed from the player's inventory. ",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": [
-            "Any Armor piece",
-            "elytra",
-            "carved_pumpkin",
-            "head",
-            "turtle_shell"
-          ],
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Soul Speed",
-          "description": "Increases movement speed on soul sand and soul soil. ",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Boots",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Swift Sneak",
-          "description": "Increases sneaking speed.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Boots",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Sharpness",
-          "description": "Increases melee damage.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": ["Any Sword", "Any Axe"],
-          "incompatible_with": ["Smite", "Bane of Arthropods"],
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Smite",
-          "description": "Increases melee damage against undead mobs.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": ["Any Sword", "Any Axe"],
-          "incompatible_with": ["Sharpness", "Bane of Arthropods"],
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Bane of arthropods",
-          "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": ["Any Sword", "Any Axe"],
-          "incompatible_with": ["Sharpness", "Smite"],
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Knockback",
-          "description": "Increases knockback.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Sword",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 2,
-          "categoryId": 2
-        },
-        {
-          "name": "Fire aspect",
-          "description": "Sets the target on fire",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Sword",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 2,
-          "categoryId": 2
-        },
-        {
-          "name": "Looting",
-          "description": "Increases the chance of getting extra loot from mobs.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Sword",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Sweeping Edge",
-          "description": "Deals damage to nearby mobs when attacking.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "Any Sword",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Unbreaking",
-          "description": "Increases durability and reduce durability damage",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": [
-            "Any Tool",
-            "Any Armor piece",
-            "elytra",
-            "turtle_shell",
-            "bow",
-            "crossbow",
-            "fishing_rod",
-            "trident",
-            "shield",
-            "flint_and_steel",
-            "shears"
-          ],
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Power",
-          "description": "Increases arrow damage.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "bow",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Punch",
-          "description": "Increases arrows knockback.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "bow",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 2,
-          "categoryId": 2
-        },
-        {
-          "name": "Flame",
-          "description": "Arrows set targets on fire.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "bow",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Infinity",
-          "description": "Arrows are not consumed when shot.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "bow",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Loyalty",
-          "description": "Returns the trident to the player when thrown.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "trident",
-          "incompatible_with": "riptide",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Impaling",
-          "description": "Increases damage against aquatic mobs. In Bedrock Edition, increases damage against mobs in water or rain.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "trident",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Riptide",
-          "description": "Trident launches player with itself when thrown while in water or rain.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "trident",
-          "incompatible_with": "loyalty, channeling",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Chanelling",
-          "description": "During thunderstorms, tridents can strike enemies with a lightning bolt. ",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "trident",
-          "incompatible_with": "riptide",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Multishot",
-          "description": "Shoots 3 arrows at once.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "crossbow",
-          "incompatible_with": "piercing",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Quick Charge",
-          "description": "Increases the speed at which the crossbow is reloaded.",
-          "minecraft_id_name": "enchantment_book",
-          "accepted_items": "crossbow",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Piercing",
-          "description": "Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",
-          "accepted_items": "crossbow",
-          "incompatible_with": "multishot",
-          "category": "enchantment_book",
-          "levels": 4,
-          "categoryId": 2
-        },
-        {
-          "name": "Mending",
-          "description": "Repairs the item when the player collects experience.",
-          "accepted_items": [
-            "Any Tool",
-            "Any Armor piece",
-            "elytra",
-            "turtle_shell",
-            "bow",
-            "crossbow",
-            "Any Fishing Rod",
-            "trident",
-            "shield",
-            "flint_and_steel",
-            "shears"
-          ],
-          "incompatible_with": "infinity",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Curse of Vanishing",
-          "description": "The item will disappear when dropped or when the player dies.",
-          "accepted_items": [
-            "Any Tool",
-            "Any Armor piece",
-            "elytra",
-            "turtle_shell",
-            "bow",
-            "crossbow",
-            "Any Fishing Rod",
-            "trident",
-            "shield",
-            "flint_and_steel",
-            "shears",
-            "Compass",
-            "carved_pumpkin",
-            "head"
-          ],
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Efficiency",
-          "description": "Increases the speed at which blocks are mined.",
-          "accepted_items": "Any Tool",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 5,
-          "categoryId": 2
-        },
-        {
-          "name": "Silk Touch",
-          "description": "Mined blocks drop themselves.",
-          "accepted_items": "Any Tool",
-          "incompatible_with": "fortune",
-          "category": "enchantment_book",
-          "levels": 1,
-          "categoryId": 2
-        },
-        {
-          "name": "Fortune",
-          "description": "Increases the amount of items dropped from blocks.",
-          "accepted_items": "Any Tool",
-          "incompatible_with": "silk_touch",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Luck of the sea",
-          "description": "Increases rate of good loot (enchanting books, etc.).",
-          "accepted_items": "Any Fishing Rod",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Lure",
-          "description": "Increases the rate at which fish are caught.",
-          "accepted_items": "Any Fishing Rod",
-          "incompatible_with": "none",
-          "category": "enchantment_book",
-          "levels": 3,
-          "categoryId": 2
-        },
-        {
-          "name": "Protection",
-          "levels": 4,
-          "category": "enchantment_book",
-          "categoryId": 2,
-          "id": "XUWqI9_"
-        }
-      ]
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Blast Protection",
+        "Projectile Protection",
+        "Protection"
+      ],
+      "levels": 4,
+      "category": "enchantment_book",
+      "categoryId": 2
+    },
+    {
+      "name": "Feather Falling",
+      "description": "Reduces fall damage",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Boots",
+      "category": "enchantment_book",
+      "incompatible_with": "none",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Blast Protection",
+      "category": "enchantment_book",
+      "description": "Reduces explosion damage and knockback.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Fire Protection",
+        "Projectile Protection",
+        "Protection"
+      ],
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Projectile Protection",
+      "description": "Reduces damage from projectiles.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Armor piece",
+      "incompatible_with": [
+        "Fire Protection",
+        "Blast Protection",
+        "Protection"
+      ],
+      "category": "enchantment_book",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Respiration",
+      "description": "Increases underwater breathing time.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Helmet",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Aqua Affinity",
+      "description": "Increases underwater mining speed.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Helmet",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Thorns",
+      "description": "Taking damage causes the attacker to also take damage. ",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Chestplate",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Depth Strider",
+      "description": "Increases underwater movement speed.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Frost Walker",
+      "description": "Allows the player to walk on water by freezing the water under their feet. ",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "Depth Strider",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Curse of Binding",
+      "description": "Prevents the item from being removed from the player's inventory. ",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": [
+        "Any Armor piece",
+        "elytra",
+        "carved_pumpkin",
+        "head",
+        "turtle_shell"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Soul Speed",
+      "description": "Increases movement speed on soul sand and soul soil. ",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Swift Sneak",
+      "description": "Increases sneaking speed.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Boots",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Sharpness",
+      "description": "Increases melee damage.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": ["Any Sword", "Any Axe"],
+      "incompatible_with": ["Smite", "Bane of Arthropods"],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Smite",
+      "description": "Increases melee damage against undead mobs.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": ["Any Sword", "Any Axe"],
+      "incompatible_with": ["Sharpness", "Bane of Arthropods"],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Bane of arthropods",
+      "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": ["Any Sword", "Any Axe"],
+      "incompatible_with": ["Sharpness", "Smite"],
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Knockback",
+      "description": "Increases knockback.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Fire aspect",
+      "description": "Sets the target on fire",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Looting",
+      "description": "Increases the chance of getting extra loot from mobs.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Sweeping Edge",
+      "description": "Deals damage to nearby mobs when attacking.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "Any Sword",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Unbreaking",
+      "description": "Increases durability and reduce durability damage",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "fishing_rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Power",
+      "description": "Increases arrow damage.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Punch",
+      "description": "Increases arrows knockback.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 2,
+      "categoryId": 2
+    },
+    {
+      "name": "Flame",
+      "description": "Arrows set targets on fire.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Infinity",
+      "description": "Arrows are not consumed when shot.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "bow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Loyalty",
+      "description": "Returns the trident to the player when thrown.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "trident",
+      "incompatible_with": "riptide",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Impaling",
+      "description": "Increases damage against aquatic mobs. In Bedrock Edition, increases damage against mobs in water or rain.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "trident",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Riptide",
+      "description": "Trident launches player with itself when thrown while in water or rain.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "trident",
+      "incompatible_with": "loyalty, channeling",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Chanelling",
+      "description": "During thunderstorms, tridents can strike enemies with a lightning bolt. ",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "trident",
+      "incompatible_with": "riptide",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Multishot",
+      "description": "Shoots 3 arrows at once.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "crossbow",
+      "incompatible_with": "piercing",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Quick Charge",
+      "description": "Increases the speed at which the crossbow is reloaded.",
+      "minecraft_id_name": "enchantment_book",
+      "accepted_items": "crossbow",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Piercing",
+      "description": "Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",
+      "accepted_items": "crossbow",
+      "incompatible_with": "multishot",
+      "category": "enchantment_book",
+      "levels": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Mending",
+      "description": "Repairs the item when the player collects experience.",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "Any Fishing Rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears"
+      ],
+      "incompatible_with": "infinity",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Curse of Vanishing",
+      "description": "The item will disappear when dropped or when the player dies.",
+      "accepted_items": [
+        "Any Tool",
+        "Any Armor piece",
+        "elytra",
+        "turtle_shell",
+        "bow",
+        "crossbow",
+        "Any Fishing Rod",
+        "trident",
+        "shield",
+        "flint_and_steel",
+        "shears",
+        "Compass",
+        "carved_pumpkin",
+        "head"
+      ],
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Efficiency",
+      "description": "Increases the speed at which blocks are mined.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 5,
+      "categoryId": 2
+    },
+    {
+      "name": "Silk Touch",
+      "description": "Mined blocks drop themselves.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "fortune",
+      "category": "enchantment_book",
+      "levels": 1,
+      "categoryId": 2
+    },
+    {
+      "name": "Fortune",
+      "description": "Increases the amount of items dropped from blocks.",
+      "accepted_items": "Any Tool",
+      "incompatible_with": "silk_touch",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Luck of the sea",
+      "description": "Increases rate of good loot (enchanting books, etc.).",
+      "accepted_items": "Any Fishing Rod",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Lure",
+      "description": "Increases the rate at which fish are caught.",
+      "accepted_items": "Any Fishing Rod",
+      "incompatible_with": "none",
+      "category": "enchantment_book",
+      "levels": 3,
+      "categoryId": 2
+    },
+    {
+      "name": "Protection",
+      "levels": 4,
+      "category": "enchantment_book",
+      "categoryId": 2,
+      "id": "XUWqI9_"
     },
     {
       "name": "Shield",
@@ -1560,14 +1550,12 @@
       "saturation": 0.8,
       "food": 4,
       "hunger_points": 2,
-      "status_effects": [
-        {
-          "effect": "hunger",
-          "duration": 30,
-          "amplifier": 0,
-          "chance": 0.8
-        }
-      ]
+      "status_effects": {
+        "effect": "hunger",
+        "duration": 30,
+        "amplifier": 0,
+        "chance": 0.8
+      }
     },
     {
       "name": "Spider Eye",
@@ -1580,13 +1568,11 @@
       "saturation": 3.2,
       "food": 2,
       "hunger_points": 1,
-      "status_effects": [
-        {
-          "effect": "poison",
-          "duration": 5,
-          "amplifier": 0
-        }
-      ]
+      "status_effects": {
+        "effect": "poison",
+        "duration": 5,
+        "amplifier": 0
+      }
     },
     {
       "name": "Carrot",
@@ -1635,14 +1621,12 @@
       "saturation": 1.2,
       "food": 2,
       "hunger_points": 1,
-      "status_effects": [
-        {
-          "effect": "poison",
-          "duration": 5,
-          "amplifier": 0,
-          "chance": 0.6
-        }
-      ]
+      "status_effects": {
+        "effect": "poison",
+        "duration": 5,
+        "amplifier": 0,
+        "chance": 0.6
+      }
     },
     {
       "name": "Pumpkin Pie",
@@ -1761,33 +1745,7 @@
       "stackable": "yes",
       "categoryId": 6,
       "hardness": 0.7,
-      "tool": "pickaxe",
-      "breaking_time": [
-        {
-          "tool": "wooden_pickaxe",
-          "time": 0.55
-        },
-        {
-          "tool": "stone_pickaxe",
-          "time": 0.3
-        },
-        {
-          "tool": "iron_pickaxe",
-          "time": 0.2
-        },
-        {
-          "tool": "diamond_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "netherite_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "golden_pickaxe",
-          "time": 0.1
-        }
-      ]
+      "tool": "pickaxe"
     },
     {
       "name": "Detector Rail",
@@ -1795,33 +1753,7 @@
       "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
-      "categoryId": 6,
-      "breaking_time": [
-        {
-          "tool": "wooden_pickaxe",
-          "time": 0.55
-        },
-        {
-          "tool": "stone_pickaxe",
-          "time": 0.3
-        },
-        {
-          "tool": "iron_pickaxe",
-          "time": 0.2
-        },
-        {
-          "tool": "diamond_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "netherite_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "golden_pickaxe",
-          "time": 0.1
-        }
-      ]
+      "categoryId": 6
     },
     {
       "name": "Rail",
@@ -1829,33 +1761,7 @@
       "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
-      "categoryId": 6,
-      "breaking_time": [
-        {
-          "tool": "wooden_pickaxe",
-          "time": 0.55
-        },
-        {
-          "tool": "stone_pickaxe",
-          "time": 0.3
-        },
-        {
-          "tool": "iron_pickaxe",
-          "time": 0.2
-        },
-        {
-          "tool": "diamond_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "netherite_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "golden_pickaxe",
-          "time": 0.1
-        }
-      ]
+      "categoryId": 6
     },
     {
       "name": "Activator Rail",
@@ -1863,33 +1769,7 @@
       "max_stack_size": 64,
       "category": "transportation",
       "stackable": "yes",
-      "categoryId": 6,
-      "breaking_time": [
-        {
-          "tool": "wooden_pickaxe",
-          "time": 0.55
-        },
-        {
-          "tool": "stone_pickaxe",
-          "time": 0.3
-        },
-        {
-          "tool": "iron_pickaxe",
-          "time": 0.2
-        },
-        {
-          "tool": "diamond_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "netherite_pickaxe",
-          "time": 0.15
-        },
-        {
-          "tool": "golden_pickaxe",
-          "time": 0.1
-        }
-      ]
+      "categoryId": 6
     },
     {
       "name": "Saddle",
@@ -1908,20 +1788,20 @@
       "categoryId": 6,
       "variants": [
         {
-          "name": "Chest Minecart",
-          "minecraft_id_name": "chest_minecart"
+          "variant_name1": "Chest Minecart",
+          "variant_minecraft_id_name1": "chest_minecart"
         },
         {
-          "name": "Furnace Minecart",
-          "minecraft_id_name": "furnace_minecart"
+          "variant_name2": "Furnace Minecart",
+          "variant_minecraft_id_name2": "furnace_minecart"
         },
         {
-          "name": "TNT Minecart",
-          "minecraft_id_name": "tnt_minecart"
+          "variant_name3": "TNT Minecart",
+          "variant_minecraft_id_name3": "tnt_minecart"
         },
         {
-          "name": "Hopper Minecart",
-          "minecraft_id_name": "hopper_minecart"
+          "variant_name4": "Hopper Minecart",
+          "variant_minecraft_id_name4": "hopper_minecart"
         }
       ]
     },

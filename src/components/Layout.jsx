@@ -28,18 +28,23 @@ function Layout() {
             </Link>
           </li>
           <li>
-            <Link to="/pokemon" className="navLinks">
-              Pokemons API
-            </Link>
-          </li>
-          <li>
             <Link to="/jokes" className="navLinks">
               Jokes
             </Link>
           </li>
           <li>
+            <Link to="/pokemon" className="navLinks">
+              Pokemons API
+            </Link>
+          </li>
+          <li>
             <Link to="/minecraft" className="navLinks">
               Minecraft API
+            </Link>
+          </li>
+          <li>
+            <Link to="/giveaways" className="navLinks">
+              Giveaways API
             </Link>
           </li>
         </ul>
