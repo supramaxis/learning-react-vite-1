@@ -62,3 +62,28 @@ export const getMinecraftData = async () => {
   }
 };
 
+//Language: javascript;
+
+const url = "http://localhost:3005";
+const query = {
+  name: "name"
+};
+export const fetchMcData = async mc => {
+  try {
+    console.log(`${url}/search/${mc}`);
+    return fetch(`${url}/search/${mc}`);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getMcData = async mc => {
+  try {
+    let url = `http://localhost:3005/search/${mc}`;
+    const res = await fetch(url);
+    const data = await res.json();
+    return data; // this is the data from the api
+  } catch (error) {
+    console.log(error);
+  }
+};
