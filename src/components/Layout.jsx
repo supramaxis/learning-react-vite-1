@@ -49,7 +49,6 @@ function Layout() {
           </li>
         </ul>
       </nav>
-      <Outlet />
     </>
   );
 }
