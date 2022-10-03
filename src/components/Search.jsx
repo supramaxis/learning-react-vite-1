@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { MdClose, MdOutlineSearch } from "react-icons/md";
 import { getPokemons, getPokemonData } from "./fetchApi";
-import Card from "./Card";
+import Card from "./PokeAPI/Card";
 import PokeInfo from "../old-components/PokeInfo";
 import SearchResults from "../old-components/SearchResults";
 import styles from "../styles/searchBar.module.css";
@@ -105,4 +105,3 @@ function Search() {
 }
 
 export default Search;
-

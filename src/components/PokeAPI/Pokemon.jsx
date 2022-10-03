@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/poke.module.css";
+import styles from "../../styles/poke.module.css";
 
 export default function Pokemon({ pokemon, id }) {
   const colors = {

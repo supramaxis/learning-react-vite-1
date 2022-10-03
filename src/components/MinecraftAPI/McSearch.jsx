@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { MdOutlineSearch } from "react-icons/md";
-import { fetchApi } from "./fetchApi";
-import styles from "../styles/searchBar.module.css";
+import styles from "../../styles/searchBar.module.css";
 
 //search bar component for the minecraft api
 

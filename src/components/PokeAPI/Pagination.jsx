@@ -5,7 +5,7 @@ import {
   MdOutlineLastPage,
   MdOutlineFirstPage
 } from "react-icons/md";
-import styles from "../styles/poke.module.css";
+import styles from "../../styles/poke.module.css";
 
 export default function Pagination({
   onLeftClick,
@@ -37,4 +37,3 @@ export default function Pagination({
     </>
   );
 }
-

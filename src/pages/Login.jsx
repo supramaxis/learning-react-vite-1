@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import LoginC from "../components/LoginC";
+import LoginC from "../components/auth/LoginC";
 
 export default function Login() {
   return (

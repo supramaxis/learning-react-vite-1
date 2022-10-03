@@ -1,7 +1,7 @@
 import React from "react";
 import Pagination from "./Pagination";
 import Pokemon from "./Pokemon";
-import styles from "../styles/poke.module.css";
+import styles from "../../styles/poke.module.css";
 
 export default function Pokedex({ pokemons, page, setPage, total, loading }) {
   const lastPage = () => {
@@ -52,4 +52,3 @@ export default function Pokedex({ pokemons, page, setPage, total, loading }) {
   );
   // }
 }
-

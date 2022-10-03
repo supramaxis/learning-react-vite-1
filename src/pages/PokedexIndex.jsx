@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getPokemons, getPokemonData, fetchApi } from "../components/fetchApi";
-import Pokedex from "../components/Pokedex";
+import Pokedex from "../components/PokeAPI/Pokedex";
 import SearchBar from "../components/SearchBar";
 
 export default function PokedexIndex() {
@@ -73,4 +73,3 @@ export default function PokedexIndex() {
     </>
   );
 }
-

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-import SignUp from "../components/SignUp";
+import SignUp from "../components/auth/SignUp";
 
 export default function Signup() {
   return (

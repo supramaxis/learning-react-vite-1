@@ -6,9 +6,9 @@ import {
 } from "../components/fetchApi";
 import axios from "axios";
 import { httpHelper } from "../helper/httpHelper";
-import McTable from "../components/McTable";
-import MCcards from "../components/MCcards";
-import McSearch from "../components/McSearch";
+import McTable from "../components/MinecraftAPI/McTable";
+import MCcards from "../components/MinecraftAPI/MCcards";
+import McSearch from "../components/MinecraftAPI/McSearch";
 import { Col, Container, Row } from "react-bootstrap";
 export default function MinecraftAPI() {
   const [minecraft, setMinecraft] = useState([]);
