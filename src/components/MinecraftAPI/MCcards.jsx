@@ -1,9 +1,6 @@
 import React from "react";
-import "flowbite";
-import "flowbite-react";
-import { Card, CardGroup, Col, Row } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import McSearch from "./McSearch";
 export default function MCcards({ mc }) {
   return (
     <>

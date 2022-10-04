@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Joke from "./JokeList";
 
 function Fact() {
   const [fact, setFact] = useState([]);
@@ -46,4 +45,3 @@ function Fact() {
 }
 
 export default Fact;
-

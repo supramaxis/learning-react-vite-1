@@ -1,12 +1,6 @@
 import { useState, useEffect } from "react";
-import {
-  fetchMcData,
-  getMcData,
-  getMinecraftData
-} from "../components/fetchApi";
-import axios from "axios";
+import { getMcData } from "../components/fetchApi";
 import { httpHelper } from "../helper/httpHelper";
-import McTable from "../components/MinecraftAPI/McTable";
 import MCcards from "../components/MinecraftAPI/MCcards";
 import McSearch from "../components/MinecraftAPI/McSearch";
 import { Col, Container, Row } from "react-bootstrap";
@@ -15,8 +9,6 @@ export default function MinecraftAPI() {
   const [searching, setSearching] = useState(false);
   const [notFound, setNotFound] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [searchResult, setSearchResult] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
 
   // const mcData = async query => {
   //   const response = await fetchMcData(query);

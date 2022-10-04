@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { MdOutlineSearch } from "react-icons/md";
 import { fetchApi } from "../components/fetchApi";
 
@@ -47,4 +47,3 @@ function SelectedQuote() {
 }
 
 export default SelectedQuote;
-

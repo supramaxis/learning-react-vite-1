@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function usePokeSearch(query, pageNumber) {
@@ -57,4 +57,3 @@ export default function usePokeSearch(query, pageNumber) {
 
   return { loading, error, books, pokemons, hasMore };
 }
-

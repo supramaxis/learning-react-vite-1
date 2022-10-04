@@ -1,4 +1,3 @@
-import React from "react";
 import Pagination from "./Pagination";
 import Pokemon from "./Pokemon";
 import styles from "../../styles/poke.module.css";

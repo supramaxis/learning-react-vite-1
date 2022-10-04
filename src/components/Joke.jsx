@@ -1,5 +1,3 @@
-import React from "react";
-
 function Joke({ joke }) {
   return (
     <div className="main-container">
@@ -10,4 +8,3 @@ function Joke({ joke }) {
 }
 
 export default Joke;
-

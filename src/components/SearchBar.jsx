@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { MdOutlineSearch } from "react-icons/md";
-import { fetchApi } from "./fetchApi";
 import styles from "../styles/searchBar.module.css";
 
 //search bar component for the poke api
@@ -40,4 +39,3 @@ export default function SearchBar({ onSearch }) {
     </>
   );
 }
-

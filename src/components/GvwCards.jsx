@@ -1,4 +1,4 @@
-import { Accordion, Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export default function GvwCards({ gvw }) {
   return (

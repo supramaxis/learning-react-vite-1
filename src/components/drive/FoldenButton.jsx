@@ -1,7 +1,6 @@
 import { Button } from "flowbite-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdUploadFile } from "react-icons/md";
-import "flowbite-react/";
 import { Form, Modal } from "react-bootstrap";
 import { db } from "../../firebase";
 import { collection, addDoc } from "firebase/firestore";

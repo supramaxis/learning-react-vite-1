@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { getGiveaways } from "../components/fetchApi";
 import "bootstrap/dist/css/bootstrap.min.css";
 import GvwCards from "../components/GvwCards";

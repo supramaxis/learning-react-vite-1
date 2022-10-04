@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Card({ pokemon, infoPokemon }) {
   return (
     <div className="dataResult">
@@ -21,4 +19,3 @@ export default function Card({ pokemon, infoPokemon }) {
     </div>
   );
 }
-

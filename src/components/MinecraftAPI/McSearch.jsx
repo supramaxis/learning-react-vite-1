@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { MdOutlineSearch } from "react-icons/md";
 import styles from "../../styles/searchBar.module.css";
 

@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import SignUp from "../components/auth/SignUp";
 
