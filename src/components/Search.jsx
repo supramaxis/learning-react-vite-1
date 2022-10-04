@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { MdClose, MdOutlineSearch } from "react-icons/md";
+import { MdOutlineSearch } from "react-icons/md";
 import { getPokemons, getPokemonData } from "./fetchApi";
-import Card from "./PokeAPI/Card";
 import PokeInfo from "../old-components/PokeInfo";
 import SearchResults from "../old-components/SearchResults";
 import styles from "../styles/searchBar.module.css";
@@ -11,12 +10,9 @@ import styles from "../styles/searchBar.module.css";
 function Search() {
   const [pokeData, setPokeData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
-  const [wordEntered, setWordEntered] = useState("");
   const [loading, setLoading] = useState(true);
-  const [animeTitle, setAnimeTitle] = useState("");
   const [search, setSearch] = useState("");
   const [display, setDisplay] = useState(false);
-  const [options, setOptions] = useState([]);
   const [pokeDex, setPokeDex] = useState();
   const wrapperRef = useRef(null);
 
