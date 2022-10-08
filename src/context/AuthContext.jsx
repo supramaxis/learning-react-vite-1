@@ -11,7 +11,7 @@ import {
 const UserContext = createContext();
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState({});
+  const [usern, setUsern] = useState({});
 
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
@@ -27,14 +27,14 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, currentUser => {
+      setUsern(currentUser);
       console.log(currentUser);
-      setUser(currentUser);
     });
     return unsubscribe;
   }, []);
 
   return (
-    <UserContext.Provider value={{ createUser, user, logout, login }}>
+    <UserContext.Provider value={{ createUser, usern, logout, login }}>
       {children}
     </UserContext.Provider>
   );
