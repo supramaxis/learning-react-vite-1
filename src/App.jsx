@@ -14,7 +14,6 @@ import Login from "./pages/Login";
 import { AuthProvider } from "./context/AuthContext";
 import Account from "./pages/Account";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
-import { Dashboard } from "./components/drive/Dashboard";
 
 export default function App() {
   return (
@@ -24,18 +23,15 @@ export default function App() {
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route index element={<Home />} />
-        <Route element={<ProtectedRoute />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/anime/gen" element={<AnimeGif />} />
-          <Route path="/fact" element={<Fact />} />
-          <Route path="/Search" element={<Search />} />
-          <Route path="/jokes" element={<JokeList />} />
-          <Route path="/pokemon" element={<PokedexIndex />} />
-          <Route path="/giveaways" element={<Giveaways />} />
-          <Route path="/minecraft" element={<MinecraftAPI />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/anime/gen" element={<AnimeGif />} />
+        <Route path="/fact" element={<Fact />} />
+        <Route path="/Search" element={<Search />} />
+        <Route path="/jokes" element={<JokeList />} />
+        <Route path="/pokemon" element={<PokedexIndex />} />
+        <Route path="/giveaways" element={<Giveaways />} />
+        <Route path="/minecraft" element={<MinecraftAPI />} />
+        <Route path="/account" element={<Account />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
