@@ -14,7 +14,7 @@ function Layout() {
           </li>
           <li>
             <Link to="/anime/gen" className="navLinks">
-              Anime Gen
+              Anime Gif
             </Link>
           </li>
           <li>
