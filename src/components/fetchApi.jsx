@@ -87,3 +87,13 @@ export const getMcData = async mc => {
     console.log(error);
   }
 };
+export const getAnimeData = async anm => {
+  try {
+    let url = `https://api.waifu.pics/sfw/${anm}`;
+    const res = await fetch(url);
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
+};
