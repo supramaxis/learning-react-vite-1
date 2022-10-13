@@ -35,15 +35,15 @@ nav ul li {
 }
 
 nav ul li .navLinks {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
 }
 
 nav ul li .navLinks:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   transition: 0.5s;
   border-radius: 5px;
 }
@@ -66,7 +66,7 @@ nav ul li .navLinks:hover {
 }
 
 .category {
-  color: #fff;
+  color: #000;
 }
 
 .links {
@@ -81,7 +81,7 @@ nav ul li .navLinks:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 20px auto;
   max-width: 600px;
   max-height: 600px;
 }
@@ -99,6 +99,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
 }
 
 .title-container {
