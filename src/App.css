@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/cdj8bac.css");
+@import url('https://use.typekit.net/cdj8bac.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,24 +10,37 @@
 }
 
 body {
-  background-image: url("../bg.jpg");
+  background-image: url('../bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
+/* Navbar */
+
 nav {
-  padding: 20px;
+  padding: 10px;
 }
 
-nav ul {
+.navBtn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+  border: 1px solid #fff;
+  font-size: 18px;
+}
+
+.list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: 100%;
 }
 
 nav ul li {
@@ -61,12 +74,16 @@ nav ul li .navLinks:hover {
   height: 70%;
   display: flex;
   justify-content: center;
-  font-size: 20px;
   color: #000;
 }
 
 .category {
-  color: #fff;
+  color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
 }
 
 .links {
@@ -75,6 +92,14 @@ nav ul li .navLinks:hover {
   align-items: center;
   font-size: 40px;
   color: #fd3b6c;
+}
+
+/* App.jsx */
+
+.centeredDiv {
+  display: grid;
+  place-items: center;
+  height: 50vh;
 }
 
 .image-container {
@@ -108,6 +133,33 @@ button {
   align-items: center;
   color: #262626;
   font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    font-size: 20px;
+  }
+  nav {
+    padding: 5px;
+  }
+  .list {
+    flex-direction: column;
+    font-size: 15px;
+    height: auto;
+  }
+  nav li {
+    margin: 0.8em 0;
+  }
+
+  nav ul .list,
+  .navLinks {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .navBtn {
+    display: block;
+  }
 }
 
 /* SearchBar.jsx */

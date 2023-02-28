@@ -1,31 +1,31 @@
-const jsonServer = require("json-server");
+const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const cors = require("cors");
-const request = require("request");
-const { createProxyMiddleware } = require("http-proxy-middleware");
-const db = require("./db.json");
+const router = jsonServer.router('db.json');
+const cors = require('cors');
+const request = require('request');
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const db = require('./db.json');
 
 server.use(
   cors({
-    origin: "http://localhost:5173"
+    origin: 'http://192.168.100.183:5173'
   })
 );
 
 server.use(
   jsonServer.rewriter({
-    "/combat/:category": "/api/data?category=:category",
-    "/tools/:category": "/data?category=:category",
-    "/food/:category": "/data?category=:category",
-    "/transportation/:category": "/data?category=:category",
-    "/redstone/:category": "/data?category=:category",
-    "/decoration/:category": "/data?category=:category",
-    "/brewing/:category": "/data?category=:category",
-    "/combat/categoryid/:categoryId": "/data?categoryId=:categoryId"
+    '/combat/:category': '/api/data?category=:category',
+    '/tools/:category': '/data?category=:category',
+    '/food/:category': '/data?category=:category',
+    '/transportation/:category': '/data?category=:category',
+    '/redstone/:category': '/data?category=:category',
+    '/decoration/:category': '/data?category=:category',
+    '/brewing/:category': '/data?category=:category',
+    '/combat/categoryid/:categoryId': '/data?categoryId=:categoryId'
   })
 );
 
-server.get("/api", (req, res) => {
+server.get('/api', (req, res) => {
   res.json(db);
 });
 // server.use(
@@ -48,7 +48,7 @@ server.get("/api", (req, res) => {
 
 try {
   server.listen(3001, () => {
-    console.log("JSON Server is running");
+    console.log('JSON Server is running');
   });
 } catch (error) {
   console.log(error);

@@ -1,9 +1,13 @@
 function Joke({ joke }) {
   return (
-    <div className="main-container">
-      <p className="category">{joke.category} Joke =&gt; </p>
-      <p>"{joke.joke}"</p>
-    </div>
+    <>
+      <div>
+        <p className='category'>{joke.category} Joke</p>
+      </div>
+      <div className='main-container'>
+        <p>"{joke.joke}"</p>
+      </div>
+    </>
   );
 }
 

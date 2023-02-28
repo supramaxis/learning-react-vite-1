@@ -8,7 +8,7 @@ function JokeList() {
 
   async function fetchJoke() {
     const data = await fetch(
-      "https://v2.jokeapi.dev/joke/Programming,Dark?type=single&amount=5"
+      "https://v2.jokeapi.dev/joke/Dark,Misc?type=single&amount=5"
     );
     const res = await data.json();
     setJokes(res.jokes);
