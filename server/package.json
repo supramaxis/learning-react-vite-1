@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon convert.js",
+    "start": "node index.js",
     "server": "json-server --watch db.json --port 3005 --no-cors --routes routes.json --read-only"
   },
   "keywords": [],
