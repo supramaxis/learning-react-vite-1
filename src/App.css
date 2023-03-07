@@ -133,6 +133,7 @@ button {
   align-items: center;
   color: #262626;
   font-size: 30px;
+  height: 100px;
 }
 
 @media (max-width: 900px) {
@@ -159,6 +160,16 @@ button {
   }
   .navBtn {
     display: block;
+  }
+
+  .title-container {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    padding: 10px;
   }
 }
 
@@ -283,7 +294,7 @@ button {
 }
 
 .mcAccordion {
-  margin: 120px;
+  margin: 0px 100px 0px 100px;
   padding: 20px;
 }
 
