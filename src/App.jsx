@@ -15,8 +15,8 @@ import { AuthProvider } from './context/AuthContext';
 import Account from './pages/Account';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import { AnonAPI } from './pages/AnonAPI';
-import Convert from './pages/Convert';
 import TrimAudio from './pages/TrimAudio';
+import YTDownloader from './pages/YTDownloader';
 
 export default function App() {
   return (
@@ -38,8 +38,8 @@ export default function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
         <Route path='/anon' element={<AnonAPI />} />
-        <Route path='/mp3' element={<Convert />} />
         <Route path='/trim' element={<TrimAudio />} />
+        <Route path='/downloader' element={<YTDownloader />} />
       </Routes>
     </AuthProvider>
   );
