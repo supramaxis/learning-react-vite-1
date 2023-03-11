@@ -68,13 +68,8 @@ function Layout() {
                 </Link>
               </li>
               <li>
-                <Link to='/mp3' className='navLinks'>
-                  Convert
-                </Link>
-              </li>
-              <li>
-                <Link to='/trim' className='navLinks'>
-                  Trim
+                <Link to='/downloader' className='navLinks'>
+                  YTDownloader
                 </Link>
               </li>
             </ul>
