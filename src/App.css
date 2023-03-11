@@ -17,8 +17,6 @@ body {
   background-position: center;
 }
 
-/* Navbar */
-
 nav {
   padding: 10px;
 }
@@ -94,14 +92,6 @@ nav ul li .navLinks:hover {
   color: #fd3b6c;
 }
 
-/* App.jsx */
-
-.centeredDiv {
-  display: grid;
-  place-items: center;
-  height: 50vh;
-}
-
 .image-container {
   display: flex;
   justify-content: center;
@@ -133,7 +123,7 @@ button {
   align-items: center;
   color: #262626;
   font-size: 30px;
-  height: 100px;
+  height: 4rem;
 }
 
 @media (max-width: 900px) {
@@ -160,16 +150,6 @@ button {
   }
   .navBtn {
     display: block;
-  }
-
-  .title-container {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  img {
-    padding: 10px;
   }
 }
 
@@ -294,11 +274,141 @@ button {
 }
 
 .mcAccordion {
-  margin: 0px 100px 0px 100px;
+  margin: 120px;
   padding: 20px;
 }
 
 .accordionBody {
   padding: 5px !important;
   margin: 0 !important;
+}
+
+.centeredDiv {
+  display: grid;
+  place-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+  /* padding-top: 100px; */
+}
+.label {
+  display: grid;
+  place-items: center;
+}
+
+.centeredP {
+  display: grid;
+  place-items: center;
+}
+
+/* Converter */
+
+/* .converterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 1200px;
+}
+
+.ConvNotification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.convShow {
+  animation: fadeout 10s;
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  to {opacity: 0;}
+} */
+
+/*  FORM  */
+.form {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.form__input {
+  width: 38.7rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  padding-left: 1.4rem;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem 0.5rem #ffffff;
+  background: #c8d0e7;
+  font-family: inherit;
+  color: #000;
+}
+.form__input::-moz-placeholder {
+  color: #000000;
+}
+.form__input:-ms-input-placeholder {
+  color: #000;
+}
+.form__input::placeholder {
+  color: #000000;
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+}
+
+/*  BUTTON  */
+
+.btn {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+    -0.2rem -0.2rem 0.5rem var(--white);
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: var(--white);
+}
+
+.btn__primary {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--white);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light),
+    inset -0.2rem -0.2rem 1rem var(--primary-dark),
+    0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.btn__primary:hover {
+  color: #ffffff;
+}
+.btn__primary:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark),
+    inset -0.2rem -0.2rem 1rem var(--primary-light);
+}
+.btn__secondary {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  color: var(--greyDark);
 }
