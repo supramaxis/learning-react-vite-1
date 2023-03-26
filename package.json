@@ -3,22 +3,23 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "http://192.168.100.183:3000",
+  "proxy": "http://192.168.100.189:3000",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "host": "vite --host 192.168.100.183"
+    "host": "vite --host 192.168.100.189"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.11",
+    "@supabase/supabase-js": "^2.12.1",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
-    "firebase": "^9.10.0",
     "flowbite-react": "^0.1.11",
+    "pocketbase": "^0.12.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
