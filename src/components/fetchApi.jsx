@@ -1,3 +1,4 @@
+import axios from 'axios';
 export const fetchApi = async pokemon => {
   try {
     let url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
@@ -32,13 +33,13 @@ export const getPokemonData = async url => {
 
 export const getGiveaways = async () => {
   try {
-    const url = "https://gamerpower.p.rapidapi.com/api/giveaways?platform=pc";
+    const url = 'https://gamerpower.p.rapidapi.com/api/giveaways?platform=pc';
 
     const options = {
-      method: "GET",
+      method: 'GET',
       headers: {
-        "X-RapidAPI-Key": "d142d25536msh51f91ab66b1d7d8p15dcebjsn2adfd505df48",
-        "X-RapidAPI-Host": "gamerpower.p.rapidapi.com"
+        'X-RapidAPI-Key': import.meta.env.VITE_RAPIDAPI_KEY,
+        'X-RapidAPI-Host': 'gamerpower.p.rapidapi.com'
       }
     };
 
@@ -52,7 +53,7 @@ export const getGiveaways = async () => {
 
 export const getMinecraftData = async () => {
   try {
-    const url = "http://localhost:3001/db";
+    const url = 'http://localhost:3001/db';
 
     const res = await fetch(url);
     const json = await res.json();
@@ -64,9 +65,9 @@ export const getMinecraftData = async () => {
 
 //Language: javascript;
 
-const url = "http://localhost:3005";
+const url = 'http://localhost:3005';
 const query = {
-  name: "name"
+  name: 'name'
 };
 export const fetchMcData = async mc => {
   try {
@@ -93,6 +94,21 @@ export const getAnimeData = async anm => {
     const res = await fetch(url);
     const data = await res.json();
     return data;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const fetchItems = async () => {
+  try {
+    const BASE_URL = import.meta.env.VITE_SUPABASE_REST_URL;
+    const TABLE_NAME = 'items';
+    const response = await axios.get(`${BASE_URL}/${TABLE_NAME}?select=*`, {
+      headers: {
+        apikey: import.meta.env.VITE_SUPABASE_APIKEY
+      }
+    });
+    return response.data;
   } catch (error) {
     console.log(error);
   }
